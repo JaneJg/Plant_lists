@@ -1,1 +1,1 @@
-This is justs a start
+This is just a start
