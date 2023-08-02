@@ -1,0 +1,17 @@
+{% include head.html %} 
+    <style>
+      #map {
+        height: 800px; 
+        width: 100%;  
+       }
+    </style>
+ <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+{% include Main_Scripts.html %} 
+</head>
+
+<body>
+{% include NavBar.html %} 
+{% include Nav_Menu.html %} 
+{% include Page_setup.html %}
+{% include {{ page.outp }} %} 
+{% include footer.html %} 
