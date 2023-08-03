@@ -16,7 +16,8 @@
 // map intiated
          var infowindow = new google.maps.InfoWindow();
 	 var markers = new google.maps.Marker({position: Nelson, map: cenmap, listID: ' ids'});	//marker prototype
-
+<script>
+</script>
    function attachInfoWindow(markers, content) {
 
   google.maps.event.addListener(markers, 'mouseover', function() {if (!clicked) {infowindow.setContent(content); infowindow.open(map, markers);  } });
