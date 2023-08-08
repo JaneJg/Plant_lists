@@ -1,5 +1,5 @@
 ---
-title: Plant Lists Mapping
-layout: MappingI
-outp: "Nelson_Start_Point_Demo_body.html"
+title: Plant Lists Output
+layout: table_JSON
+outp: "Output_JSON_body.html"
 ---
