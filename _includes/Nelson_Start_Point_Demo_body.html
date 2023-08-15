@@ -15,9 +15,7 @@
 // map intiated
          var infowindow = new google.maps.InfoWindow();
 	 var markers = new google.maps.Marker({position: Nelson, map: cenmap, listID: ' ids'});	//marker prototype
-</script>
 
-<script>
    function attachInfoWindow(markers, content) {
 
   google.maps.event.addListener(markers, 'mouseover', function() {if (!clicked) {infowindow.setContent(content); infowindow.open(map, markers);  } });
@@ -35,6 +33,7 @@
 
   google.maps.event.addListener(infowindow,'closeclick',function() {clicked = false;  })
    }
+} // map initiate closed
 	
 //get data
 
@@ -59,10 +58,10 @@ $(document).ready(function(){
 
    }) // end of Ajax call
  }) // end of $(document).ready() function
-} // map initiate closed
+
 
     </script>
 
     <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS6Dans6luk2C4aO7Fox-UBGc0jLRZGTgcallback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgymAaPbWYJw6fBj2LVBR8zK1CZo2X12I&callback=initMap">
     </script>
