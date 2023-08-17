@@ -1,0 +1,29 @@
+
+<script>
+
+// source is https://github.com/sql-js/sql.js - HTML demo for databse version
+
+//intiate document
+	$(document).ready(function(){
+
+//Read JSON file - into results
+//	 $.getJSON('Data/Master_Test.json', function(results){
+	 $.getJSON('Data/10Mile_Bluffs.json', function(results){
+//create document 
+
+//     	var Sites_List = document.getElementById("Sites_List");
+	var Names_List = document.getElementById("Names_List");
+//put array into document (ids not intitated?)
+
+	    results.forEach(function(ids) {
+//	      Sites_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.FELDS  + "</TD><TD> " + ids.SNM + "</TD><TD>" + ids.LONGITUDE +  " </TD></TR>");
+	      Names_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E  + "</TD><TD> " + ids.Name + "</TD><TD>" + ids.C_NAME + "</TD><TD>" + ids.Family +  " </TD></TR>");
+
+	      }); // end of forEach
+
+   }) // end of Ajax call
+ }) // end of $(document).ready() function
+
+</script>
+ 
+
