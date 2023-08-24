@@ -1,32 +1,42 @@
 [
   {
-    "CHK ": "x",
+    "CHK": "x",
     "E": "",
     "Name": "Adiantum cunninghamii",
     "Notes": "",
     "C_NAME": "maidenhair fern",
     "Family": " Adiantaceae",
-    "SYS ": "B",
+    "SYS": "B",
     "Phys": "G"
   },
   {
-    "CHK ": "x",
+    "CHK": "x",
     "E": "",
     "Name": "Anaphalioides trinervis",
     "Notes": "(Gnaphalium, Anaphalis)",
     "C_NAME": "puatea",
     "Family": " Asteraceae",
-    "SYS ": "F",
+    "SYS": "F",
     "Phys": "M"
   },
   {
-    "CHK ": "x",
+    "CHK": "x",
     "E": "",
     "Name": "Aristotelia serrata",
     "Notes": "",
     "C_NAME": "wineberry; makomako",
     "Family": " Elaeocarpaceae",
-    "SYS ": "D",
+    "SYS": "D",
     "Phys": "C"
+  },
+ {
+    "CHK": "x",
+    "E": "",
+    "Name": "Blechnum novae-zelandiae",
+    "Notes": "(pp B. capense; \"black spot lowland\", Parablechnum)",
+    "C_NAME": "kiokio",
+    "Family": " Blechnaceae",
+    "SYS": "B",
+    "Phys": "G"
   }
 ]
