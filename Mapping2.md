@@ -1,5 +1,5 @@
 ---
 title: Plant Lists Mapping
 layout: Mapping
-outp: "Napping_body.html"
+outp: "Mapping_body.html"
 ---
