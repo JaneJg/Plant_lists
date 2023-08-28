@@ -1,0 +1,44 @@
+    <h3>Nelson Start Point Demo</h3>
+    <div id="map"></div>
+    <div id="idInfo">
+    <h2>Location:</h2>
+
+    <script>			//						from Nelson7A
+
+  function initMap() {
+  const Nelson = {lat: -41.307570, lng: 173.232948};				//defines map centre
+  var clicked = false;
+  const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
+
+  var cenmap = new google.maps.Map(
+      document.getElementById('map'), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
+
+// map intiated
+         var infowindow = new google.maps.InfoWindow();
+	 var markers = new google.maps.Marker({position: Nelson, map: cenmap, listID: ' ids'});	//marker prototype
+	var markers = new google.maps.Marker({position: Ashurst, map: cenmap, listID: ' ids'});	//marker prototype
+
+   function attachInfoWindow(markers, content) {
+
+  google.maps.event.addListener(markers, 'mouseover', function() {if (!clicked) {infowindow.setContent(content); infowindow.open(map, markers);  } });
+
+  google.maps.event.addListener(markers, 'mouseout', function() {if (!clicked) {infowindow.close();}});
+
+  google.maps.event.addListener(markers, 'click', function(){
+    clicked = true;
+    var stuff = this.get('listID');
+    infowindow.setContent("You have selected : " + stuff);
+    infowindow.open(map, markers);
+    idInfo.insertAdjacentHTML('afterend', '<P>This is it:' + stuff + ' </P>')
+
+});
+
+  google.maps.event.addListener(infowindow,'closeclick',function() {clicked = false;  })
+   }
+} // map initiate closed
+	
+    </script>
+
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgymAaPbWYJw6fBj2LVBR8zK1CZo2X12I&callback=initMap">
+    </script>
