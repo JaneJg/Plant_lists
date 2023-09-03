@@ -37,31 +37,6 @@
    }
 } // map initiate closed
 	
-//get data
-
-$(document).ready(function(){
- $.getJSON('Data/Master_Test.json', function(results){
-
-// set up markers
-
-	var i;
-	var latln;
-	var html;
-	const alen = results.length;
-
-        for (i = 0; i < alen; i += 1) {
-
-        latln  = new google.maps.LatLng(results[i].LATITUDE,results[i].LONGITUDE);
-	ids    = results[i].FELDS;								//id for use later
-	markers = new google.maps.Marker({position: latln, map: cenmap,listID: ids});
- 	html = '<b>' + results[i].SNM + '</b><br>' + results[i].AUTHOR+ '<br>' + results[i].DATE +',' + results[i].UPDATES;
-       attachInfoWindow(markers, html);
-        } // end for
-
-   }) // end of Ajax call
- }) // end of $(document).ready() function
-
-
     </script>
 
     <script defer
