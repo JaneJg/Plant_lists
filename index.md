@@ -1,5 +1,5 @@
 ---
-title: Plant Lists Output
-layout: table_JSON
-outp: "Output_JSON_body.html"
+title: Plant Lists Mapping
+layout: index
+outp: "Index_body.html"
 ---
