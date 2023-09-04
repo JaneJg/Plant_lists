@@ -1,5 +1,5 @@
     <h3>Nelson Start Point Demo</h3>
-    <div id="map"></div>
+    <div id="map_canvas"></div>
     <div id="idInfo">
     <h2>Location:</h2>
 
@@ -12,7 +12,7 @@
  var clicked = false;
 
   var cenmap = new google.maps.Map(
-      document.getElementById('map'), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
+      document.getElementById("map_canvas"), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
 // map intiated
 
 //         var infowindow = new google.maps.InfoWindow();
