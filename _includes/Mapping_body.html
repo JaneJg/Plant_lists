@@ -7,16 +7,18 @@
 
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				//defines map centre
-  var clicked = false;
   const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
+   const Taupo = {lat: -38.791306, lng: 175.914139}
+ var clicked = false;
 
   var cenmap = new google.maps.Map(
       document.getElementById('map'), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
-
 // map intiated
-         var infowindow = new google.maps.InfoWindow();
+
+//         var infowindow = new google.maps.InfoWindow();
 	 var markers = new google.maps.Marker({position: Nelson, map: cenmap});	//marker prototype
-	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	//marker prototype
+	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	
+	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	
 
  //  function attachInfoWindow(markers, content) {
 
