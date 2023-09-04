@@ -1,18 +1,19 @@
     <div id="map_canvas"></div>
     <div id="idInfo">
    <center> <b>Location:</b></center>
+
     <script>
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};						//defines map centre
-   const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
+  const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
  var clicked = false;
 
   var cenmap = new google.maps.Map(
       document.getElementById("map_canvas"), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
 
 // map intiated
-        new google.maps.Marker({position: Nelson, map: cenmap, listID: ' ids'});	
- 	new google.maps.Marker({position: Ashurst, map: cenmap, listID: ' ids'});
+        new google.maps.Marker({position: Nelson, map: cenmap});	
+ 	new google.maps.Marker({position: Ashurst, map: cenmap});
 
 } // map initiate closed
 
