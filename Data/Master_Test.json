@@ -1,5 +1,5 @@
-[{"FELDS": "Q281", "SNM": "10 mile Creek bluffs", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "02-11-2009", "UPDATES": "", "LATITUDE": -42.3360710144043, "LONGITUDE": 171.26417541503906, "ACCU": "G"},
-{"FELDS": "J383", "SNM": "100 Acre Bush-Waituhi Kuaratau SR& Chadwicks Ngawhenua Rahui", "DATA_SET": null, "AUTHOR": "NJ Singers", "DATE": "01-01-1998", "UPDATES": "6.2.99, 14.1.04, 10.2.04", "LATITUDE": -38.90290451049805, "LONGITUDE": 175.6375274658203, "ACCU": "I"},
- {"FELDS": "I378", "SNM": "100 Pound Bush", "DATA_SET": null, "AUTHOR": "Canterbury Bot Soc", "DATE": "15-11-2014", "UPDATES": "", "LATITUDE": -43.97169876098633, "LONGITUDE": 171.19679260253906, "ACCU": "F"},
- {"FELDS": "15AV", "SNM": "15 Ave Industrial area", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "06-12-2006", "UPDATES": "", "LATITUDE": -37.7104606628418, "LONGITUDE": 176.1634063720703, "ACCU": "F"}
+[{"FELDS": "Q281", "SNM": "10 mile Creek bluffs", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "02-11-2009", "UPDATES": "", "LatLng": "-42.3360710144043, 171.26417541503906", "ACCU": "G"},
+{"FELDS": "J383", "SNM": "100 Acre Bush-Waituhi Kuaratau SR& Chadwicks Ngawhenua Rahui", "DATA_SET": null, "AUTHOR": "NJ Singers", "DATE": "01-01-1998", "UPDATES": "6.2.99, 14.1.04, 10.2.04", "LatLng": "-38.90290451049805, 175.6375274658203", "ACCU": "I"},
+ {"FELDS": "I378", "SNM": "100 Pound Bush", "DATA_SET": null, "AUTHOR": "Canterbury Bot Soc", "DATE": "15-11-2014", "UPDATES": "", "LatLng": "-43.97169876098633, 171.19679260253906", "ACCU": "F"},
+ {"FELDS": "15AV", "SNM": "15 Ave Industrial area", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "06-12-2006", "UPDATES": "", "LatLng": "-37.7104606628418, 176.1634063720703", "ACCU": "F"}
 ]
