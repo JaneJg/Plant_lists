@@ -7,7 +7,7 @@
 	$(document).ready(function(){
 
 //Read JSON file - into results
-	 $.getJSON('Data/Master_Test.json', function(results){
+	 $.getJSON('Data/Hauraki_Tst.JSON', function(results){
 
 //create document 
 
@@ -16,7 +16,7 @@
 //put array into document (ids not intitated?)
 
 	    results.forEach(function(ids) {
-	      Sites_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.FELDS  + "</TD><TD> " + ids.SNM + "</TD><TD>" +  ids.LatLng + "</TD></TR>");
+	      Sites_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.FELDS  + "</TD><TD> " + ids.SNM + "</TD><TD>" +  ids.Cords + "</TD></TR>");
 	      }); // end of forEach
 
    }) // end of Ajax call
