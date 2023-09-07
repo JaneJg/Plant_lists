@@ -20,7 +20,7 @@
 	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	
 	 var markers = new google.maps.Marker({position: Taupo, map: cenmap});	
 $.getJSON('Data/Master_Test.json', function(results){
-	var Lats = new googlemaps.LatLng(results.Cors);
+	var Lats = (results.Cors);
 	new google.maps.Marker({position: Lats, map: cenmap});
 	})
 
