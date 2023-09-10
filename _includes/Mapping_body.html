@@ -22,7 +22,7 @@ $.getJSON('Data/Master_Test.json', function(results){
 	 var markers = new google.maps.Marker({position: Taupo, map: cenmap});	
 
         results.forEach(function(ids) {
-	     var Lats = (ids.Cors);
+	     var Lats = (ids.Cords);
 	     new google.maps.Marker({position: Lats, map: cenmap});
 		});
 	
