@@ -1,5 +1,7 @@
-[{"FELDS": "Q281", "NAME": "10 mile Creek bluffs", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "02-11-2009", "UPDATES": "", "Cords": "-42.3360710144043, 171.26417541503906", "ACCU": "G"},
-{"FELDS": "J383", "NAME": "100 Acre Bush-Waituhi Kuaratau SR& Chadwicks Ngawhenua Rahui", "DATA_SET": null, "AUTHOR": "NJ Singers", "DATE": "01-01-1998", "UPDATES": "6.2.99, 14.1.04, 10.2.04", "Cords": "-38.90290451049805, 175.6375274658203", "ACCU": "I"},
- {"FELDS": "I378", "NAME": "100 Pound Bush", "DATA_SET": null, "AUTHOR": "Canterbury Bot Soc", "DATE": "15-11-2014", "UPDATES": "", "Cords": "-43.97169876098633, 171.19679260253906", "ACCU": "F"},
- {"FELDS": "15AV", "NAME": "15 Ave Industrial area", "DATA_SET": null, "AUTHOR": "G Jane", "DATE": "06-12-2006", "UPDATES": "", "Cords": "-37.7104606628418, 176.1634063720703", "ACCU": "F"}
-]
+[
+ { "ACCU": "M",   "AREA": "Coromandel",   "AUTHOR": "Unknown",   "DATE": "15-11-1964",   "FELDS": "Q677",   "Cords": "{lat: -37.151814, lng: 175.703837}",   "NAME": "Kopu - Hikuai highway",   "REGN": "NorC",   "SOURCE": "DOC Waikato p62",   "UPDATES": "9.3.68"},
+    {   "ACCU": "G",   "AREA": "Auckland",   "AUTHOR": "KL Hall",   "DATE": "16-06-2010",   "FELDS": "J853",   "Cords": "{lat: -37.066114, lng: 174.908361}",   "NAME": "Kopuahingahinga Is & causeways",   "REGN": "NorC",   "SOURCE": "Auck Bot Soc J 66: 111",   "UPDATES": ""},
+    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q874",   "Cords": "{lat: -37.418597, lng: 175.554668"},   "NAME": "Kopuatai Sci Res - All (Weltand Management)",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""},
+    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q877",   "Cords": "{lat: -37.418597, lng: 175.554668}",   "NAME": "Kopuatai Sci Res - Baumea-Empodisma areas",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""},
+    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q878",   "Cords": "{lat: -37.418597, lng: 175.554668}",   "NAME": "Kopuatai Sci Res - Baumea-Gleichenia areas",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""}
+ ] 
