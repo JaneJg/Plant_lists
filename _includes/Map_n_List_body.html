@@ -18,31 +18,14 @@
 //         var infowindow = new google.maps.InfoWindow();
 	 var markers = new google.maps.Marker({position: Nelson, map: cenmap});	//marker prototype
 	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	
-$.getJSON('Data/Master_Test.json', function(results){
+	$.getJSON('Data/Master_Test.json', function(results){
 	 var markers = new google.maps.Marker({position: Taupo, map: cenmap});	
 
         results.forEach(function(ids) {
 	     var Lats = google.maps.LatLng(ids.Cords);
 	     new google.maps.Marker({position: Lats, map: cenmap});
 		});
-	
-
- //  function attachInfoWindow(markers, content) {
-
-//  google.maps.event.addListener(markers, 'mouseover', function() {if (!clicked) {infowindow.setContent(content); //infowindow.open(map, markers);  } });
-
-//  google.maps.event.addListener(markers, 'mouseout', function() {if (!clicked) {infowindow.close();}});
-
-//  google.maps.event.addListener(markers, 'click', function(){
-//    clicked = true;
-//    var stuff = this.get('listID');
-//    infowindow.setContent("You have selected : " + stuff);
-//    infowindow.open(map, markers);
-//    idInfo.insertAdjacentHTML('afterend', '<P>This is it:' + stuff + ' </P>')
-
 	});	// get data closed
-
-//  google.maps.event.addListener(infowindow,'closeclick',function() {clicked = false;  })
    }   		// map initiate closed
 	
     </script>
