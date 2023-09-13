@@ -1,7 +1,0 @@
-[
- { "ACCU": "M",   "AREA": "Coromandel",   "AUTHOR": "Unknown",   "DATE": "15-11-1964",   "FELDS": "Q677",   "Cords": "lat: -37.151814, lng: 175.703837",   "NAME": "Kopu - Hikuai highway",   "REGN": "NorC",   "SOURCE": "DOC Waikato p62",   "UPDATES": "9.3.68"    },
-    {   "ACCU": "G",   "AREA": "Auckland",   "AUTHOR": "KL Hall",   "DATE": "16-06-2010",   "FELDS": "J853",   "Cords": "lat: -37.066114, lng: 174.908361",   "NAME": "Kopuahingahinga Is & causeways",   "REGN": "NorC",   "SOURCE": "Auck Bot Soc J 66: 111",   "UPDATES": ""    },
-    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q874",   "Cords": "lat: -37.418597, lng: 175.554668",   "NAME": "Kopuatai Sci Res - All (Weltand Management)",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""    },
-    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q877",   "Cords": "lat: -37.418597, lng: 175.554668",   "NAME": "Kopuatai Sci Res - Baumea-Empodisma areas",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""    },
-    {   "ACCU": "L",   "AREA": "Hauraki",   "AUTHOR": "RM Irving & M Shinner",   "DATE": "01-02-1988",   "FELDS": "Q878",   "Cords": "lat: -37.418597, lng: 175.554668",   "NAME": "Kopuatai Sci Res - Baumea-Gleichenia areas",   "REGN": "Waik",   "SOURCE": "Univ Waikato Crown Land Ser 12",   "UPDATES": ""    }
- ] 
