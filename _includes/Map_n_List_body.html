@@ -21,7 +21,7 @@
 	 var markers = new google.maps.Marker({position: Taupo, map: cenmap});	
 
         results.forEach(function(ids) {
-	     var Lats = google.maps.LatLng(ids.Cords[0], ids.Cords[1]);
+	     var Lats = google.maps.LatLng(ids.lat, ids.lon);
 	     new google.maps.Marker({position: Lats, map: cenmap});
 		});
 	});	// get data closed
