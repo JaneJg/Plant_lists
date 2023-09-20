@@ -19,7 +19,7 @@
 	$.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
-	     new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap}, title: ids.FELDS);
+	     new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: ids.FELDS});
 
 		});
 	});	// get data closed
