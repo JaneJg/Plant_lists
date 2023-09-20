@@ -17,9 +17,9 @@
 
 //         var infowindow = new google.maps.InfoWindow();
 	$.getJSON('Data/Master_Test.json', function(results){
-
+stuff = "Nelson";
         results.forEach(function(ids) {
-	     new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: "Marker"});
+	     new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: stuff});
 
 		});
 	});	// get data closed
