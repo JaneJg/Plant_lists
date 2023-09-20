@@ -17,15 +17,15 @@
 
 //         var infowindow = new google.maps.InfoWindow();
 	 var markers = new google.maps.Marker({position: Nelson, map: cenmap});	//marker prototype
-//	$.getJSON('Data/Master_Test.json', function(results){
+	$.getJSON('Data/Master_Test.json', function(results){
 	 var markers = new google.maps.Marker({position: Taupo, map: cenmap});	
 
-//        results.forEach(function(ids) {
+        results.forEach(function(ids) {
 //	     new google.maps.Marker({position: new google.maps.LatLng(L1, L2), map: cenmap});
-//	     new google.maps.Marker({position: new google.maps.LatLng(results.lat, results.lon), map: cenmap});
+	     new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap});
 
-//		});
-//	});	// get data closed
+		});
+	});	// get data closed
  	 var markers = new google.maps.Marker({position: Ashurst, map: cenmap});	
   }   		// map initiate closed
 	
