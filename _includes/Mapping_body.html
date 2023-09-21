@@ -2,7 +2,6 @@
     <div id="map_canvas"></div>
     <div id="idInfo">
     <h2>Location:</h2>
-
     <script>			//						from Nelson7A
 
   function initMap() {
@@ -14,7 +13,6 @@
   var cenmap = new google.maps.Map(
       document.getElementById("map_canvas"), {zoom: 7, center: Ashurst, mapTypeId: 'terrain', streetViewControl: false});
 // map intiated
-
 //         var infowindow = new google.maps.InfoWindow();
 $.getJSON('Data/Master_Test.json', function(results){
         results.forEach(function(ids) {
