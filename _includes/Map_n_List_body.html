@@ -17,13 +17,16 @@
 
         results.forEach(function(ids) {
 	stuff = ids.NAME;		
-  var markers =   new google.maps.Marker({position: new google.maps.LatLng(Ashurst), map: cenmap, title: stuff});
+  	var AAuthor = "All of us ";
+	var Aname = "Taupo";
+ 	var infoContent = "<p>Name: " + Aname + "<br>" + "Author: " + AAuthor + "</p>";
+var markers =   new google.maps.Marker({position: new google.maps.LatLng(Ashurst), map: cenmap, title: stuff});
   markers.info = new google.maps.InfoWindow({content: infoContent});
 
   google.maps.event.addListener(markers, 'click', function(){
    markers.info.open (cenmap, markers); 
-             });
-	});	// get data closed
+             });------------------------------ infoWindow closed ----------------------
+	});	// --------------------get data closed
   }   		// map initiate closed
 	
     </script>
