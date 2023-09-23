@@ -1,17 +1,18 @@
-    <h3>Nelson Start Point Demo - GitHub</h3>
-    <div id="map_canvas"></div>
+    <div id="map_canvas"></div> // --------------------   GitHub
     <div id="idInfo">
-    <h2>Location:</h2>
+  //  <h2>Location:</h2>
     <script>			//						from Github
 
   const Nelson = {lat: -41.307570, lng: 173.232948};				//defines map centre
   const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
   const Taupo = {lat: -38.791306, lng: 175.914139};
+
  function initMap() {
  var clicked = false;
 
   var cenmap = new google.maps.Map(
       document.getElementById("map_canvas"), {zoom: 7, center: Ashurst, mapTypeId: 'terrain', streetViewControl: false});
+
 // ------------------------------------  map intiated ---------------------------------------
 
 $.getJSON('Data/Master_Test.json', function(results){
@@ -31,11 +32,12 @@ $.getJSON('Data/Master_Test.json', function(results){
 	});	// ----------------------- get data closed -----------------------
 
 //  google.maps.event.addListener(infowindow,'closeclick',function() {clicked = false;  })
+
    }   		// map initiate closed
 	
     </script>
 
-    <script 
+    <script defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgymAaPbWYJw6fBj2LVBR8zK1CZo2X12I&callback=initMap"
     defer>
     </script>
