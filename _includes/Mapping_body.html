@@ -26,9 +26,9 @@ $.getJSON('Data/Master_Test.json', function(results){
 	var markers = new google.maps.Marker({position: Lats, map: cenmap, title: stuff});
          markers.info = new google.maps.InfoWindow({content: infoContent});
 
-//  google.maps.event.addListener(markers, 'click', function(){
-//  markers.info.open (cenmap, markers); 
-//		}); // ------------ 101--- infoWindow closed
+  google.maps.event.addListener(markers, 'click', function(){
+  markers.info.open (cenmap, markers); 
+		}); // ------------ 101--- infoWindow closed
 		}); //  for each closed
 
 	});	// ----------------------- get data closed -----------------------
