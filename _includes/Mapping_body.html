@@ -20,9 +20,9 @@ $.getJSON('Data/Master_Test.json', function(results){
 	var stuff = ids.NAME;		
 	var AAuthor = ids.AUTHOR;
 	var Aname = ids.NAME;
-	ver Adate = ids.DATE + ", "+ ids.UPDATES;
+	var Adate = ids.DATE + ", "+ ids.UPDATES;
 	var Lats = new google.maps.LatLng(ids.lat, ids.lon);
- 	var infoContent = "<p><b>Name:</b> " + Aname + "<br>" + "<b>Author:</b> " + AAuthor + "</p>";
+ 	var infoContent = "<p><b>Name:</b> " + Aname + "<br>" + "<b>Author:</b> " + AAuthor + "Date(s): " + ADate + "</p>";
 
 	var markers = new google.maps.Marker({position: Lats, map: cenmap, title: stuff});
          markers.info = new google.maps.InfoWindow({content: infoContent});
