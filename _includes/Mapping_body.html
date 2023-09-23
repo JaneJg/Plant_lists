@@ -13,21 +13,21 @@
   var cenmap = new google.maps.Map(
       document.getElementById("map_canvas"), {zoom: 7, center: Ashurst, mapTypeId: 'terrain', streetViewControl: false});
 
-// ------------------------------------  map intiated ---------------------------------------
+// ------------------------------------ 83 map intiated ---------------------------------------
 
 $.getJSON('Data/Master_Test.json', function(results){
         results.forEach(function(ids) {
 	var stuff = ids.NAME;		
 	var AAuthor = "All of us ";
 	var Aname = "Taupo";
- 	var infoContent = "<p>Name: " + Aname + "<br>" + "Author: " + AAuthor + "</p>";
+// 	var infoContent = "<p>Name: " + Aname + "<br>" + "Author: " + AAuthor + "</p>";
 	     var Lats = new google.maps.LatLng(ids.lat, ids.lon);
 	var markers = new google.maps.Marker({position: Lats, map: cenmap, title: stuff});
-	     markers.info = new google.maps.InfoWindow({content: infoContent});
+//	     markers.info = new google.maps.InfoWindow({content: infoContent});
 
-  google.maps.event.addListener(markers, 'click', function(){
-  markers.info.open (cenmap, markers); 
-		}); --------------- infoWindow closed
+//  google.maps.event.addListener(markers, 'click', function(){
+//  markers.info.open (cenmap, markers); 
+//		}); ------------ 101--- infoWindow closed
 
 	});	// ----------------------- get data closed -----------------------
 
