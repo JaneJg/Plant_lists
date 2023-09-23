@@ -19,7 +19,7 @@ $.getJSON('Data/Master_Test.json', function(results){
         results.forEach(function(ids) {
 	var stuff = ids.NAME;		
 	var AAuthor = "All of us ";
-	var Aname = "Taupo";
+	var Aname = ids.NAME;
 	var Lats = new google.maps.LatLng(ids.lat, ids.lon);
  	var infoContent = "<p>Name: " + Aname + "<br>" + "Author: " + AAuthor + "</p>";
 
