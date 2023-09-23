@@ -1,8 +1,7 @@
-    <h3>Nelson Start Point Demo</h3>
     <div id="map_canvas"></div>
     <div id="idInfo">
  
-   <script>			//						from Nelson7A
+   <script>			//						GitHub version
 
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				//defines map centre
@@ -12,16 +11,18 @@
 
   var cenmap = new google.maps.Map(
       document.getElementById("map_canvas"), {zoom: 7, center: Ashurst, mapTypeId: 'terrain', streetViewControl: false});
-// map intiated
+// --------------------------------- map intiated ---------------------------------------------
 
-//         var infowindow = new google.maps.InfoWindow();
 	$.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
 	stuff = ids.NAME;		
-	 new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: stuff});
+  var markers =   new google.maps.Marker({position: new google.maps.LatLng(Ashurst), map: cenmap, title: stuff});
+  markers.info = new google.maps.InfoWindow({content: infoContent});
 
-		});
+  google.maps.event.addListener(markers, 'click', function(){
+   markers.info.open (cenmap, markers); 
+             });
 	});	// get data closed
   }   		// map initiate closed
 	
