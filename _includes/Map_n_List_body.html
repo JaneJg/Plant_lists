@@ -24,9 +24,11 @@
  var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: stuff});
  markers.info = new google.maps.InfoWindow({content: infoContent});
 
-//  google.maps.event.addListener(markers, 'click', function(){
+  google.maps.event.addListener(markers, 'click', function(){
    markers.info.open (cenmap, markers); 
-//             });------------------------------ infoWindow closed ----------------------
+  google.maps.event.addListener(infowindow,'closeclick',function() {clicked = false;  })
+ 
+            }); //------------------------------ infoWindow closed ----------------------
 		}); //  for each closed
 	});	// --------------------get data closed
   }   		// map initiate closed
