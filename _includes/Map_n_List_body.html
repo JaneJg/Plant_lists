@@ -22,7 +22,7 @@
            "<br><b>Source:</b> " + "<br>Id: "+ AFelds + "</p>";
 
  var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.lat, ids.lon), map: cenmap, title: stuff});
-//  markers.info = new google.maps.InfoWindow({content: infoContent});
+ markers.info = new google.maps.InfoWindow({content: infoContent});
 
 //  google.maps.event.addListener(markers, 'click', function(){
 //   markers.info.open (cenmap, markers); 
