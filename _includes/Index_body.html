@@ -1,25 +1,14 @@
-    <div id="map_canvas"></div>
-    <div id="idInfo">
-   <center> <b>Location:</b></center>
+  <gmp-map
+      center="-40.350597,175.691747"
+      zoom="6"
+      map-id="NZ_Map_ID"
+      style="height: 400px">
 
-    <script>
-  function initMap() {
-  const Nelson = {lat: -41.307570, lng: 173.232948};						//defines map centre
-  const Ashurst = {lat: -40.350597, lng: 175.691747};				//defines a point near Palmerston Nth
- var clicked = false;
-
-  var cenmap = new google.maps.Map(
-      document.getElementById("map_canvas"), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
-
-// map intiated
-        new google.maps.Marker({position: Nelson, map: cenmap});	
- 	new google.maps.Marker({position: Ashurst, map: cenmap});
-
-} // map initiate closed
-
-    </script>
-
-    <script async 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgymAaPbWYJw6fBj2LVBR8zK1CZo2X12I&loading=async&callback=initMap"
-    defer>
-    </script>
+      <gmp-advanced-marker
+        position="-38.791306,175.914139"
+        title="Taupo"></gmp-advanced-marker>
+      <gmp-advanced-marker
+        position="-41.307570,173.232948"
+        title="Nelson">
+      </gmp-advanced-marker>
+    </gmp-map>
