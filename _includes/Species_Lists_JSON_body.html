@@ -1,0 +1,34 @@
+<script>
+
+// source is https://github.com/sql-js/sql.js - HTML demo for databse version
+
+var item = localStorage.getItem('headr');
+
+$(document).ready(function(){
+dummy.insertAdjacentHTML( 'beforeend',"<TR><TD><h2>List of Species for <b>" + item + "</h2></TD></TR>");
+
+$.getJSON('Data/Lists.json', function(results){
+  records = results.filter(function(obj) {
+  return obj.AREA === item;
+  }); // end filter
+
+$.getJSON('Data/Names.json', function(names){
+
+   let filterIds = new Set(records.map(item => item.CODE));
+   let species = names.filter(item => filterIds.has(item.CODE));
+
+    var Species_List = document.getElementById("Species_List");
+     species.forEach(function(ids) {
+     Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + item  + "</TD><TD> " + ids.CODE + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY +  " </TD></TR>");
+
+      }); // end of forEach
+    }) // end of second Ajax call
+  }) // end of which?? Ajax call
+ }) // end of $(document).ready() function
+</script>
+ 
+<div id="dummy">
+ 
+    <Table id="Species_List">
+    <TR><TD> Code  </TD><TD> Name </TD><TD> Authority </TD></TR>
+
