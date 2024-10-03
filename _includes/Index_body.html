@@ -8,7 +8,7 @@
   var clicked = false;
   var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 9, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
 
-    $.getJSON('Data/Masterls.json', function(results){
+    $.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
 var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS + 
