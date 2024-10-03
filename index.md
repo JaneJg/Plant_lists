@@ -1,5 +1,5 @@
 ---
 title: Plant Lists Mapping
-layout: index
+layout: Mapping
 outp: "Index_body.html"
 ---
