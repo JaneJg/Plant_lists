@@ -13,14 +13,8 @@
 	$.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
-	var stuff = ids.NAME;		
-	var AAuthor = ids.AUTHOR;
-	var Aname = ids.NAME;
-	var ADate = ids.DATE + ", " + ids.UPDATES;
-	var AFelds = ids.FELDS;
-// 	var infoContent = "<p><b>Name:</b> " + Aname + "<br>" + "<b>Author:</b> " + AAuthor + "<br><b>Date(s):</b> " + ADate  + 
-//           "<br><b>Source:</b> " + "<br>Id: "+ AFelds + "</p>";
-	var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS  + "</p>";
+
+	var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS + " <b> Print the list</b>"+ "</p>";
 
  var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: stuff});
  markers.info = new google.maps.InfoWindow({content: infoContent});
