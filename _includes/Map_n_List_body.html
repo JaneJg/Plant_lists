@@ -5,9 +5,10 @@
 
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				//defines map centre
+  const Rotorua = {lat: -38.074216, lng: 176.268309};
  var clicked = false;
 
-  var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 7, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
+  var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 8, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
 // --------------------------------- map intiated ---------------------------------------------
 
 	$.getJSON('Data/Master_Test.json', function(results){
