@@ -1,18 +1,21 @@
 <div id="map_canvas"></div>
- 
-<script>			
-  var info;
+<div id="idInfo">
+
+<script>
+			
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				
   const Rotorua = {lat: -38.074216, lng: 176.268309};
   var clicked = false;
   var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 9, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
+// --------------------------------- map intiated ---------------------------------------------
 
     $.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
 var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS + 
-"<a href='Species_Lists_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>"; // url method 1
+"<a href='Species_Lists_JSON.html'>" + " <b> Print the list</b></a>" + "</p>"; // url method 1
+//"<a href='Species_Lists_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>"; // url method 1
  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.FELDS});
  		markers.info = new google.maps.InfoWindow({content: infoContent});
 
