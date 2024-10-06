@@ -15,8 +15,8 @@
 
         results.forEach(function(ids) {
 	var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS  + 
-"<a href='Species_Lists_JSON.html'><b> Print the list</b></a>" + "</p>";
-//"<a href='Species_Lists_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>"; 
+//"<a href='Species_Lists_JSON.html'><b> Print the list</b></a>" + "</p>";
+"<a href='Species_Lists_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>"; 
   var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
  markers.info = new google.maps.InfoWindow({content: infoContent});
 
