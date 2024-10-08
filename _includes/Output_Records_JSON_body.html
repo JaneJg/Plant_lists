@@ -7,7 +7,7 @@ var item = localStorage.getItem('headr');
 $(document).ready(function(){
 dummy.insertAdjacentHTML( 'beforeend',"<TR><TD><h2>List of Species for <b>" + item + "</h2></TD></TR>");
 
-$.getJSON('Data/Lists.json', function(results){
+$.getJSON('Data/Lists_Test.json', function(results){
   records = results.filter(function(obj) {
   return obj.AREA === item;
   }); // end filter
