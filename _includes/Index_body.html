@@ -23,7 +23,7 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
 
   	google.maps.event.addListener(markers, 'click', function(){
 
-        markers.addListener('click', function(e, i) {
+//        markers.addListener('click', function(e, i) {
 	    info = this.title;
  		localStorage.setItem('headr', info);
    		markers.info.open (cenmap, markers); 
@@ -31,7 +31,7 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
         }); 
      }); 
    });	
-  })   		
+  }   		
 	
 </script>
 
