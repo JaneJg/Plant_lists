@@ -2,7 +2,7 @@
 <div id="idInfo">
 
 <script>
-//  var info;
+  var info;
 			
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				
@@ -23,9 +23,9 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
 
   	google.maps.event.addListener(markers, 'click', function(){
 
-//        markers.addListener('click', function(e, i) {
-//	    info = this.title;
-// 		localStorage.setItem('headr', info);
+        markers.addListener('click', function(e, i) {
+	    info = this.title;
+ 		localStorage.setItem('headr', info);
    		markers.info.open (cenmap, markers); 
  
         }); 
