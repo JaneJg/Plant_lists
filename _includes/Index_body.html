@@ -2,7 +2,10 @@
 <div id="idInfo">
 
 <script>
-  var info;
+    var info;
+  var AId;
+  var title;
+
 			
   function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				
@@ -15,15 +18,18 @@
     $.getJSON('Data/Master_Test.json', function(results){
 
         results.forEach(function(ids) {
-var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + "<br>Id: "+ ids.FELDS + 
-"<a href='Output_Records_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
+var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Records_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
  		markers.info = new google.maps.InfoWindow({content: infoContent});
 
   	google.maps.event.addListener(markers, 'click', function(){
+	markers.info.open (cenmap, markers); 
+ 	    AId = ids.FELDS;
+	    title = ids.NAME;
+	    info = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "</p>";
+            localStorage.setItem('Title', title);
+            localStorage.setItem('Item', AId);
+            localStorage.setItem('headr', info);
 
-	    info = ids.FELDS;
- 		localStorage.setItem('headr', info);
-   		markers.info.open (cenmap, markers); 
         }); 
      }); 
    });	
