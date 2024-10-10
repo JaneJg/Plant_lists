@@ -2,10 +2,12 @@
 
 // source is https://github.com/sql-js/sql.js - HTML demo for databse version
 
-var item = localStorage.getItem('headr');
+var item = localStorage.getItem('Item');
+var title = localStorage.getItem('Title');
+var Header = localStorage.getItem('headr');
 
 $(document).ready(function(){
-dummy.insertAdjacentHTML( 'beforeend',"<TR><TD><h2>List of Species for <b>" + item + "</h2></TD></TR>");
+dummy.insertAdjacentHTML( 'beforeend',"<TR><TD><h2>List of Species for <b>" + title + "</h2></TD></TR>" + Header);
 
 $.getJSON('Data/Lists.json', function(results){
   records = results.filter(function(obj) {
