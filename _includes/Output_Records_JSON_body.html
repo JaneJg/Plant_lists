@@ -7,8 +7,8 @@ var title = localStorage.getItem('Title');
 var Header = localStorage.getItem('headr');
 
 $(document).ready(function(){
-dummy.insertAdjacentHTML( 'beforeend',"<TR><TD><h2>List of Species for <b>" + title + "</h2></TD></TR>" + Header);
-
+dummy.insertAdjacentHTML( 'beforeend',"<h2>List of Species for <b>" + title + "</h2>");
+dummy.insertAdjacentHTML( 'beforeend', + Header);
 $.getJSON('Data/Lists.json', function(results){
   records = results.filter(function(obj) {
   return obj.AREA === item;
@@ -29,10 +29,14 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + 
   }) // end of which?? Ajax call
  }) // end of $(document).ready() function
 </script>
- 
-<div id="dummy">
+
+<div id="dummy1"><div>
+<Table id="dummy">
+<tr VALIGN="TOP"><TD WIDTH=40%></TD><TD WIDTH=30%></TD><TD WIDTH=40%></TD><TD WIDTH=40%></TD></tr>
+</Table>
  
     <Table id="Species_List">
+<tr VALIGN="TOP"><TD WIDTH=5%></TD><TD WIDTH=45%></TD><TD WIDTH=45%></TD><TD WIDTH=5%></TD></tr>
 <TR><TD> Adv  </TD><TD> <b>Name</b> </TD><TD> <b>Authority</b> </TD><TD> <b>Druce</b> </TD></TR>
 
 
