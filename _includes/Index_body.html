@@ -25,8 +25,7 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
 	markers.info.open (cenmap, markers); 
  	    AId = ids.FELDS;
 	    title = ids.NAME;
-	    info = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "</p>";
-            localStorage.setItem('Title', title);
+ 	    info = "<TR><td><b>Author:</b> " + ids.AUTHOR + "</td><td><b>Date(s):</b> " + ids.DATE + "; " + ids.UPDATES +  "</td><td><b>Source:</b> " + ids.SOURCE + "</td></tr>";           localStorage.setItem('Title', title);
             localStorage.setItem('Item', AId);
             localStorage.setItem('headr', info);
 
