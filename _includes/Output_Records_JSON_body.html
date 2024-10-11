@@ -21,7 +21,9 @@ $.getJSON('Data/Names.json', function(names){
 
     var Species_List = document.getElementById("Species_List");
      species.forEach(function(ids) {
-     Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + item  + "</TD><TD> " + ids.CODE + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY +  " </TD></TR>");
+ //    Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + item  + "</TD><TD> " + ids.CODE + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY +  " </TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY + "</TD><TD>" + ids. DR +  " </TD></TR>");
+
 
       }); // end of forEach
     }) // end of second Ajax call
