@@ -21,7 +21,6 @@ $.getJSON('Data/Names.json', function(names){
 
     var Species_List = document.getElementById("Species_List");
      species.forEach(function(ids) {
- //    Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + item  + "</TD><TD> " + ids.CODE + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY +  " </TD></TR>");
 Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.AUTHORITY + "</TD><TD>" + ids. DR +  " </TD></TR>");
 
 
@@ -34,5 +33,8 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + 
 <div id="dummy">
  
     <Table id="Species_List">
-    <TR><TD> Code  </TD><TD> Name </TD><TD> Authority </TD></TR>
+   // <TR><TD> Code  </TD><TD> Name </TD><TD> Authority </TD></TR>
+<TR><TD> Adv  </TD><TD> <b>Name</b> </TD><TD> <b>Authority</b> </TD><TD> <b>Druce</b> </TD></TR>
+
+
 
