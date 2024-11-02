@@ -1,14 +1,14 @@
 <script>
 
-// source is https://github.com/sql-js/sql.js - HTML demo for databse version
+// source is https://github.com/sql-js/sql.js - HTML demo for database version
 
 var item = localStorage.getItem('Item');
 var title = localStorage.getItem('Title');
 var Header = localStorage.getItem('headr');
 
 $(document).ready(function(){
-dummy.insertAdjacentHTML( 'beforeend',"<h2>List of Species for <b>" + title + "</h2>");
-dummy.insertAdjacentHTML( 'beforeend', + Header);
+dummy1.insertAdjacentHTML( 'beforeend',"<h2>List of Species for <b>" + title + "</h2>");
+dummy.insertAdjacentHTML( 'beforeend', Header);
 $.getJSON('Data/Lists.json', function(results){
   records = results.filter(function(obj) {
   return obj.AREA === item;
