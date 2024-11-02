@@ -20,7 +20,7 @@ $.getJSON('Data/Names.json', function(names){
    let species = names.filter(item => filterIds.has(item.CODE));
 
     var Species_List = document.getElementById("Species_List");
-     species.forEach(function(ids) {Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + ids.Name + "</TD><TD>" + ids.C_Name + "</TD><TD>" + ids.Phys +  " </TD></TR>");
+     species.forEach(function(ids) {Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD>" + ids.NAME + "</TD><TD>" + ids.C_Name + "</TD><TD>" + ids.PHYS +  " </TD></TR>");
 
       }); // end of forEach
     }) // end of second Ajax call
