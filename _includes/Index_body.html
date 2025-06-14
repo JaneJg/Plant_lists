@@ -18,7 +18,7 @@
     $.getJSON('Data/Masterls.json', function(results){
 
         results.forEach(function(ids) {
-var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Records_JSON.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
+var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
  		markers.info = new google.maps.InfoWindow({content: infoContent});
 
   	google.maps.event.addListener(markers, 'click', function(){
@@ -33,6 +33,15 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
         }); 
      }); 
    });	
+
+      // Add event listener to the dropdown menu
+      const dropdown = document.getElementById("locationDropdown");
+      dropdown.addEventListener("change", function () {
+        const [lat, lng] = this.value.split(",").map(Number);
+        const newCenter = { lat, lng};
+        cenmap.setCenter(newCenter);
+      });
+
   }   		
 </script>
 
