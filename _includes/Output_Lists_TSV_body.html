@@ -1,41 +1,61 @@
 <script>
 
-var item = localStorage.getItem('Item');
-var title = localStorage.getItem('Title');
-var Header = localStorage.getItem('headr');
+   var item = localStorage.getItem('Item');
+   var title = localStorage.getItem('Title');
+   var author = localStorage.getItem('Author');
+   var dates = localStorage.getItem('Dates');
+   var source = localStorage.getItem('Source');
 
-$(document).ready(function(){
-dummy1.insertAdjacentHTML( 'beforeend',"<h2>List of Species for <b>" + title + "</h2>");
-dummy.insertAdjacentHTML( 'beforeend', Header);
-$.getJSON('Data/Lists.json', function(results){
-  records = results.filter(function(obj) {
-  return obj.AREA === item;
-  }); // end filter
+                                                              // blob bit
+   let string1 = "\tList of Species for: " + title + "\n";
+   let string2 = "Author: " + author + "\tDates: " + dates + "\tSource: " + source + "\n";
+                                                             // end blob bit
 
-$.getJSON('Data/Names.json', function(names){
+  $(document).ready(function(){
 
-   let filterIds = new Set(records.map(item => item.CODE));
-   let species = names.filter(item => filterIds.has(item.CODE));
+    $.getJSON('Data/Lists.json', function(results){
+       records = results.filter(function(obj) {
+       return obj.AREA === item;
+         }); // end filter
 
-    var Species_List = document.getElementById("Species_List");
-     species.forEach(function(ids) {
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+         $.getJSON('Data/Names.json', function(names){
+
+         let filterIds = new Set(records.map(item => item.CODE));
+         let species = names.filter(item => filterIds.has(item.CODE));
+
+          var Species_List = document.getElementById("Species_List");
+            Species_List.insertAdjacentHTML('beforeend',"Adv" + "\tNAME" + "\tNOTES" + "\tC_NAME" + "\tFAMILY" + "\tPHYS" + "\tREDUCED" + "\n"); // headings
+
+          species.forEach(function(ids) {
+             Species_List.insertAdjacentHTML('beforeend', ids.E + "\t" + ids.NAME + "\t" + ids.NOTES + "\t" + ids.C_NAME + "\t" +  ids.FAMILY + "\t" + ids.PHYS + "\t" + ids.REDUCED + "\n");
+            }); // end of forEach - writing of the list      }); // end of forEach - writing of the list
+			let string3 = Species_List.outerHTML; 
 
 
-      }); // end of forEach
-    }) // end of second Ajax call
-  }) // end of which?? Ajax call
- }) // end of $(document).ready() function
+// ----------------------------------------------- Blob bit ----------------------------
+     									// assemble final string
+    			const finalText = string1 + "\t" + string2 + "\t\n" + string3;
+    
+    									// convert to blob
+    			const data = new Blob([finalText], {type: 'text/plain'});
+     			//const data = new Blob([string3], {type: 'text/plain'});
+   									// create file link
+    			const link = document.createElement('a');
+    			link.innerHTML = 'download';
+    			link.setAttribute('download', title);
+    			link.href = window.URL.createObjectURL(data);
+     			document.body.appendChild(link);
+    
+    									// preview the output in a paragraph
+         }) // end of compiling list of names etc (save at this point)
+      		}) // end of results- retrieval of selected list 
+  	      })                                           // end of $(document).ready() function end data calls
 </script>
 
-<div id="dummy1"><div>
-<Table id="dummy">
-<tr VALIGN="TOP"><TD WIDTH=40%></TD><TD WIDTH=30%></TD><TD WIDTH=40%></TD><TD WIDTH=40%></TD></tr>
-</Table>
- <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<!Show document>
+
     <Table id="Species_List">
-<tr VALIGN="TOP"><TD WIDTH=2%></TD><TD WIDTH=60%></TD><TD WIDTH=35%></TD><TD WIDTH= 3%></TD></tr>
-<TR><TD> Adv  </TD><TD> <b>Name</b> </TD><TD> <b>Common_NAME</b> </TD></TR>
-
-
-
+	<div id= "dummy"></div>
+ 
+ 
