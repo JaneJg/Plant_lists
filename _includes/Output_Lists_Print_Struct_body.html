@@ -20,85 +20,84 @@ $.getJSON('Data/Names.json', function(names){
     var Species_List = document.getElementById("Species_List");
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Gymnosperms</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'A');
+ var filtered_species = species.filter(item => item.Phys == 'A');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Trees and Shrubs </H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'C');
+ var filtered_species = species.filter(item => item.Phys == 'C');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Woody Climbers</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'E');
+ var filtered_species = species.filter(item => item.Phys == 'E');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Lycopods and horsetails</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'F');
+ var filtered_species = species.filter(item => item.Phys == 'F');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Ferns</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'H');
+ var filtered_species = species.filter(item => item.Phys == 'G');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Grasses</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
 
- var filtered_species = species.filter(item => item.PHYS == 'I');
+ var filtered_species = species.filter(item => item.Phys == 'I');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Sedges</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
 
- var filtered_species = species.filter(item => item.PHYS == 'J');
+ var filtered_species = species.filter(item => item.Phys == 'J');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Rushes and allied plants</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
 
- var filtered_species = species.filter(item => item.PHYS == 'K');
+ var filtered_species = species.filter(item => item.Phys == 'K');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Daisy-like herbs</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
 
- var filtered_species = species.filter(item => item.PHYS == 'M');
+ var filtered_species = species.filter(item => item.Phys == 'M');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Other herbs</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.PHYS == 'N');
+ var filtered_species = species.filter(item => item.Phys == 'N');
      filtered_species.forEach(function(ids) {
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.NAME + " " +  ids.NOTES + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
       }); // end of forEach
-
 
     }) // end of second Ajax call
   }) // end of which?? Ajax call
