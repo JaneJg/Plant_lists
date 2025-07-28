@@ -1,0 +1,55 @@
+
+
+
+<script>
+   var item = localStorage.getItem('Code');
+   var title = localStorage.getItem('Name');
+
+                                                              // blob bit
+   let string1 = "\tList of Sites for: " + title + "\n";
+                                                             // end blob bit
+
+  $(document).ready(function(){
+
+    $.getJSON('Data/Lists.json', function(results){  //////error need both datasets
+       records = results.filter(function(obj) {
+       return obj.CODE === item;
+         }); // end filter
+
+          $.getJSON('Data/Masterls.json', function(sites){
+
+         let filterIds = new Set(records.map(item => item.CODE));
+         let A_site = sites.filter(item => filterIds.has(item.CODE));
+
+         var Sites_List = document.getElementById("Sites_List");
+            Sites_List.insertAdjacentHTML('beforeend', "<TR><TD> <b>Name</b> </TD><TD> <b>Author</b> </TD><TD> <b>Date</b> </TD><TD> <b>Source</b> </TD><TD> <b>Latitude</b> </TD><TD> <b>Longitude</b></TD></TR>");
+
+          sites.forEach(function(ids) {
+             Sites_List.insertAdjacentHTML('beforeend', ids.NAME + "</t>" + ids.AUTHOR + "</t>" + ids.DATE + ": " + ids.UPDATES + "</t>" + ids.SOURCE + "</t>" +  ids.LATITUDE + "</t>" + ids.LONGITUDE + "\n");
+
+           }); // end of forEach - writing of the list
+     }) 								// end of data call
+     }) 								// end of data call 1
+
+ // ----------------------------------------------- Blob bit ----------------------------
+ 			let string3 = Sites_List.outerHTML; 
+   									// assemble final string
+    			const finalText = string1 + "\t\n" + string3;
+    									// convert to blob
+    			const data = new Blob([finalText], {type: 'text/plain'});
+     			//const data = new Blob([string3], {type: 'text/plain'});
+   									// create file link
+    			const link = document.createElement('a');
+    			link.innerHTML = 'download';
+    			link.setAttribute('download', Species);
+    			link.href = window.URL.createObjectURL(data);
+     			document.body.appendChild(link);
+    }) 								// end of data call
+     }) 								// end of data call 1
+ }) 									// end of $(document).ready() function
+
+</script>
+<!Show document>
+
+    <Table id="Sites_List">
+    </Table>
