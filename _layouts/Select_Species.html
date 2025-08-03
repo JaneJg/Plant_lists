@@ -1,0 +1,37 @@
+{% include head.html %} 
+<style>
+ body {margin: 0;
+	font-family: "Arial";
+	font-size: 1.5em;
+	/*	font-weight: normal;*/
+	/*	font-style: normal */
+        background-color: #118c2f;
+	color: yellow;			/* heading = body text colour */
+}
+
+div.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: khaki;
+    color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    tr:hover {background-color: coral;}
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+	color: black;		/*main body colour*/
+    tr:hover {background-color: coral;}
+}
+
+</style>
+
+{% include Main_Scripts.html %} 
+</head>
+
+{% include Nav_Menu_2.html %} 
+{% include {{ page.outp }} %} 
