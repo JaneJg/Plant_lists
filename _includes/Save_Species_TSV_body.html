@@ -4,35 +4,31 @@
 <script>
    var item = localStorage.getItem('Code');
    var title = localStorage.getItem('Name');
-
                                                               // blob bit
-   let string1 = "\tList of Sites for: " + title + "\n";
-                                                             // end blob bit
-
+ 		                                                 // end blob bit
   $(document).ready(function(){
 
-    $.getJSON('Data/Lists.json', function(results){  //////error need both datasets
+    $.getJSON('Data/Lists.json', function(results){ 
        records = results.filter(function(obj) {
        return obj.CODE === item;
          }); // end filter
 
-          $.getJSON('Data/Masterls.json', function(sites){
+          $.getJSON('Data/Masterls.json', function(places){
 
-         let filterIds = new Set(records.map(item => item.CODE));
-         let A_site = sites.filter(item => filterIds.has(item.CODE));
+         let filterIds = new Set(records.map(item => item.AREA));
+         let A_site = places.filter(item => filterIds.has(item.FELDS));
 
          var Sites_List = document.getElementById("Sites_List");
-            Sites_List.insertAdjacentHTML('beforeend', "<TR><TD> <b>Name</b> </TD><TD> <b>Author</b> </TD><TD> <b>Date</b> </TD><TD> <b>Source</b> </TD><TD> <b>Latitude</b> </TD><TD> <b>Longitude</b></TD></TR>");
+ //         Sites_List.insertAdjacentHTML('beforbegin', "<TR><TD> <b>Name</b>" + title + "</TD></TR>");
 
-          sites.forEach(function(ids) {
+          A_site.forEach(function(ids) {
              Sites_List.insertAdjacentHTML('beforeend', ids.NAME + "</t>" + ids.AUTHOR + "</t>" + ids.DATE + ": " + ids.UPDATES + "</t>" + ids.SOURCE + "</t>" +  ids.LATITUDE + "</t>" + ids.LONGITUDE + "\n");
 
            }); // end of forEach - writing of the list
-     }) 								// end of data call
-     }) 								// end of data call 1
 
  // ----------------------------------------------- Blob bit ----------------------------
- 			let string3 = Sites_List.outerHTML; 
+    let string1 = "\tList of Sites for: " + title + "\n";
+			let string3 = Sites_List.outerHTML; 
    									// assemble final string
     			const finalText = string1 + "\t\n" + string3;
     									// convert to blob
@@ -41,7 +37,7 @@
    									// create file link
     			const link = document.createElement('a');
     			link.innerHTML = 'download';
-    			link.setAttribute('download', Species);
+    			link.setAttribute('download', title);
     			link.href = window.URL.createObjectURL(data);
      			document.body.appendChild(link);
     }) 								// end of data call

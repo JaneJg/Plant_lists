@@ -3,28 +3,23 @@
     var item = localStorage.getItem('Code');
    var title = localStorage.getItem('Name');
 
-                                                              // blob bit
-   let string1 = "\tList of Sites for: " + title + "\n";
-                                                             // end blob bit
+   $(document).ready(function(){
 
-  $(document).ready(function(){
-
-    $.getJSON('Data/Lists.json', function(results){  //////error need both datasets
+    $.getJSON('Data/Lists.json', function(results){  
        records = results.filter(function(obj) {
        return obj.CODE === item;
          }); // end filter
 
-          $.getJSON('Data/Masterls.json', function(sites){
+          $.getJSON('Data/Masterls.json', function(places){
 
-         let filterIds = new Set(records.map(item => item.CODE));
-         let A_site = sites.filter(item => filterIds.has(item.CODE));
+         let filterIds = new Set(records.map(item => item.AREA));
+         let A_site = places.filter(item => filterIds.has(item.FELDS));
 
          var Sites_List = document.getElementById("Sites_List");
-            Sites_List.insertAdjacentHTML('beforeend', "<TR><TD> <b>Name</b> </TD><TD> <b>Author</b> </TD><TD> <b>Date</b> </TD><TD> <b>Source</b> </TD><TD> <b>Latitude</b> </TD><TD> <b>Longitude</b></TD></TR>");
 
-          sites.forEach(function(ids) {
+          A_site.forEach(function(ids) {
              Sites_List.insertAdjacentHTML('beforeend', "<tr><td>" + ids.NAME + "</td><td>" + ids.AUTHOR + "</td><td>" + ids.DATE + ": " + ids.UPDATES + "</td><td>" + ids.SOURCE + "</td><td>" +  ids.LATITUDE + "</td><td>" + ids.LONGITUDE + "\n");
-//            }); // end of forEach - writing of the list      }); // end of forEach - writing of the list
+ 
 
 	  }); 								// end of forEach DATA retrieved
      }) 								// end of data call
@@ -37,7 +32,6 @@
 
 
     <Table id="Sites_List">
-<div id="dummy">
 <TR><TD  WIDTH=30%> <b>Name</b> </TD><TD WIDTH=10%> <b>Author</b> </TD><TD WIDTH=10%> <b>Date</b> </TD><TD WIDTH=30%> <b>Source</b> </TD><TD WIDTH=10%> <b>Latitude</b> </TD><TD WIDTH=10%> <b>Longitude</b></TD></TR>
     </Table>
 

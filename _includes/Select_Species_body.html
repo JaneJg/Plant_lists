@@ -1,0 +1,99 @@
+<script>
+var MCODEG = localStorage.getItem('MCodeG');
+
+$(document).ready(function(){
+
+    var Genus_List = document.getElementById("Genus_List");
+    Genus_List.insertAdjacentHTML( 'beforeend',"<TR><TD> <b>Genera</b> </TD><TD>MCODE  </TD></TR>");
+$.getJSON('Data/Genus.json', function(genera){
+
+     genera.forEach(function(ids) {
+	Genus_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.Genus + "</i></TD><TD>" +  ids.CODE + "</TD></TR>");
+      Genus_List.addEventListener('click', rowclick);
+      }); // end of forEach
+    }) // end of  Ajax call
+
+ }) // end of $(document).ready() function
+</script>
+
+<script>		
+function specieslist(){
+
+  var code = localStorage.getItem('MCodeG');
+
+$.getJSON('Data/Full_Names.json', function(names){
+  species = names.filter(function(obj) {
+  return obj.MCODEG === code;
+  }); // end filter
+    var Species_List = document.getElementById("Species_List");
+
+     species.forEach(function(ids) {
+      Species_List.addEventListener('click', function(event2) {
+        const clickedRow = event2.target.closest('tr');		
+        if (clickedRow) {
+         const tdValue1 = clickedRow.querySelector('td:first-child').textContent.trim();       
+         const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
+	localStorage.setItem('Name', tdValue1);
+       	localStorage.setItem('Code', tdValue2);
+window.open("Mapping_Species.html", "_blank");
+		}
+	});
+
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.NAME + "</i></TD><TD>" +  ids.RCODE + "</i></TD><TD>" + ids.MCODEG + "</TD></TR>");
+
+      }); // end of forEach
+    }) // end of  Ajax call
+}; // end function species list
+
+</script>
+
+<script>
+function rowclick(event) {			/* click function for row click*/
+
+ const clickedRow = event.target.closest('tr');		
+ event.stopPropagation();
+       if (clickedRow) {
+        const tdValue = clickedRow.querySelector('td:first-child').textContent.trim();       
+         const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
+       	localStorage.setItem('genus', tdValue);
+	localStorage.setItem('MCodeG', tdValue2);
+	};
+
+  $(document).ready(function(){
+    var Genus = localStorage.getItem('genus');
+    var Species_List = document.getElementById("Species_List");
+//    dummy.insertAdjacentHTML( 'afterbegin', "<tr><td>List of Species for </td><td><b>" + Genus + " & </b></td></tr>"); 
+	dummy.insertAdjacentHTML( 'afterbegin', "<p>List of Species for  "+ Genus + "</p>");
+specieslist();
+   });
+};				/* end click function*/
+</script>
+
+<! 		==========================  HTML ====================================================  >
+<!				----------- Genus bit  --------------------------- >
+
+<div>
+<p style = "text-align:center;"> Species Selection</p>
+</div>
+
+<div> 							 <! to mereg blocks>
+  <div class = "sidebar">					<! Sidebar - Genera>
+   <p>click on a genus</p>
+
+    <Table id="Genus_List">
+	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=30%></TD</tr>
+     </table>
+  </div>	
+
+<! 			--------------------  Species bit   --------------------------->
+
+<div id="dummy" class="content" style="background-color:beige"> 	<! maim content - names>
+
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <Table id="Species_List">
+	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=15%></TD><TD WIDTH= 15%></TD></tr>
+	<TR><TD> <b>Name</b> </TD><TD display ="none"> <b>RCode</b> </TD><TD>MCODE  </TD></TR>
+     </table>
+</div>    	<! div content>
+</div> 
+ 
