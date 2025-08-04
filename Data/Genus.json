@@ -1,0 +1,9477 @@
+[
+    {
+        "CODE": "A.",
+        "FCD": "",
+        "Genus": "A."
+    },
+    {
+        "CODE": "ABE",
+        "FCD": "MAL",
+        "Genus": "Abelmoschus"
+    },
+    {
+        "CODE": "ABEA",
+        "FCD": "CAP",
+        "Genus": "Abelia"
+    },
+    {
+        "CODE": "ABI",
+        "FCD": "PIN",
+        "Genus": "Abies"
+    },
+    {
+        "CODE": "ABR",
+        "FCD": "AST",
+        "Genus": "Abrotanella"
+    },
+    {
+        "CODE": "ABRA",
+        "FCD": "HYM",
+        "Genus": "Abrodictyum"
+    },
+    {
+        "CODE": "ABU",
+        "FCD": "MAL",
+        "Genus": "Abutilon"
+    },
+    {
+        "CODE": "ACA",
+        "FCD": "ROS",
+        "Genus": "Acaena"
+    },
+    {
+        "CODE": "ACAA",
+        "FCD": "ACA",
+        "Genus": "Acanthus"
+    },
+    {
+        "CODE": "ACAB",
+        "FCD": "EUP",
+        "Genus": "Acalypha"
+    },
+    {
+        "CODE": "ACAC",
+        "FCD": "FAB",
+        "Genus": "Acacia"
+    },
+    {
+        "CODE": "ACC",
+        "FCD": "MYR",
+        "Genus": "Acca"
+    },
+    {
+        "CODE": "ACE",
+        "FCD": "SAP",
+        "Genus": "Acer"
+    },
+    {
+        "CODE": "ACH",
+        "FCD": "POA",
+        "Genus": "Achnatherum"
+    },
+    {
+        "CODE": "ACHA",
+        "FCD": "AST",
+        "Genus": "Achillea"
+    },
+    {
+        "CODE": "ACHB",
+        "FCD": "AMA",
+        "Genus": "Achyranthes"
+    },
+    {
+        "CODE": "ACI",
+        "FCD": "ORC",
+        "Genus": "Acianthus"
+    },
+    {
+        "CODE": "ACIA",
+        "FCD": "CAY",
+        "Genus": "Acicarpha"
+    },
+    {
+        "CODE": "ACIB",
+        "FCD": "LAM",
+        "Genus": "Acinos"
+    },
+    {
+        "CODE": "ACIC",
+        "FCD": "API",
+        "Genus": "Aciphylla"
+    },
+    {
+        "CODE": "ACK",
+        "FCD": "CUN",
+        "Genus": "Ackama"
+    },
+    {
+        "CODE": "ACM",
+        "FCD": "MYR",
+        "Genus": "Acmena"
+    },
+    {
+        "CODE": "ACO",
+        "FCD": "RAN",
+        "Genus": "Aconitum"
+    },
+    {
+        "CODE": "ACOA",
+        "FCD": "PLO",
+        "Genus": "Aconogonon"
+    },
+    {
+        "CODE": "ACR",
+        "FCD": "AST",
+        "Genus": "Acroptilon"
+    },
+    {
+        "CODE": "ACRA",
+        "FCD": "ERI",
+        "Genus": "Acrothamnus"
+    },
+    {
+        "CODE": "ACT",
+        "FCD": "ACT",
+        "Genus": "Actinidia"
+    },
+    {
+        "CODE": "ACTA",
+        "FCD": "API",
+        "Genus": "Actinotus"
+    },
+    {
+        "CODE": "ADE",
+        "FCD": "ORC",
+        "Genus": "Adenochilus"
+    },
+    {
+        "CODE": "ADEA",
+        "FCD": "ORC",
+        "Genus": "Adelopetalum"
+    },
+    {
+        "CODE": "ADEB",
+        "FCD": "CAM",
+        "Genus": "Adenophora"
+    },
+    {
+        "CODE": "ADI",
+        "FCD": "ADI",
+        "Genus": "Adiantum"
+    },
+    {
+        "CODE": "AEG",
+        "FCD": "POA",
+        "Genus": "Aegilops"
+    },
+    {
+        "CODE": "AEGA",
+        "FCD": "API",
+        "Genus": "Aegopodium"
+    },
+    {
+        "CODE": "AEO",
+        "FCD": "CRA",
+        "Genus": "Aeonium"
+    },
+    {
+        "CODE": "AES",
+        "FCD": "SAP",
+        "Genus": "Aesculus"
+    },
+    {
+        "CODE": "AET",
+        "FCD": "API",
+        "Genus": "Aethusa"
+    },
+    {
+        "CODE": "AETA",
+        "FCD": "AST",
+        "Genus": "Aetheorhiza"
+    },
+    {
+        "CODE": "AGA",
+        "FCD": "ALL",
+        "Genus": "Agapanthus"
+    },
+    {
+        "CODE": "AGAA",
+        "FCD": "ARA",
+        "Genus": "Agathis"
+    },
+    {
+        "CODE": "AGAB",
+        "FCD": "ASR",
+        "Genus": "Agave"
+    },
+    {
+        "CODE": "AGAC",
+        "FCD": "LAM",
+        "Genus": "Agastache"
+    },
+    {
+        "CODE": "AGE",
+        "FCD": "AST",
+        "Genus": "Ageratina"
+    },
+    {
+        "CODE": "AGEA",
+        "FCD": "AST",
+        "Genus": "Ageratum"
+    },
+    {
+        "CODE": "AGO",
+        "FCD": "MYR",
+        "Genus": "Agonis"
+    },
+    {
+        "CODE": "AGR",
+        "FCD": "POA",
+        "Genus": "Agropogon"
+    },
+    {
+        "CODE": "AGRA",
+        "FCD": "POA",
+        "Genus": "Agropyron"
+    },
+    {
+        "CODE": "AGRB",
+        "FCD": "CRY",
+        "Genus": "Agrostemma"
+    },
+    {
+        "CODE": "AGRC",
+        "FCD": "POA",
+        "Genus": "Agrostis"
+    },
+    {
+        "CODE": "AIL",
+        "FCD": "SIM",
+        "Genus": "Ailanthus"
+    },
+    {
+        "CODE": "AIR",
+        "FCD": "POA",
+        "Genus": "Aira"
+    },
+    {
+        "CODE": "AJU",
+        "FCD": "LAM",
+        "Genus": "Ajuga"
+    },
+    {
+        "CODE": "AKE",
+        "FCD": "LAR",
+        "Genus": "Akebia"
+    },
+    {
+        "CODE": "ALB",
+        "FCD": "FAB",
+        "Genus": "Albizia"
+    },
+    {
+        "CODE": "ALBA",
+        "FCD": "ASR",
+        "Genus": "Albuca"
+    },
+    {
+        "CODE": "ALC",
+        "FCD": "MAL",
+        "Genus": "Alcea"
+    },
+    {
+        "CODE": "ALCA",
+        "FCD": "ROS",
+        "Genus": "Alchemilla"
+    },
+    {
+        "CODE": "ALE",
+        "FCD": "SAP",
+        "Genus": "Alectryon"
+    },
+    {
+        "CODE": "ALEA",
+        "FCD": "LOR",
+        "Genus": "Alepis"
+    },
+    {
+        "CODE": "ALEB",
+        "FCD": "EUP",
+        "Genus": "Aleurites"
+    },
+    {
+        "CODE": "ALI",
+        "FCD": "ALI",
+        "Genus": "Alisma"
+    },
+    {
+        "CODE": "ALL",
+        "FCD": "BRA",
+        "Genus": "Alliaria"
+    },
+    {
+        "CODE": "ALLA",
+        "FCD": "AMR",
+        "Genus": "Allium"
+    },
+    {
+        "CODE": "ALLB",
+        "FCD": "CAS",
+        "Genus": "Allocasuarina"
+    },
+    {
+        "CODE": "ALN",
+        "FCD": "BET",
+        "Genus": "Alnus"
+    },
+    {
+        "CODE": "ALO",
+        "FCD": "ARB",
+        "Genus": "Alocasia"
+    },
+    {
+        "CODE": "ALOA",
+        "FCD": "ASO",
+        "Genus": "Aloe"
+    },
+    {
+        "CODE": "ALOB",
+        "FCD": "POA",
+        "Genus": "Alopecurus"
+    },
+    {
+        "CODE": "ALOC",
+        "FCD": "SCR",
+        "Genus": "Alonsoa"
+    },
+    {
+        "CODE": "ALS",
+        "FCD": "ALS",
+        "Genus": "Alseuosmia"
+    },
+    {
+        "CODE": "ALSA",
+        "FCD": "CYA",
+        "Genus": "Alsophila"
+    },
+    {
+        "CODE": "ALSB",
+        "FCD": "ALM",
+        "Genus": "Alstroemeria"
+    },
+    {
+        "CODE": "ALSC",
+        "FCD": "AMA",
+        "Genus": "Alsine"
+    },
+    {
+        "CODE": "ALT",
+        "FCD": "AMA",
+        "Genus": "Alternanthera"
+    },
+    {
+        "CODE": "ALY",
+        "FCD": "BRA",
+        "Genus": "Alyssum"
+    },
+    {
+        "CODE": "AMA",
+        "FCD": "AMA",
+        "Genus": "Amaranthus"
+    },
+    {
+        "CODE": "AMAA",
+        "FCD": "AMR",
+        "Genus": "Amaryllis"
+    },
+    {
+        "CODE": "AMB",
+        "FCD": "AST",
+        "Genus": "Ambrosia"
+    },
+    {
+        "CODE": "AME",
+        "FCD": "ROS",
+        "Genus": "Amelanchier"
+    },
+    {
+        "CODE": "AMM",
+        "FCD": "API",
+        "Genus": "Ammi"
+    },
+    {
+        "CODE": "AMMA",
+        "FCD": "AST",
+        "Genus": "Ammobium"
+    },
+    {
+        "CODE": "AMMB",
+        "FCD": "POA",
+        "Genus": "Ammophila"
+    },
+    {
+        "CODE": "AMP",
+        "FCD": "POA",
+        "Genus": "Amphibromus"
+    },
+    {
+        "CODE": "AMS",
+        "FCD": "BOR",
+        "Genus": "Amsinckia"
+    },
+    {
+        "CODE": "AMY",
+        "FCD": "ROS",
+        "Genus": "Amygdalus"
+    },
+    {
+        "CODE": "ANA",
+        "FCD": "PRI",
+        "Genus": "Anagallis"
+    },
+    {
+        "CODE": "ANAA",
+        "FCD": "AST",
+        "Genus": "Anaphalis"
+    },
+    {
+        "CODE": "ANAB",
+        "FCD": "PLP",
+        "Genus": "Anarthropteris"
+    },
+    {
+        "CODE": "ANAC",
+        "FCD": "AST",
+        "Genus": "Anaphalioides"
+    },
+    {
+        "CODE": "ANAD",
+        "FCD": "AST",
+        "Genus": "Anacharis"
+    },
+    {
+        "CODE": "ANC",
+        "FCD": "BOR",
+        "Genus": "Anchusa"
+    },
+    {
+        "CODE": "AND",
+        "FCD": "POA",
+        "Genus": "Andropogon"
+    },
+    {
+        "CODE": "ANDA",
+        "FCD": "ERI",
+        "Genus": "Androstoma"
+    },
+    {
+        "CODE": "ANE",
+        "FCD": "POA",
+        "Genus": "Anemanthele"
+    },
+    {
+        "CODE": "ANEA",
+        "FCD": "RAN",
+        "Genus": "Anemone"
+    },
+    {
+        "CODE": "ANEB",
+        "FCD": "API",
+        "Genus": "Anethum"
+    },
+    {
+        "CODE": "ANG",
+        "FCD": "API",
+        "Genus": "Angelica"
+    },
+    {
+        "CODE": "ANGA",
+        "FCD": "MYR",
+        "Genus": "Angophora"
+    },
+    {
+        "CODE": "ANI",
+        "FCD": "API",
+        "Genus": "Anisotome"
+    },
+    {
+        "CODE": "ANIA",
+        "FCD": "MAL",
+        "Genus": "Anisodontea"
+    },
+    {
+        "CODE": "ANN",
+        "FCD": "ANN",
+        "Genus": "Annona"
+    },
+    {
+        "CODE": "ANO",
+        "FCD": "ADI",
+        "Genus": "Anogramma"
+    },
+    {
+        "CODE": "ANR",
+        "FCD": "BSL",
+        "Genus": "Anredera"
+    },
+    {
+        "CODE": "ANT",
+        "FCD": "PLO",
+        "Genus": "Antenoron"
+    },
+    {
+        "CODE": "ALTA",
+        "FCD": "AST",
+        "Genus": "Althenia"
+    },
+    {
+        "CODE": "ANTB",
+        "FCD": "POA",
+        "Genus": "Anthoxanthum"
+    },
+    {
+        "CODE": "ANTC",
+        "FCD": "API",
+        "Genus": "Anthriscus"
+    },
+    {
+        "CODE": "ANTD",
+        "FCD": "FAB",
+        "Genus": "Anthyllis"
+    },
+    {
+        "CODE": "ANTE",
+        "FCD": "PLG",
+        "Genus": "Antirrhinum"
+    },
+    {
+        "CODE": "ANTF",
+        "FCD": "IRI",
+        "Genus": "Antholyza"
+    },
+    {
+        "CODE": "ANTG",
+        "FCD": "POA",
+        "Genus": "Anthosachne"
+    },
+    {
+        "CODE": "ANZ",
+        "FCD": "ORC",
+        "Genus": "Anzybas"
+    },
+    {
+        "CODE": "APA",
+        "FCD": "AST",
+        "Genus": "Apargia"
+    },
+    {
+        "CODE": "APE",
+        "FCD": "POA",
+        "Genus": "Apera"
+    },
+    {
+        "CODE": "APH",
+        "FCD": "ROS",
+        "Genus": "Aphanes"
+    },
+    {
+        "CODE": "APHA",
+        "FCD": "APH",
+        "Genus": "Aphanopetalum"
+    },
+    {
+        "CODE": "API",
+        "FCD": "API",
+        "Genus": "Apium"
+    },
+    {
+        "CODE": "APO",
+        "FCD": "APG",
+        "Genus": "Aponogeton"
+    },
+    {
+        "CODE": "APOA",
+        "FCD": "ORC",
+        "Genus": "Aporostylis"
+    },
+    {
+        "CODE": "APOB",
+        "FCD": "RST",
+        "Genus": "Apodasmia"
+    },
+    {
+        "CODE": "APT",
+        "FCD": "AIZ",
+        "Genus": "Aptenia"
+    },
+    {
+        "CODE": "APTA",
+        "FCD": "HYM",
+        "Genus": "Apteropteris"
+    },
+    {
+        "CODE": "AQU",
+        "FCD": "RAN",
+        "Genus": "Aquilegia"
+    },
+    {
+        "CODE": "ARA",
+        "FCD": "BRA",
+        "Genus": "Arabidopsis"
+    },
+    {
+        "CODE": "ARAA",
+        "FCD": "DRY",
+        "Genus": "Arachniodes"
+    },
+    {
+        "CODE": "ARAB",
+        "FCD": "ARA",
+        "Genus": "Araucaria"
+    },
+    {
+        "CODE": "ARAC",
+        "FCD": "APO",
+        "Genus": "Araujia"
+    },
+    {
+        "CODE": "ARAD",
+        "FCD": "ARL",
+        "Genus": "Aralia"
+    },
+    {
+        "CODE": "ARB",
+        "FCD": "ERI",
+        "Genus": "Arbutus"
+    },
+    {
+        "CODE": "ARC",
+        "FCD": "ERI",
+        "Genus": "Archeria"
+    },
+    {
+        "CODE": "ARCA",
+        "FCD": "AST",
+        "Genus": "Arctium"
+    },
+    {
+        "CODE": "ARCB",
+        "FCD": "AST",
+        "Genus": "Arctotheca"
+    },
+    {
+        "CODE": "ARCC",
+        "FCD": "AST",
+        "Genus": "Arctotis"
+    },
+    {
+        "CODE": "ARCD",
+        "FCD": "ARE",
+        "Genus": "Archontophoenix"
+    },
+    {
+        "CODE": "ARD",
+        "FCD": "PRI",
+        "Genus": "Ardisia"
+    },
+    {
+        "CODE": "ARE",
+        "FCD": "CRY",
+        "Genus": "Arenaria"
+    },
+    {
+        "CODE": "ARG",
+        "FCD": "PAP",
+        "Genus": "Argemone"
+    },
+    {
+        "CODE": "ARGA",
+        "FCD": "AST",
+        "Genus": "Argyranthemum"
+    },
+    {
+        "CODE": "ARGB",
+        "FCD": "RUB",
+        "Genus": "Argostemma"
+    },
+    {
+        "CODE": "ARGC",
+        "FCD": "AST",
+        "Genus": "Argyrotegium"
+    },
+    {
+        "CODE": "ARI",
+        "FCD": "IRI",
+        "Genus": "Aristea"
+    },
+    {
+        "CODE": "ARIA",
+        "FCD": "POA",
+        "Genus": "Aristida"
+    },
+    {
+        "CODE": "ARIB",
+        "FCD": "ELA",
+        "Genus": "Aristotelia"
+    },
+    {
+        "CODE": "ARIC",
+        "FCD": "ARI",
+        "Genus": "Aristolochia"
+    },
+    {
+        "CODE": "ARID",
+        "FCD": "ARB",
+        "Genus": "Arisarum"
+    },
+    {
+        "CODE": "ARM",
+        "FCD": "PLU",
+        "Genus": "Armeria"
+    },
+    {
+        "CODE": "ARMA",
+        "FCD": "BRA",
+        "Genus": "Armoracia"
+    },
+    {
+        "CODE": "ARR",
+        "FCD": "POA",
+        "Genus": "Arrhenatherum"
+    },
+    {
+        "CODE": "ART",
+        "FCD": "AST",
+        "Genus": "Artemisia"
+    },
+    {
+        "CODE": "ARTA",
+        "FCD": "FAB",
+        "Genus": "Arthrolobium"
+    },
+    {
+        "CODE": "ARTB",
+        "FCD": "ASR",
+        "Genus": "Arthropodium"
+    },
+    {
+        "CODE": "ARTC",
+        "FCD": "OLR",
+        "Genus": "Arthropteris"
+    },
+    {
+        "CODE": "ARU",
+        "FCD": "ARB",
+        "Genus": "Arum"
+    },
+    {
+        "CODE": "ARUA",
+        "FCD": "POA",
+        "Genus": "Arundinaria"
+    },
+    {
+        "CODE": "ARUB",
+        "FCD": "POA",
+        "Genus": "Arundo"
+    },
+    {
+        "CODE": "ASA",
+        "FCD": "PLG",
+        "Genus": "Asarina"
+    },
+    {
+        "CODE": "ASC",
+        "FCD": "CHL",
+        "Genus": "Ascarina"
+    },
+    {
+        "CODE": "ASCA",
+        "FCD": "APO",
+        "Genus": "Asclepias"
+    },
+    {
+        "CODE": "ASP",
+        "FCD": "ASR",
+        "Genus": "Asparagus"
+    },
+    {
+        "CODE": "ASPA",
+        "FCD": "RUB",
+        "Genus": "Asperula"
+    },
+    {
+        "CODE": "ASPB",
+        "FCD": "ASO",
+        "Genus": "Asphodelus"
+    },
+    {
+        "CODE": "ASPC",
+        "FCD": "ASP",
+        "Genus": "Asplenium"
+    },
+    {
+        "CODE": "ASPD",
+        "FCD": "POA",
+        "Genus": "Asprella"
+    },
+    {
+        "CODE": "ASPE",
+        "FCD": "ASP",
+        "Genus": "Aspidium"
+    },
+    {
+        "CODE": "AST",
+        "FCD": "ASL",
+        "Genus": "Astelia"
+    },
+    {
+        "CODE": "ASTA",
+        "FCD": "AST",
+        "Genus": "Aster"
+    },
+    {
+        "CODE": "ASTB",
+        "FCD": "MYR",
+        "Genus": "Astartea"
+    },
+    {
+        "CODE": "ASTC",
+        "FCD": "SAX",
+        "Genus": "Astilbe"
+    },
+    {
+        "CODE": "ATH",
+        "FCD": "DRY",
+        "Genus": "Athyrium"
+    },
+    {
+        "CODE": "ATR",
+        "FCD": "AMA",
+        "Genus": "Atriplex"
+    },
+    {
+        "CODE": "ATRA",
+        "FCD": "SOL",
+        "Genus": "Atropa"
+    },
+    {
+        "CODE": "ATRB",
+        "FCD": "POA",
+        "Genus": "Atropis"
+    },
+    {
+        "CODE": "AUC",
+        "FCD": "GAR",
+        "Genus": "Aucuba"
+    },
+    {
+        "CODE": "AUS",
+        "FCD": "URT",
+        "Genus": "Australina"
+    },
+    {
+        "CODE": "AUSA",
+        "FCD": "POA",
+        "Genus": "Australopyrum"
+    },
+    {
+        "CODE": "AUSB",
+        "FCD": "POA",
+        "Genus": "Austrofestuca"
+    },
+    {
+        "CODE": "AUSC",
+        "FCD": "POA",
+        "Genus": "Austrostipa"
+    },
+    {
+        "CODE": "AUSD",
+        "FCD": "POA",
+        "Genus": "Austrodanthonia"
+    },
+    {
+        "CODE": "AUSE",
+        "FCD": "POA",
+        "Genus": "Austroderia"
+    },
+    {
+        "CODE": "AUSF",
+        "FCD": "CAC",
+        "Genus": "Austrocylindropuntia"
+    },
+    {
+        "CODE": "AVE",
+        "FCD": "POA",
+        "Genus": "Avena"
+    },
+    {
+        "CODE": "AVI",
+        "FCD": "ACA",
+        "Genus": "Avicennia"
+    },
+    {
+        "CODE": "AXO",
+        "FCD": "POA",
+        "Genus": "Axonopus"
+    },
+    {
+        "CODE": "AZA",
+        "FCD": "SAL",
+        "Genus": "Azara"
+    },
+    {
+        "CODE": "AZO",
+        "FCD": "AZO",
+        "Genus": "Azolla"
+    },
+    {
+        "CODE": "AZOA",
+        "FCD": "API",
+        "Genus": "Azorella"
+    },
+    {
+        "CODE": "B.",
+        "FCD": "",
+        "Genus": "B."
+    },
+    {
+        "CODE": "BAB",
+        "FCD": "IRI",
+        "Genus": "Babiana"
+    },
+    {
+        "CODE": "BAC",
+        "FCD": "AST",
+        "Genus": "Baccharis"
+    },
+    {
+        "CODE": "BAL",
+        "FCD": "LAM",
+        "Genus": "Ballota"
+    },
+    {
+        "CODE": "BALA",
+        "FCD": "EUP",
+        "Genus": "Baloghia"
+    },
+    {
+        "CODE": "BAM",
+        "FCD": "POA",
+        "Genus": "Bambusa"
+    },
+    {
+        "CODE": "BANA",
+        "FCD": "PRO",
+        "Genus": "Banksia"
+    },
+    {
+        "CODE": "BAR",
+        "FCD": "BRA",
+        "Genus": "Barbarea"
+    },
+    {
+        "CODE": "BARA",
+        "FCD": "AST",
+        "Genus": "Bartlettina"
+    },
+    {
+        "CODE": "BARB",
+        "FCD": "ORO",
+        "Genus": "Bartsia"
+    },
+    {
+        "CODE": "BARC",
+        "FCD": "LEC",
+        "Genus": "Barringtonia"
+    },
+    {
+        "CODE": "BAS",
+        "FCD": "AMA",
+        "Genus": "Bassia"
+    },
+    {
+        "CODE": "BAU",
+        "FCD": "CYP",
+        "Genus": "Baumea"
+    },
+    {
+        "CODE": "BEA",
+        "FCD": "APO",
+        "Genus": "Beaumontia"
+    },
+    {
+        "CODE": "BEG",
+        "FCD": "BEG",
+        "Genus": "Begonia"
+    },
+    {
+        "CODE": "BEI",
+        "FCD": "LAU",
+        "Genus": "Beilschmiedia"
+    },
+    {
+        "CODE": "BEL",
+        "FCD": "AST",
+        "Genus": "Bellis"
+    },
+    {
+        "CODE": "BER",
+        "FCD": "BER",
+        "Genus": "Berberis"
+    },
+    {
+        "CODE": "BERA",
+        "FCD": "SAX",
+        "Genus": "Bergenia"
+    },
+    {
+        "CODE": "BERB",
+        "FCD": "BRD",
+        "Genus": "Berberidopsis"
+    },
+    {
+        "CODE": "BET",
+        "FCD": "AMA",
+        "Genus": "Beta"
+    },
+    {
+        "CODE": "BETA",
+        "FCD": "BET",
+        "Genus": "Betula"
+    },
+    {
+        "CODE": "BID",
+        "FCD": "AST",
+        "Genus": "Bidens"
+    },
+    {
+        "CODE": "BIL",
+        "FCD": "PLO",
+        "Genus": "Bilderdykia"
+    },
+    {
+        "CODE": "BIS",
+        "FCD": "PLO",
+        "Genus": "Bistorta"
+    },
+    {
+        "CODE": "BLA",
+        "FCD": "GEN",
+        "Genus": "Blackstonia"
+    },
+    {
+        "CODE": "BLE",
+        "FCD": "BLE",
+        "Genus": "Blechnum"
+    },
+    {
+        "CODE": "BLEA",
+        "FCD": "ORC",
+        "Genus": "Bletilla"
+    },
+    {
+        "CODE": "BLI",
+        "FCD": "AMA",
+        "Genus": "Blitum"
+    },
+    {
+        "CODE": "BOE",
+        "FCD": "URT",
+        "Genus": "Boehmeria"
+    },
+    {
+        "CODE": "BOL",
+        "FCD": "CYP",
+        "Genus": "Bolboschoenus"
+    },
+    {
+        "CODE": "BOM",
+        "FCD": "ALM",
+        "Genus": "Bomarea"
+    },
+    {
+        "CODE": "BOR",
+        "FCD": "BOR",
+        "Genus": "Borago"
+    },
+    {
+        "CODE": "BOT",
+        "FCD": "POA",
+        "Genus": "Bothriochloa"
+    },
+    {
+        "CODE": "BOTA",
+        "FCD": "OPH",
+        "Genus": "Botrychium"
+    },
+    {
+        "CODE": "BOU",
+        "FCD": "NYC",
+        "Genus": "Bougainvillea"
+    },
+    {
+        "CODE": "BOUA",
+        "FCD": "BSL",
+        "Genus": "Boussingaultia"
+    },
+    {
+        "CODE": "BOUB",
+        "FCD": "POA",
+        "Genus": "Bouteloua"
+    },
+    {
+        "CODE": "BOW",
+        "FCD": "API",
+        "Genus": "Bowlesia"
+    },
+    {
+        "CODE": "BRAA",
+        "FCD": "AST",
+        "Genus": "Brachycome"
+    },
+    {
+        "CODE": "BRAB",
+        "FCD": "AST",
+        "Genus": "Brachyglottis"
+    },
+    {
+        "CODE": "BRAD",
+        "FCD": "AST",
+        "Genus": "Brachyscome"
+    },
+    {
+        "CODE": "BRAE",
+        "FCD": "BRA",
+        "Genus": "Brassica"
+    },
+    {
+        "CODE": "BRAF",
+        "FCD": "POA",
+        "Genus": "Brachypodium"
+    },
+    {
+        "CODE": "BRAG",
+        "FCD": "POA",
+        "Genus": "Brachiaria"
+    },
+    {
+        "CODE": "BRI",
+        "FCD": "POA",
+        "Genus": "Briza"
+    },
+    {
+        "CODE": "BRO",
+        "FCD": "POA",
+        "Genus": "Bromus"
+    },
+    {
+        "CODE": "BROA",
+        "FCD": "MOR",
+        "Genus": "Broussonetia"
+    },
+    {
+        "CODE": "BRU",
+        "FCD": "SOL",
+        "Genus": "Brugmansia"
+    },
+    {
+        "CODE": "BRUA",
+        "FCD": "BOR",
+        "Genus": "Brunnera"
+    },
+    {
+        "CODE": "BRUB",
+        "FCD": "SOL",
+        "Genus": "Brunfelsia"
+    },
+    {
+        "CODE": "BRY",
+        "FCD": "CRA",
+        "Genus": "Bryophyllum"
+    },
+    {
+        "CODE": "BRYA",
+        "FCD": "CUC",
+        "Genus": "Bryonia"
+    },
+    {
+        "CODE": "BUC",
+        "FCD": "POA",
+        "Genus": "Buchloe"
+    },
+    {
+        "CODE": "BUD",
+        "FCD": "SCR",
+        "Genus": "Buddelia"
+    },
+    {
+        "CODE": "BUDA",
+        "FCD": "SCR",
+        "Genus": "Buddleja"
+    },
+    {
+        "CODE": "BUG",
+        "FCD": "BOR",
+        "Genus": "Buglossoides"
+    },
+    {
+        "CODE": "BUL",
+        "FCD": "ASO",
+        "Genus": "Bulbinella"
+    },
+    {
+        "CODE": "BULA",
+        "FCD": "ORC",
+        "Genus": "Bulbophyllum"
+    },
+    {
+        "CODE": "BULB",
+        "FCD": "ASO",
+        "Genus": "Bulbinopsis"
+    },
+    {
+        "CODE": "BULC",
+        "FCD": "ASO",
+        "Genus": "Bulbine"
+    },
+    {
+        "CODE": "BUP",
+        "FCD": "API",
+        "Genus": "Bupleurum"
+    },
+    {
+        "CODE": "BUX",
+        "FCD": "BUX",
+        "Genus": "Buxus"
+    },
+    {
+        "CODE": "C.",
+        "FCD": "",
+        "Genus": "C."
+    },
+    {
+        "CODE": "CAE",
+        "FCD": "FAB",
+        "Genus": "Caesalpinia"
+    },
+    {
+        "CODE": "CAK",
+        "FCD": "BRA",
+        "Genus": "Cakile"
+    },
+    {
+        "CODE": "CAL",
+        "FCD": "ORC",
+        "Genus": "Caladenia"
+    },
+    {
+        "CODE": "CALA",
+        "FCD": "POA",
+        "Genus": "Calamagrostis"
+    },
+    {
+        "CODE": "CALB",
+        "FCD": "LAM",
+        "Genus": "Calamintha"
+    },
+    {
+        "CODE": "CALC",
+        "FCD": "MNT",
+        "Genus": "Calandrinia"
+    },
+    {
+        "CODE": "CALD",
+        "FCD": "CLC",
+        "Genus": "Calceolaria"
+    },
+    {
+        "CODE": "CALE",
+        "FCD": "CUN",
+        "Genus": "Caldcluvia"
+    },
+    {
+        "CODE": "CALF",
+        "FCD": "ORC",
+        "Genus": "Caleana"
+    },
+    {
+        "CODE": "CALG",
+        "FCD": "AST",
+        "Genus": "Calendula"
+    },
+    {
+        "CODE": "CALH",
+        "FCD": "FAB",
+        "Genus": "Calycotome"
+    },
+    {
+        "CODE": "CALI",
+        "FCD": "MYR",
+        "Genus": "Callistemon"
+    },
+    {
+        "CODE": "CALJ",
+        "FCD": "AST",
+        "Genus": "Callistephus"
+    },
+    {
+        "CODE": "CALK",
+        "FCD": "PLG",
+        "Genus": "Callitriche"
+    },
+    {
+        "CODE": "CALL",
+        "FCD": "CUP",
+        "Genus": "Callitris"
+    },
+    {
+        "CODE": "CALM",
+        "FCD": "ERI",
+        "Genus": "Calluna"
+    },
+    {
+        "CODE": "CALN",
+        "FCD": "ORC",
+        "Genus": "Calochilus"
+    },
+    {
+        "CODE": "CALO",
+        "FCD": "RST",
+        "Genus": "Calorophus"
+    },
+    {
+        "CODE": "CALP",
+        "FCD": "AST",
+        "Genus": "Calotis"
+    },
+    {
+        "CODE": "CALQ",
+        "FCD": "CON",
+        "Genus": "Calystegia"
+    },
+    {
+        "CODE": "CALR",
+        "FCD": "FAB",
+        "Genus": "Callistachys"
+    },
+    {
+        "CODE": "CALS",
+        "FCD": "RAN",
+        "Genus": "Caltha"
+    },
+    {
+        "CODE": "CALT",
+        "FCD": "LAM",
+        "Genus": "Callicarpa"
+    },
+    {
+        "CODE": "CALU",
+        "FCD": "FAB",
+        "Genus": "Calliandra"
+    },
+    {
+        "CODE": "CALV",
+        "FCD": "FAB",
+        "Genus": "Calicotome"
+    },
+    {
+        "CODE": "CALW",
+        "FCD": "LUZ",
+        "Genus": "Callixene"
+    },
+    {
+        "CODE": "CAM",
+        "FCD": "BRA",
+        "Genus": "Camelina"
+    },
+    {
+        "CODE": "CAMA",
+        "FCD": "CAM",
+        "Genus": "Campanula"
+    },
+    {
+        "CODE": "CAMB",
+        "FCD": "THC",
+        "Genus": "Camellia"
+    },
+    {
+        "CODE": "CAMC",
+        "FCD": "BIG",
+        "Genus": "Campsis"
+    },
+    {
+        "CODE": "CAN",
+        "FCD": "FAB",
+        "Genus": "Canavalia"
+    },
+    {
+        "CODE": "CANA",
+        "FCD": "CNN",
+        "Genus": "Canna"
+    },
+    {
+        "CODE": "CANB",
+        "FCD": "CAN",
+        "Genus": "Cannabis"
+    },
+    {
+        "CODE": "CAP",
+        "FCD": "BRA",
+        "Genus": "Capsella"
+    },
+    {
+        "CODE": "CAPA",
+        "FCD": "SOL",
+        "Genus": "Capsicum"
+    },
+    {
+        "CODE": "CAR",
+        "FCD": "BRA",
+        "Genus": "Cardamine"
+    },
+    {
+        "CODE": "CARA",
+        "FCD": "BRA",
+        "Genus": "Cardaria"
+    },
+    {
+        "CODE": "CARB",
+        "FCD": "HYM",
+        "Genus": "Cardiomanes"
+    },
+    {
+        "CODE": "CARC",
+        "FCD": "AST",
+        "Genus": "Carduus"
+    },
+    {
+        "CODE": "CARD",
+        "FCD": "CYP",
+        "Genus": "Carex"
+    },
+    {
+        "CODE": "CARE",
+        "FCD": "CAR",
+        "Genus": "Carica"
+    },
+    {
+        "CODE": "CARF",
+        "FCD": "FAB",
+        "Genus": "Carmichaelia"
+    },
+    {
+        "CODE": "CARG",
+        "FCD": "CYP",
+        "Genus": "Carpha"
+    },
+    {
+        "CODE": "CARH",
+        "FCD": "AIZ",
+        "Genus": "Carpobrotus"
+    },
+    {
+        "CODE": "CARI",
+        "FCD": "ROU",
+        "Genus": "Carpodetus"
+    },
+    {
+        "CODE": "CARJ",
+        "FCD": "BRA",
+        "Genus": "Carrichtera"
+    },
+    {
+        "CODE": "CARK",
+        "FCD": "AST",
+        "Genus": "Carthamus"
+    },
+    {
+        "CODE": "CARL",
+        "FCD": "API",
+        "Genus": "Carum"
+    },
+    {
+        "CODE": "CARM",
+        "FCD": "LIL",
+        "Genus": "Cardiocrinum"
+    },
+    {
+        "CODE": "CARN",
+        "FCD": "SAP",
+        "Genus": "Cardiospermum"
+    },
+    {
+        "CODE": "CAS",
+        "FCD": "AST",
+        "Genus": "Cassinia"
+    },
+    {
+        "CODE": "CASA",
+        "FCD": "LAU",
+        "Genus": "Cassytha"
+    },
+    {
+        "CODE": "CASB",
+        "FCD": "FAG",
+        "Genus": "Castanea"
+    },
+    {
+        "CODE": "CASC",
+        "FCD": "CAS",
+        "Genus": "Casuarina"
+    },
+    {
+        "CODE": "CASD",
+        "FCD": "FAB",
+        "Genus": "Cassia"
+    },
+    {
+        "CODE": "CASE",
+        "FCD": "FAB",
+        "Genus": "Castanospermum"
+    },
+    {
+        "CODE": "CAT",
+        "FCD": "POA",
+        "Genus": "Catapodium"
+    },
+    {
+        "CODE": "CATA",
+        "FCD": "APO",
+        "Genus": "Catharanthus"
+    },
+    {
+        "CODE": "CATB",
+        "FCD": "BIG",
+        "Genus": "Catalpa"
+    },
+    {
+        "CODE": "CATC",
+        "FCD": "CAU",
+        "Genus": "Catenella"
+    },
+    {
+        "CODE": "CAU",
+        "FCD": "API",
+        "Genus": "Caucalis"
+    },
+    {
+        "CODE": "CAUA",
+        "FCD": "CAU",
+        "Genus": "Caulacanthus"
+    },
+    {
+        "CODE": "CED",
+        "FCD": "MEL",
+        "Genus": "Cedrela"
+    },
+    {
+        "CODE": "CEDA",
+        "FCD": "LAM",
+        "Genus": "Cedronella"
+    },
+    {
+        "CODE": "CEDB",
+        "FCD": "PIN",
+        "Genus": "Cedrus"
+    },
+    {
+        "CODE": "CEL",
+        "FCD": "CEL",
+        "Genus": "Celastrus"
+    },
+    {
+        "CODE": "CELA",
+        "FCD": "SCR",
+        "Genus": "Celesia"
+    },
+    {
+        "CODE": "CELB",
+        "FCD": "AST",
+        "Genus": "Celmisia"
+    },
+    {
+        "CODE": "CELC",
+        "FCD": "CAN",
+        "Genus": "Celtis"
+    },
+    {
+        "CODE": "CEN",
+        "FCD": "POA",
+        "Genus": "Cenchrus"
+    },
+    {
+        "CODE": "CENA",
+        "FCD": "AST",
+        "Genus": "Centipeda"
+    },
+    {
+        "CODE": "CENB",
+        "FCD": "AST",
+        "Genus": "Centaurea"
+    },
+    {
+        "CODE": "CENC",
+        "FCD": "GEN",
+        "Genus": "Centaurium"
+    },
+    {
+        "CODE": "CEND",
+        "FCD": "API",
+        "Genus": "Centella"
+    },
+    {
+        "CODE": "CENF",
+        "FCD": "CAP",
+        "Genus": "Centranthus"
+    },
+    {
+        "CODE": "CENG",
+        "FCD": "CEN",
+        "Genus": "Centrolepis"
+    },
+    {
+        "CODE": "CER",
+        "FCD": "CRY",
+        "Genus": "Cerastium"
+    },
+    {
+        "CODE": "CERA",
+        "FCD": "POA",
+        "Genus": "Ceratachloa"
+    },
+    {
+        "CODE": "CERB",
+        "FCD": "RAN",
+        "Genus": "Ceratocephala"
+    },
+    {
+        "CODE": "CERC",
+        "FCD": "CER",
+        "Genus": "Ceratophyllum"
+    },
+    {
+        "CODE": "CERD",
+        "FCD": "FAB",
+        "Genus": "Cercis"
+    },
+    {
+        "CODE": "CERE",
+        "FCD": "BOR",
+        "Genus": "Cerinthe"
+    },
+    {
+        "CODE": "CERF",
+        "FCD": "CUN",
+        "Genus": "Ceratopetalum"
+    },
+    {
+        "CODE": "CES",
+        "FCD": "SOL",
+        "Genus": "Cestrum"
+    },
+    {
+        "CODE": "CHA",
+        "FCD": "ROS",
+        "Genus": "Chaenomeles"
+    },
+    {
+        "CODE": "CHAA",
+        "FCD": "SCR",
+        "Genus": "Chaenorhinum"
+    },
+    {
+        "CODE": "CHAB",
+        "FCD": "API",
+        "Genus": "Chaerophyllum"
+    },
+    {
+        "CODE": "CHAC",
+        "FCD": "CUP",
+        "Genus": "Chamaecyparis"
+    },
+    {
+        "CODE": "CHAD",
+        "FCD": "FAB",
+        "Genus": "Chamaecytisus"
+    },
+    {
+        "CODE": "CHAE",
+        "FCD": "MYR",
+        "Genus": "Chamelaucium"
+    },
+    {
+        "CODE": "CHAF",
+        "FCD": "AST",
+        "Genus": "Chamaemelum"
+    },
+    {
+        "CODE": "CHAG",
+        "FCD": "AST",
+        "Genus": "Chamomilla"
+    },
+    {
+        "CODE": "CHAH",
+        "FCD": "IRI",
+        "Genus": "Chasmanthe"
+    },
+    {
+        "CODE": "CHAI",
+        "FCD": "AST",
+        "Genus": "Chamaepeuce"
+    },
+    {
+        "CODE": "CHAJ",
+        "FCD": "CHA",
+        "Genus": "Chara"
+    },
+    {
+        "CODE": "CHAK",
+        "FCD": "EUP",
+        "Genus": "Chamaesyce"
+    },
+    {
+        "CODE": "CHE",
+        "FCD": "BRA",
+        "Genus": "Cheesemania"
+    },
+    {
+        "CODE": "CHEA",
+        "FCD": "ADI",
+        "Genus": "Cheilanthes"
+    },
+    {
+        "CODE": "CHEB",
+        "FCD": "BRA",
+        "Genus": "Cheiranthus"
+    },
+    {
+        "CODE": "CHEC",
+        "FCD": "PAP",
+        "Genus": "Chelidonium"
+    },
+    {
+        "CODE": "CHED",
+        "FCD": "AMA",
+        "Genus": "Chenopodium"
+    },
+    {
+        "CODE": "CHI",
+        "FCD": "ORC",
+        "Genus": "Chiloglottis"
+    },
+    {
+        "CODE": "CHIA",
+        "FCD": "POA",
+        "Genus": "Chimonobambusa"
+    },
+    {
+        "CODE": "CHIB",
+        "FCD": "POA",
+        "Genus": "Chionochloa"
+    },
+    {
+        "CODE": "CHIC",
+        "FCD": "PLG",
+        "Genus": "Chionohebe"
+    },
+    {
+        "CODE": "CHID",
+        "FCD": "GEN",
+        "Genus": "Chionogentias"
+    },
+    {
+        "CODE": "CHIE",
+        "FCD": "CLY",
+        "Genus": "Chimonanthus"
+    },
+    {
+        "CODE": "CHL",
+        "FCD": "POA",
+        "Genus": "Chloris"
+    },
+    {
+        "CODE": "CHLA",
+        "FCD": "ASR",
+        "Genus": "Chlorophytum"
+    },
+    {
+        "CODE": "CHO",
+        "FCD": "AST",
+        "Genus": "Chondrilla"
+    },
+    {
+        "CODE": "CHOA",
+        "FCD": "FAB",
+        "Genus": "Chordospartium"
+    },
+    {
+        "CODE": "CHR",
+        "FCD": "THE",
+        "Genus": "Christella"
+    },
+    {
+        "CODE": "CHRA",
+        "FCD": "AST",
+        "Genus": "Chrysanthemoides"
+    },
+    {
+        "CODE": "CHRB",
+        "FCD": "AST",
+        "Genus": "Chrysanthemum"
+    },
+    {
+        "CODE": "CHRC",
+        "FCD": "XAN",
+        "Genus": "Chrysobracton"
+    },
+    {
+        "CODE": "CIC",
+        "FCD": "AST",
+        "Genus": "Cichorium"
+    },
+    {
+        "CODE": "CICA",
+        "FCD": "API",
+        "Genus": "Ciclospermum"
+    },
+    {
+        "CODE": "CIN",
+        "FCD": "LAU",
+        "Genus": "Cinnamomum"
+    },
+    {
+        "CODE": "CIR",
+        "FCD": "AST",
+        "Genus": "Cirsium"
+    },
+    {
+        "CODE": "CIS",
+        "FCD": "VIT",
+        "Genus": "Cissus"
+    },
+    {
+        "CODE": "CISA",
+        "FCD": "CIS",
+        "Genus": "Cistus"
+    },
+    {
+        "CODE": "CIT",
+        "FCD": "CUC",
+        "Genus": "Citrullus"
+    },
+    {
+        "CODE": "CITA",
+        "FCD": "RUT",
+        "Genus": "Citrus"
+    },
+    {
+        "CODE": "CLA",
+        "FCD": "CYP",
+        "Genus": "Cladium"
+    },
+    {
+        "CODE": "CLAA",
+        "FCD": "ONA",
+        "Genus": "Clarkia"
+    },
+    {
+        "CODE": "CLAB",
+        "FCD": "MNT",
+        "Genus": "Claytonia"
+    },
+    {
+        "CODE": "CLE",
+        "FCD": "RAN",
+        "Genus": "Clematis"
+    },
+    {
+        "CODE": "CLEA",
+        "FCD": "BRA",
+        "Genus": "Cleome"
+    },
+    {
+        "CODE": "CLEB",
+        "FCD": "LAM",
+        "Genus": "Clerodendrum"
+    },
+    {
+        "CODE": "CLEC",
+        "FCD": "CLE",
+        "Genus": "Clethra"
+    },
+    {
+        "CODE": "CLI",
+        "FCD": "FAB",
+        "Genus": "Clianthus"
+    },
+    {
+        "CODE": "CLIA",
+        "FCD": "LAM",
+        "Genus": "Clinopodium"
+    },
+    {
+        "CODE": "CLIB",
+        "FCD": "AMR",
+        "Genus": "Clivia"
+    },
+    {
+        "CODE": "CLO",
+        "FCD": "BRA",
+        "Genus": "Clobanthus"
+    },
+    {
+        "CODE": "CNC",
+        "FCD": "AST",
+        "Genus": "Cncus"
+    },
+    {
+        "CODE": "COB",
+        "FCD": "POL",
+        "Genus": "Cobaea"
+    },
+    {
+        "CODE": "COC",
+        "FCD": "POA",
+        "Genus": "Cockaynea"
+    },
+    {
+        "CODE": "COCA",
+        "FCD": "COL",
+        "Genus": "Cochlearia"
+    },
+    {
+        "CODE": "COF",
+        "FCD": "RUB",
+        "Genus": "Coffea"
+    },
+    {
+        "CODE": "COI",
+        "FCD": "POA",
+        "Genus": "Coix"
+    },
+    {
+        "CODE": "COL",
+        "FCD": "CRY",
+        "Genus": "Colobanthus"
+    },
+    {
+        "CODE": "COLA",
+        "FCD": "COL",
+        "Genus": "Colchicum"
+    },
+    {
+        "CODE": "COLB",
+        "FCD": "CAM",
+        "Genus": "Colensoa"
+    },
+    {
+        "CODE": "COLC",
+        "FCD": "POL",
+        "Genus": "Collomia"
+    },
+    {
+        "CODE": "COLD",
+        "FCD": "ASL",
+        "Genus": "Collospermum"
+    },
+    {
+        "CODE": "COLF",
+        "FCD": "ARB",
+        "Genus": "Colocasia"
+    },
+    {
+        "CODE": "COLG",
+        "FCD": "RUT",
+        "Genus": "Coleonema"
+    },
+    {
+        "CODE": "COLH",
+        "FCD": "LAM",
+        "Genus": "Colquhounia"
+    },
+    {
+        "CODE": "CON",
+        "FCD": "API",
+        "Genus": "Conium"
+    },
+    {
+        "CODE": "CONA",
+        "FCD": "BRA",
+        "Genus": "Conringia"
+    },
+    {
+        "CODE": "CONB",
+        "FCD": "RAN",
+        "Genus": "Consolida"
+    },
+    {
+        "CODE": "CONC",
+        "FCD": "CON",
+        "Genus": "Convolvulus"
+    },
+    {
+        "CODE": "COND",
+        "FCD": "AST",
+        "Genus": "Conyza"
+    },
+    {
+        "CODE": "CONE",
+        "FCD": "POA",
+        "Genus": "Connorochloa"
+    },
+    {
+        "CODE": "COP",
+        "FCD": "RUB",
+        "Genus": "Coprosma"
+    },
+    {
+        "CODE": "COR",
+        "FCD": "FAB",
+        "Genus": "Corallospartium"
+    },
+    {
+        "CODE": "CORA",
+        "FCD": "ASR",
+        "Genus": "Cordyline"
+    },
+    {
+        "CODE": "CORB",
+        "FCD": "AST",
+        "Genus": "Coreopsis"
+    },
+    {
+        "CODE": "CORC",
+        "FCD": "API",
+        "Genus": "Coriandrum"
+    },
+    {
+        "CODE": "CORD",
+        "FCD": "COR",
+        "Genus": "Coriaria"
+    },
+    {
+        "CODE": "CORE",
+        "FCD": "CRN",
+        "Genus": "Cornus"
+    },
+    {
+        "CODE": "CORF",
+        "FCD": "ARG",
+        "Genus": "Corokia"
+    },
+    {
+        "CODE": "CORG",
+        "FCD": "FAB",
+        "Genus": "Coronilla"
+    },
+    {
+        "CODE": "CORH",
+        "FCD": "BRA",
+        "Genus": "Coronopus"
+    },
+    {
+        "CODE": "CORI",
+        "FCD": "POA",
+        "Genus": "Cortaderia"
+    },
+    {
+        "CODE": "CORJ",
+        "FCD": "ORC",
+        "Genus": "Corybas"
+    },
+    {
+        "CODE": "CORK",
+        "FCD": "PAP",
+        "Genus": "Corydalis"
+    },
+    {
+        "CODE": "CORL",
+        "FCD": "CCP",
+        "Genus": "Corynocarpus"
+    },
+    {
+        "CODE": "CORM",
+        "FCD": "MYR",
+        "Genus": "Corymbia"
+    },
+    {
+        "CODE": "CORN",
+        "FCD": "ORC",
+        "Genus": "Corunastylis"
+    },
+    {
+        "CODE": "CORO",
+        "FCD": "RUT",
+        "Genus": "Correa"
+    },
+    {
+        "CODE": "CORP",
+        "FCD": "BET",
+        "Genus": "Corylus"
+    },
+    {
+        "CODE": "COS",
+        "FCD": "AST",
+        "Genus": "Cosmos"
+    },
+    {
+        "CODE": "COT",
+        "FCD": "ROS",
+        "Genus": "Cotoneaster"
+    },
+    {
+        "CODE": "COTA",
+        "FCD": "AST",
+        "Genus": "Cotula"
+    },
+    {
+        "CODE": "COTB",
+        "FCD": "CRA",
+        "Genus": "Cotyledon"
+    },
+    {
+        "CODE": "COX",
+        "FCD": "API",
+        "Genus": "Coxella"
+    },
+    {
+        "CODE": "CRA",
+        "FCD": "AST",
+        "Genus": "Craspedia"
+    },
+    {
+        "CODE": "CRAA",
+        "FCD": "HYM",
+        "Genus": "Craspedophyllum"
+    },
+    {
+        "CODE": "CRAB",
+        "FCD": "CRA",
+        "Genus": "Crassula"
+    },
+    {
+        "CODE": "CRAC",
+        "FCD": "ROS",
+        "Genus": "Crataegus"
+    },
+    {
+        "CODE": "CRAD",
+        "FCD": "ARL",
+        "Genus": "Crantzia"
+    },
+    {
+        "CODE": "CRE",
+        "FCD": "HYM",
+        "Genus": "Crepidomanes"
+    },
+    {
+        "CODE": "CREA",
+        "FCD": "AST",
+        "Genus": "Crepis"
+    },
+    {
+        "CODE": "CREB",
+        "FCD": "HYM",
+        "Genus": "Crepidopteris"
+    },
+    {
+        "CODE": "CRI",
+        "FCD": "POA",
+        "Genus": "Critesion"
+    },
+    {
+        "CODE": "CRO",
+        "FCD": "IRI",
+        "Genus": "Crocosmia"
+    },
+    {
+        "CODE": "CROA",
+        "FCD": "FAB",
+        "Genus": "Crotalaria"
+    },
+    {
+        "CODE": "CROB",
+        "FCD": "IRI",
+        "Genus": "Crocus"
+    },
+    {
+        "CODE": "CRY",
+        "FCD": "RHA",
+        "Genus": "Cryptandra"
+    },
+    {
+        "CODE": "CRYA",
+        "FCD": "LAU",
+        "Genus": "Cryptocarya"
+    },
+    {
+        "CODE": "CRYB",
+        "FCD": "TXD",
+        "Genus": "Cryptomeria"
+    },
+    {
+        "CODE": "CRYC",
+        "FCD": "AST",
+        "Genus": "Cryptostemma"
+    },
+    {
+        "CODE": "CRYD",
+        "FCD": "ORC",
+        "Genus": "Cryptostylis"
+    },
+    {
+        "CODE": "CRYE",
+        "FCD": "API",
+        "Genus": "Cryptotaenia"
+    },
+    {
+        "CODE": "CTE",
+        "FCD": "DRY",
+        "Genus": "Ctenitis"
+    },
+    {
+        "CODE": "CTEA",
+        "FCD": "GRA",
+        "Genus": "Ctenopteris"
+    },
+    {
+        "CODE": "CUC",
+        "FCD": "CUC",
+        "Genus": "Cucumis"
+    },
+    {
+        "CODE": "CUCA",
+        "FCD": "CUC",
+        "Genus": "Cucurbita"
+    },
+    {
+        "CODE": "CUN",
+        "FCD": "CUN",
+        "Genus": "Cunonia"
+    },
+    {
+        "CODE": "CUNA",
+        "FCD": "TXD",
+        "Genus": "Cunninghamia"
+    },
+    {
+        "CODE": "CUP",
+        "FCD": "LYT",
+        "Genus": "Cuphea"
+    },
+    {
+        "CODE": "CUPA",
+        "FCD": "CUP",
+        "Genus": "Cupressus"
+    },
+    {
+        "CODE": "CUPB",
+        "FCD": "CUP",
+        "Genus": "Cupressocyparis"
+    },
+    {
+        "CODE": "CUS",
+        "FCD": "CON",
+        "Genus": "Cuscuta"
+    },
+    {
+        "CODE": "CYA",
+        "FCD": "CYA",
+        "Genus": "Cyathea"
+    },
+    {
+        "CODE": "CYAA",
+        "FCD": "ERI",
+        "Genus": "Cyathodes"
+    },
+    {
+        "CODE": "CYAB",
+        "FCD": "AST",
+        "Genus": "Cyanthillium"
+    },
+    {
+        "CODE": "CYC",
+        "FCD": "THE",
+        "Genus": "Cyclosorus"
+    },
+    {
+        "CODE": "CYCB",
+        "FCD": "PRI",
+        "Genus": "Cyclamen"
+    },
+    {
+        "CODE": "CYD",
+        "FCD": "ROS",
+        "Genus": "Cydonia"
+    },
+    {
+        "CODE": "CYL",
+        "FCD": "CAC",
+        "Genus": "Cylindropuntia"
+    },
+    {
+        "CODE": "CYM",
+        "FCD": "SCR",
+        "Genus": "Cymbalaria"
+    },
+    {
+        "CODE": "CYN",
+        "FCD": "AST",
+        "Genus": "Cynara"
+    },
+    {
+        "CODE": "CYNA",
+        "FCD": "POA",
+        "Genus": "Cynodon"
+    },
+    {
+        "CODE": "CYNB",
+        "FCD": "BOR",
+        "Genus": "Cynoglossum"
+    },
+    {
+        "CODE": "CYNC",
+        "FCD": "POA",
+        "Genus": "Cynosurus"
+    },
+    {
+        "CODE": "CYP",
+        "FCD": "CYP",
+        "Genus": "Cyperus"
+    },
+    {
+        "CODE": "CYPA",
+        "FCD": "SOL",
+        "Genus": "Cyphomandra"
+    },
+    {
+        "CODE": "CYR",
+        "FCD": "DRY",
+        "Genus": "Cyrtomium"
+    },
+    {
+        "CODE": "CYRA",
+        "FCD": "ORC",
+        "Genus": "Cyrtostylis"
+    },
+    {
+        "CODE": "CYRB",
+        "FCD": "AMR",
+        "Genus": "Cyrtanthus"
+    },
+    {
+        "CODE": "CYS",
+        "FCD": "WOO",
+        "Genus": "Cystopteris"
+    },
+    {
+        "CODE": "CYT",
+        "FCD": "FAB",
+        "Genus": "Cytisus"
+    },
+    {
+        "CODE": "D.",
+        "FCD": "",
+        "Genus": "D."
+    },
+    {
+        "CODE": "DAB",
+        "FCD": "ERI",
+        "Genus": "Daboecia"
+    },
+    {
+        "CODE": "DAC",
+        "FCD": "POD",
+        "Genus": "Dacrycarpus"
+    },
+    {
+        "CODE": "DACA",
+        "FCD": "POD",
+        "Genus": "Dacrydium"
+    },
+    {
+        "CODE": "DACB",
+        "FCD": "BAL",
+        "Genus": "Dactylanthus"
+    },
+    {
+        "CODE": "DACC",
+        "FCD": "POA",
+        "Genus": "Dactylis"
+    },
+    {
+        "CODE": "DAH",
+        "FCD": "AST",
+        "Genus": "Dahlia"
+    },
+    {
+        "CODE": "DAM",
+        "FCD": "AST",
+        "Genus": "Damnamenia"
+    },
+    {
+        "CODE": "DAN",
+        "FCD": "ORC",
+        "Genus": "Danhatchia"
+    },
+    {
+        "CODE": "DANA",
+        "FCD": "POA",
+        "Genus": "Danthonia"
+    },
+    {
+        "CODE": "DANB",
+        "FCD": "ASR",
+        "Genus": "Danae"
+    },
+    {
+        "CODE": "DAP",
+        "FCD": "THY",
+        "Genus": "Daphne"
+    },
+    {
+        "CODE": "DAT",
+        "FCD": "SOL",
+        "Genus": "Datura"
+    },
+    {
+        "CODE": "DAU",
+        "FCD": "API",
+        "Genus": "Daucus"
+    },
+    {
+        "CODE": "DAV",
+        "FCD": "DAV",
+        "Genus": "Davallia"
+    },
+    {
+        "CODE": "DEL",
+        "FCD": "AIZ",
+        "Genus": "Delosperma"
+    },
+    {
+        "CODE": "DELA",
+        "FCD": "RAN",
+        "Genus": "Delphinium"
+    },
+    {
+        "CODE": "DELB",
+        "FCD": "DAV",
+        "Genus": "Delairea"
+    },
+    {
+        "CODE": "DEN",
+        "FCD": "AST",
+        "Genus": "Dendranthema"
+    },
+    {
+        "CODE": "DENA",
+        "FCD": "CRN",
+        "Genus": "Dendrobenthamia"
+    },
+    {
+        "CODE": "DENB",
+        "FCD": "ORC",
+        "Genus": "Dendrobium"
+    },
+    {
+        "CODE": "DENC",
+        "FCD": "DEN",
+        "Genus": "Dennstaedtia"
+    },
+    {
+        "CODE": "DEP",
+        "FCD": "DRY",
+        "Genus": "Deparia"
+    },
+    {
+        "CODE": "DES",
+        "FCD": "POA",
+        "Genus": "Deschampsia"
+    },
+    {
+        "CODE": "DESA",
+        "FCD": "BRA",
+        "Genus": "Descurainia"
+    },
+    {
+        "CODE": "DESB",
+        "FCD": "POA",
+        "Genus": "Desmazeria"
+    },
+    {
+        "CODE": "DESC",
+        "FCD": "CYP",
+        "Genus": "Desmoschoenus"
+    },
+    {
+        "CODE": "DEU",
+        "FCD": "HYR",
+        "Genus": "Deutzia"
+    },
+    {
+        "CODE": "DEY",
+        "FCD": "POA",
+        "Genus": "Deyeuxia"
+    },
+    {
+        "CODE": "DIA",
+        "FCD": "HEM",
+        "Genus": "Dianella"
+    },
+    {
+        "CODE": "DIAA",
+        "FCD": "CRY",
+        "Genus": "Dianthus"
+    },
+    {
+        "CODE": "DIC",
+        "FCD": "POA",
+        "Genus": "Dichanthium"
+    },
+    {
+        "CODE": "DICA",
+        "FCD": "POA",
+        "Genus": "Dichelachne"
+    },
+    {
+        "CODE": "DICB",
+        "FCD": "CON",
+        "Genus": "Dichondra"
+    },
+    {
+        "CODE": "DICC",
+        "FCD": "DIC",
+        "Genus": "Dicksonia"
+    },
+    {
+        "CODE": "DICD",
+        "FCD": "GLE",
+        "Genus": "Dicranopteris"
+    },
+    {
+        "CODE": "DICE",
+        "FCD": "PAP",
+        "Genus": "Dicentra"
+    },
+    {
+        "CODE": "DIE",
+        "FCD": "IRI",
+        "Genus": "Dierama"
+    },
+    {
+        "CODE": "DIEA",
+        "FCD": "IRI",
+        "Genus": "Dietes"
+    },
+    {
+        "CODE": "DIG",
+        "FCD": "PLG",
+        "Genus": "Digitalis"
+    },
+    {
+        "CODE": "DIGA",
+        "FCD": "POA",
+        "Genus": "Digitaria"
+    },
+    {
+        "CODE": "DIO",
+        "FCD": "DRO",
+        "Genus": "Dionaea"
+    },
+    {
+        "CODE": "DIOA",
+        "FCD": "DIO",
+        "Genus": "Dioscorea"
+    },
+    {
+        "CODE": "DIOB",
+        "FCD": "EBA",
+        "Genus": "Diospyros"
+    },
+    {
+        "CODE": "DIP",
+        "FCD": "POA",
+        "Genus": "Diplachne"
+    },
+    {
+        "CODE": "DIPA",
+        "FCD": "WOO",
+        "Genus": "Diplazium"
+    },
+    {
+        "CODE": "DIPB",
+        "FCD": "BRA",
+        "Genus": "Diplotaxis"
+    },
+    {
+        "CODE": "DIPC",
+        "FCD": "FAB",
+        "Genus": "Dipogon"
+    },
+    {
+        "CODE": "DIPD",
+        "FCD": "CAP",
+        "Genus": "Dipsacus"
+    },
+    {
+        "CODE": "DIPE",
+        "FCD": "ORC",
+        "Genus": "Diplodium"
+    },
+    {
+        "CODE": "DIS",
+        "FCD": "RHA",
+        "Genus": "Discaria"
+    },
+    {
+        "CODE": "DISA",
+        "FCD": "AIZ",
+        "Genus": "Disphyma"
+    },
+    {
+        "CODE": "DISB",
+        "FCD": "POA",
+        "Genus": "Distichlis"
+    },
+    {
+        "CODE": "DISC",
+        "FCD": "BIG",
+        "Genus": "Distictis"
+    },
+    {
+        "CODE": "DIT",
+        "FCD": "AST",
+        "Genus": "Dittrichia"
+    },
+    {
+        "CODE": "DOD",
+        "FCD": "SAP",
+        "Genus": "Dodonaea"
+    },
+    {
+        "CODE": "DOL",
+        "FCD": "AST",
+        "Genus": "Dolichoglottis"
+    },
+    {
+        "CODE": "DOLA",
+        "FCD": "FAB",
+        "Genus": "Dolichos"
+    },
+    {
+        "CODE": "DOM",
+        "FCD": "MAL",
+        "Genus": "Dombeya"
+    },
+    {
+        "CODE": "DON",
+        "FCD": "STY",
+        "Genus": "Donatia"
+    },
+    {
+        "CODE": "DOO",
+        "FCD": "BLE",
+        "Genus": "Doodia"
+    },
+    {
+        "CODE": "DOR",
+        "FCD": "AST",
+        "Genus": "Doronicum"
+    },
+    {
+        "CODE": "DORA",
+        "FCD": "AIZ",
+        "Genus": "Dorotheanthus"
+    },
+    {
+        "CODE": "DORB",
+        "FCD": "FAB",
+        "Genus": "Dorycnium"
+    },
+    {
+        "CODE": "DOV",
+        "FCD": "SAL",
+        "Genus": "Dovyalis"
+    },
+    {
+        "CODE": "DOX",
+        "FCD": "BIG",
+        "Genus": "Doxantha"
+    },
+    {
+        "CODE": "DRA",
+        "FCD": "LAM",
+        "Genus": "Dracocephalum"
+    },
+    {
+        "CODE": "DRAA",
+        "FCD": "ERI",
+        "Genus": "Dracophyllum"
+    },
+    {
+        "CODE": "DRAB",
+        "FCD": "ARB",
+        "Genus": "Dracunculus"
+    },
+    {
+        "CODE": "DRAC",
+        "FCD": "THY",
+        "Genus": "Drapetes"
+    },
+    {
+        "CODE": "DRAD",
+        "FCD": "BRA",
+        "Genus": "Draba"
+    },
+    {
+        "CODE": "DRAE",
+        "FCD": "ASR",
+        "Genus": "Dracaena"
+    },
+    {
+        "CODE": "DRI",
+        "FCD": "WIN",
+        "Genus": "Drimys"
+    },
+    {
+        "CODE": "DRO",
+        "FCD": "AIZ",
+        "Genus": "Drosanthemum"
+    },
+    {
+        "CODE": "DROA",
+        "FCD": "DRO",
+        "Genus": "Drosera"
+    },
+    {
+        "CODE": "DRY",
+        "FCD": "ORC",
+        "Genus": "Drymoanthus"
+    },
+    {
+        "CODE": "DRYA",
+        "FCD": "DRY",
+        "Genus": "Dryopteris"
+    },
+    {
+        "CODE": "DRYB",
+        "FCD": "CRY",
+        "Genus": "Drymaria"
+    },
+    {
+        "CODE": "DRYD",
+        "FCD": "PUT",
+        "Genus": "Drypetes"
+    },
+    {
+        "CODE": "DUC",
+        "FCD": "ROS",
+        "Genus": "Duchesnea"
+    },
+    {
+        "CODE": "DYC",
+        "FCD": "BRO",
+        "Genus": "Dyckia"
+    },
+    {
+        "CODE": "DYS",
+        "FCD": "MEL",
+        "Genus": "Dysoxylum"
+    },
+    {
+        "CODE": "DYSA",
+        "FCD": "AMA",
+        "Genus": "Dysphania"
+    },
+    {
+        "CODE": "E.",
+        "FCD": "",
+        "Genus": "E."
+    },
+    {
+        "CODE": "EAR",
+        "FCD": "ORC",
+        "Genus": "Earina"
+    },
+    {
+        "CODE": "ECB",
+        "FCD": "CUC",
+        "Genus": "Ecballium"
+    },
+    {
+        "CODE": "ECC",
+        "FCD": "BIG",
+        "Genus": "Eccremocarpus"
+    },
+    {
+        "CODE": "ECH",
+        "FCD": "CRA",
+        "Genus": "Echeveria"
+    },
+    {
+        "CODE": "ECHA",
+        "FCD": "POA",
+        "Genus": "Echinochloa"
+    },
+    {
+        "CODE": "ECHB",
+        "FCD": "POA",
+        "Genus": "Echinopogon"
+    },
+    {
+        "CODE": "ECHC",
+        "FCD": "AST",
+        "Genus": "Echinops"
+    },
+    {
+        "CODE": "ECHD",
+        "FCD": "BOR",
+        "Genus": "Echium"
+    },
+    {
+        "CODE": "EGE",
+        "FCD": "HYD",
+        "Genus": "Egeria"
+    },
+    {
+        "CODE": "EHR",
+        "FCD": "POA",
+        "Genus": "Ehrharta"
+    },
+    {
+        "CODE": "EIC",
+        "FCD": "PON",
+        "Genus": "Eichhornia"
+    },
+    {
+        "CODE": "EIN",
+        "FCD": "AMA",
+        "Genus": "Einadia"
+    },
+    {
+        "CODE": "ELA",
+        "FCD": "ELG",
+        "Genus": "Elaeagnus"
+    },
+    {
+        "CODE": "ELAA",
+        "FCD": "ELA",
+        "Genus": "Elaeocarpus"
+    },
+    {
+        "CODE": "ELAB",
+        "FCD": "ELT",
+        "Genus": "Elatine"
+    },
+    {
+        "CODE": "ELAC",
+        "FCD": "URT",
+        "Genus": "Elatostema"
+    },
+    {
+        "CODE": "ELE",
+        "FCD": "CYP",
+        "Genus": "Eleocharis"
+    },
+    {
+        "CODE": "ELEA",
+        "FCD": "CYP",
+        "Genus": "Eleogiton"
+    },
+    {
+        "CODE": "ELEB",
+        "FCD": "POA",
+        "Genus": "Eleusine"
+    },
+    {
+        "CODE": "ELI",
+        "FCD": "PRI",
+        "Genus": "Elingamita"
+    },
+    {
+        "CODE": "ELO",
+        "FCD": "HYD",
+        "Genus": "Elodea"
+    },
+    {
+        "CODE": "ELS",
+        "FCD": "LAM",
+        "Genus": "Elsholtzia"
+    },
+    {
+        "CODE": "ELY",
+        "FCD": "POA",
+        "Genus": "Elymus"
+    },
+    {
+        "CODE": "ELYA",
+        "FCD": "LOR",
+        "Genus": "Elytranthe"
+    },
+    {
+        "CODE": "ELYB",
+        "FCD": "POA",
+        "Genus": "Elytrigia"
+    },
+    {
+        "CODE": "EMB",
+        "FCD": "AST",
+        "Genus": "Embergeria"
+    },
+    {
+        "CODE": "EMBA",
+        "FCD": "PRO",
+        "Genus": "Embothrium"
+    },
+    {
+        "CODE": "EME",
+        "FCD": "PLO",
+        "Genus": "Emex"
+    },
+    {
+        "CODE": "EMP",
+        "FCD": "RST",
+        "Genus": "Empodisma"
+    },
+    {
+        "CODE": "ENA",
+        "FCD": "LUZ",
+        "Genus": "Enargea"
+    },
+    {
+        "CODE": "ENS",
+        "FCD": "MUS",
+        "Genus": "Ensete"
+    },
+    {
+        "CODE": "ENT",
+        "FCD": "MAL",
+        "Genus": "Entelea"
+    },
+    {
+        "CODE": "ENTA",
+        "FCD": "POA",
+        "Genus": "Entolasia"
+    },
+    {
+        "CODE": "EOM",
+        "FCD": "PAP",
+        "Genus": "Eomecon"
+    },
+    {
+        "CODE": "EPA",
+        "FCD": "ERI",
+        "Genus": "Epacris"
+    },
+    {
+        "CODE": "EPI",
+        "FCD": "ONA",
+        "Genus": "Epilobium"
+    },
+    {
+        "CODE": "EPIA",
+        "FCD": "ORC",
+        "Genus": "Epidendrum"
+    },
+    {
+        "CODE": "EQU",
+        "FCD": "EQU",
+        "Genus": "Equisetum"
+    },
+    {
+        "CODE": "ERA",
+        "FCD": "POA",
+        "Genus": "Eragrostis"
+    },
+    {
+        "CODE": "ERAA",
+        "FCD": "RAN",
+        "Genus": "Eranthis"
+    },
+    {
+        "CODE": "ERE",
+        "FCD": "AST",
+        "Genus": "Erechtites"
+    },
+    {
+        "CODE": "EREA",
+        "FCD": "AIZ",
+        "Genus": "Erepsia"
+    },
+    {
+        "CODE": "EREB",
+        "FCD": "SCR",
+        "Genus": "Eremophila"
+    },
+    {
+        "CODE": "ERI",
+        "FCD": "ERI",
+        "Genus": "Erica"
+    },
+    {
+        "CODE": "ERIA",
+        "FCD": "AST",
+        "Genus": "Erigeron"
+    },
+    {
+        "CODE": "ERIB",
+        "FCD": "ROS",
+        "Genus": "Eriobotrya"
+    },
+    {
+        "CODE": "ERO",
+        "FCD": "GER",
+        "Genus": "Erodium"
+    },
+    {
+        "CODE": "EROA",
+        "FCD": "BRA",
+        "Genus": "Erophila"
+    },
+    {
+        "CODE": "ERU",
+        "FCD": "BRA",
+        "Genus": "Eruca"
+    },
+    {
+        "CODE": "ERUA",
+        "FCD": "BRA",
+        "Genus": "Erucastrum"
+    },
+    {
+        "CODE": "ERY",
+        "FCD": "API",
+        "Genus": "Eryngium"
+    },
+    {
+        "CODE": "ERYA",
+        "FCD": "BRA",
+        "Genus": "Erysimum"
+    },
+    {
+        "CODE": "ERYB",
+        "FCD": "POA",
+        "Genus": "Erythranthera"
+    },
+    {
+        "CODE": "ERYC",
+        "FCD": "FAB",
+        "Genus": "Erythrina"
+    },
+    {
+        "CODE": "ERYD",
+        "FCD": "GER",
+        "Genus": "Erythra"
+    },
+    {
+        "CODE": "ERYE",
+        "FCD": "PHR",
+        "Genus": "Erythranthe"
+    },
+    {
+        "CODE": "ESC",
+        "FCD": "ESC",
+        "Genus": "Escallonia"
+    },
+    {
+        "CODE": "ESCA",
+        "FCD": "PAP",
+        "Genus": "Eschscholzia"
+    },
+    {
+        "CODE": "EUC",
+        "FCD": "AST",
+        "Genus": "Euchiton"
+    },
+    {
+        "CODE": "EUCA",
+        "FCD": "ASR",
+        "Genus": "Eucomis"
+    },
+    {
+        "CODE": "EUCB",
+        "FCD": "MYR",
+        "Genus": "Eucalyptus"
+    },
+    {
+        "CODE": "EUG",
+        "FCD": "MYR",
+        "Genus": "Eugenia"
+    },
+    {
+        "CODE": "EUO",
+        "FCD": "CEL",
+        "Genus": "Euonymus"
+    },
+    {
+        "CODE": "EUP",
+        "FCD": "AST",
+        "Genus": "Eupatoriadelphus"
+    },
+    {
+        "CODE": "EUPA",
+        "FCD": "AST",
+        "Genus": "Eupatorium"
+    },
+    {
+        "CODE": "EUPB",
+        "FCD": "EUP",
+        "Genus": "Euphorbia"
+    },
+    {
+        "CODE": "EUPC",
+        "FCD": "ORO",
+        "Genus": "Euphrasia"
+    },
+    {
+        "CODE": "EUR",
+        "FCD": "AST",
+        "Genus": "Euryops"
+    },
+    {
+        "CODE": "EUT",
+        "FCD": "AST",
+        "Genus": "Eutrochium"
+    },
+    {
+        "CODE": "EWA",
+        "FCD": "AST",
+        "Genus": "Ewartia"
+    },
+    {
+        "CODE": "EWAA",
+        "FCD": "AST",
+        "Genus": "Ewartiothamnus"
+    },
+    {
+        "CODE": "EXO",
+        "FCD": "SAN",
+        "Genus": "Exocarpos"
+    },
+    {
+        "CODE": "EXOA",
+        "FCD": "ROS",
+        "Genus": "Exochorda"
+    },
+    {
+        "CODE": "F.",
+        "FCD": "",
+        "Genus": "F."
+    },
+    {
+        "CODE": "FAC",
+        "FCD": "AST",
+        "Genus": "Facelis"
+    },
+    {
+        "CODE": "FAG",
+        "FCD": "PLO",
+        "Genus": "Fagopyrum"
+    },
+    {
+        "CODE": "FAGB",
+        "FCD": "FAG",
+        "Genus": "Fagus"
+    },
+    {
+        "CODE": "FAL",
+        "FCD": "FAB",
+        "Genus": "Falcatula"
+    },
+    {
+        "CODE": "FALA",
+        "FCD": "PLO",
+        "Genus": "Fallopia"
+    },
+    {
+        "CODE": "FAT",
+        "FCD": "ARL",
+        "Genus": "Fatsia"
+    },
+    {
+        "CODE": "FATA",
+        "FCD": "MOR",
+        "Genus": "Fatoua"
+    },
+    {
+        "CODE": "FEI",
+        "FCD": "MYR",
+        "Genus": "Feijoa"
+    },
+    {
+        "CODE": "FEL",
+        "FCD": "AST",
+        "Genus": "Felicia"
+    },
+    {
+        "CODE": "FES",
+        "FCD": "POA",
+        "Genus": "Festulolium"
+    },
+    {
+        "CODE": "FESA",
+        "FCD": "POA",
+        "Genus": "Festuca"
+    },
+    {
+        "CODE": "FIC",
+        "FCD": "MOR",
+        "Genus": "Ficus"
+    },
+    {
+        "CODE": "FICA",
+        "FCD": "CYP",
+        "Genus": "Ficinia"
+    },
+    {
+        "CODE": "FIL",
+        "FCD": "AST",
+        "Genus": "Filago"
+    },
+    {
+        "CODE": "FILA",
+        "FCD": "ROS",
+        "Genus": "Filipendula"
+    },
+    {
+        "CODE": "FIM",
+        "FCD": "CYP",
+        "Genus": "Fimbristylis"
+    },
+    {
+        "CODE": "FOE",
+        "FCD": "API",
+        "Genus": "Foeniculum"
+    },
+    {
+        "CODE": "FOR",
+        "FCD": "STY",
+        "Genus": "Forstera"
+    },
+    {
+        "CODE": "FORA",
+        "FCD": "OLE",
+        "Genus": "Forsythia"
+    },
+    {
+        "CODE": "FRA",
+        "FCD": "ROS",
+        "Genus": "Fragaria"
+    },
+    {
+        "CODE": "FRAA",
+        "FCD": "RHA",
+        "Genus": "Frangula"
+    },
+    {
+        "CODE": "FRAB",
+        "FCD": "OLE",
+        "Genus": "Fraxinus"
+    },
+    {
+        "CODE": "FRAC",
+        "FCD": "FRA",
+        "Genus": "Francoa"
+    },
+    {
+        "CODE": "FRE",
+        "FCD": "IRI",
+        "Genus": "Freesia"
+    },
+    {
+        "CODE": "FREA",
+        "FCD": "PAN",
+        "Genus": "Freycinetia"
+    },
+    {
+        "CODE": "FUC",
+        "FCD": "ONA",
+        "Genus": "Fuchsia"
+    },
+    {
+        "CODE": "FUM",
+        "FCD": "PAP",
+        "Genus": "Fumaria"
+    },
+    {
+        "CODE": "FUR",
+        "FCD": "ASR",
+        "Genus": "Furcraea"
+    },
+    {
+        "CODE": "FUS",
+        "FCD": "SAN",
+        "Genus": "Fuscanus"
+    },
+    {
+        "CODE": "FUSB",
+        "FCD": "NOT",
+        "Genus": "Fuscospora"
+    },
+    {
+        "CODE": "G.",
+        "FCD": "",
+        "Genus": "G."
+    },
+    {
+        "CODE": "GAH",
+        "FCD": "CYP",
+        "Genus": "Gahnia"
+    },
+    {
+        "CODE": "GAI",
+        "FCD": "AST",
+        "Genus": "Gaillardia"
+    },
+    {
+        "CODE": "GAIA",
+        "FCD": "CEN",
+        "Genus": "Gaimardia"
+    },
+    {
+        "CODE": "GAL",
+        "FCD": "FAB",
+        "Genus": "Galega"
+    },
+    {
+        "CODE": "GALA",
+        "FCD": "LAM",
+        "Genus": "Galeobdolon"
+    },
+    {
+        "CODE": "GALB",
+        "FCD": "LAM",
+        "Genus": "Galeopsis"
+    },
+    {
+        "CODE": "GALC",
+        "FCD": "AST",
+        "Genus": "Galinsoga"
+    },
+    {
+        "CODE": "GALD",
+        "FCD": "RUB",
+        "Genus": "Galium"
+    },
+    {
+        "CODE": "GALE",
+        "FCD": "AMR",
+        "Genus": "Galanthus"
+    },
+    {
+        "CODE": "GAM",
+        "FCD": "AST",
+        "Genus": "Gamochaeta"
+    },
+    {
+        "CODE": "GAS",
+        "FCD": "POA",
+        "Genus": "Gastridium"
+    },
+    {
+        "CODE": "GASA",
+        "FCD": "ORC",
+        "Genus": "Gastrodia"
+    },
+    {
+        "CODE": "GAU",
+        "FCD": "ERI",
+        "Genus": "Gaultheria"
+    },
+    {
+        "CODE": "GAUA",
+        "FCD": "ONA",
+        "Genus": "Gaura"
+    },
+    {
+        "CODE": "GAY",
+        "FCD": "MAL",
+        "Genus": "Gaya"
+    },
+    {
+        "CODE": "GAZ",
+        "FCD": "AST",
+        "Genus": "Gazania"
+    },
+    {
+        "CODE": "GEI",
+        "FCD": "HEM",
+        "Genus": "Geitonoplesium"
+    },
+    {
+        "CODE": "GEN",
+        "FCD": "LOG",
+        "Genus": "Geniostoma"
+    },
+    {
+        "CODE": "GENA",
+        "FCD": "ORC",
+        "Genus": "Genoplesium"
+    },
+    {
+        "CODE": "GENB",
+        "FCD": "GEN",
+        "Genus": "Gentianella"
+    },
+    {
+        "CODE": "GENC",
+        "FCD": "FAB",
+        "Genus": "Genista"
+    },
+    {
+        "CODE": "GEND",
+        "FCD": "GEN",
+        "Genus": "Gentiana"
+    },
+    {
+        "CODE": "GER",
+        "FCD": "GER",
+        "Genus": "Geranium"
+    },
+    {
+        "CODE": "GERA",
+        "FCD": "AST",
+        "Genus": "Gerbera"
+    },
+    {
+        "CODE": "GEU",
+        "FCD": "ROS",
+        "Genus": "Geum"
+    },
+    {
+        "CODE": "GIB",
+        "FCD": "COM",
+        "Genus": "Gibasis"
+    },
+    {
+        "CODE": "GIL",
+        "FCD": "POL",
+        "Genus": "Gilia"
+    },
+    {
+        "CODE": "GIN",
+        "FCD": "API",
+        "Genus": "Gingidia"
+    },
+    {
+        "CODE": "GINA",
+        "FCD": "GIN",
+        "Genus": "Ginkgo"
+    },
+    {
+        "CODE": "GIT",
+        "FCD": "CRY",
+        "Genus": "Githago"
+    },
+    {
+        "CODE": "GLA",
+        "FCD": "IRI",
+        "Genus": "Gladiolus"
+    },
+    {
+        "CODE": "GLAA",
+        "FCD": "PAP",
+        "Genus": "Glaucium"
+    },
+    {
+        "CODE": "GLE",
+        "FCD": "LAM",
+        "Genus": "Glechoma"
+    },
+    {
+        "CODE": "GLEA",
+        "FCD": "FAB",
+        "Genus": "Gleditsia"
+    },
+    {
+        "CODE": "GLEB",
+        "FCD": "GLE",
+        "Genus": "Gleichenia"
+    },
+    {
+        "CODE": "GLEC",
+        "FCD": "AST",
+        "Genus": "Glebionis"
+    },
+    {
+        "CODE": "GLO",
+        "FCD": "PHR",
+        "Genus": "Glossostigma"
+    },
+    {
+        "CODE": "GLY",
+        "FCD": "POA",
+        "Genus": "Glyceria"
+    },
+    {
+        "CODE": "GNA",
+        "FCD": "AST",
+        "Genus": "Gnaphalium"
+    },
+    {
+        "CODE": "GNI",
+        "FCD": "THY",
+        "Genus": "Gnidia"
+    },
+    {
+        "CODE": "GOM",
+        "FCD": "APO",
+        "Genus": "Gomphocarpus"
+    },
+    {
+        "CODE": "GOMA",
+        "FCD": "AMA",
+        "Genus": "Gomphrena"
+    },
+    {
+        "CODE": "GON",
+        "FCD": "HAL",
+        "Genus": "Gonocarpus"
+    },
+    {
+        "CODE": "GOO",
+        "FCD": "FAB",
+        "Genus": "Goodia"
+    },
+    {
+        "CODE": "GRA",
+        "FCD": "GRA",
+        "Genus": "Grammitis"
+    },
+    {
+        "CODE": "GRAA",
+        "FCD": "PLG",
+        "Genus": "Gratiola"
+    },
+    {
+        "CODE": "GRAB",
+        "FCD": "CRA",
+        "Genus": "Graptopetalum"
+    },
+    {
+        "CODE": "GRAC",
+        "FCD": "CRA",
+        "Genus": "Graptosedum"
+    },
+    {
+        "CODE": "GRAD",
+        "FCD": "CRA",
+        "Genus": "Graptoveria"
+    },
+    {
+        "CODE": "GRE",
+        "FCD": "CRA",
+        "Genus": "Greenovia"
+    },
+    {
+        "CODE": "GREA",
+        "FCD": "PRO",
+        "Genus": "Grevillea"
+    },
+    {
+        "CODE": "GRI",
+        "FCD": "GRI",
+        "Genus": "Griselinia"
+    },
+    {
+        "CODE": "GUI",
+        "FCD": "AST",
+        "Genus": "Guizotia"
+    },
+    {
+        "CODE": "GUN",
+        "FCD": "GUN",
+        "Genus": "Gunnera"
+    },
+    {
+        "CODE": "GYM",
+        "FCD": "OLE",
+        "Genus": "Gymnelaea"
+    },
+    {
+        "CODE": "GYMA",
+        "FCD": "AST",
+        "Genus": "Gymnocoronis"
+    },
+    {
+        "CODE": "GYMB",
+        "FCD": "THY",
+        "Genus": "Gymnococca"
+    },
+    {
+        "CODE": "GYN",
+        "FCD": "POA",
+        "Genus": "Gynerium"
+    },
+    {
+        "CODE": "GYNA",
+        "FCD": "IRI",
+        "Genus": "Gynandriris"
+    },
+    {
+        "CODE": "GYP",
+        "FCD": "CRY",
+        "Genus": "Gypsophila"
+    },
+    {
+        "CODE": "H.",
+        "FCD": "",
+        "Genus": "H."
+    },
+    {
+        "CODE": "HAA",
+        "FCD": "AST",
+        "Genus": "Haastia"
+    },
+    {
+        "CODE": "HAG",
+        "FCD": "ROS",
+        "Genus": "Hagenia"
+    },
+    {
+        "CODE": "HAI",
+        "FCD": "POA",
+        "Genus": "Hainardia"
+    },
+    {
+        "CODE": "HAK",
+        "FCD": "PRO",
+        "Genus": "Hakea"
+    },
+    {
+        "CODE": "HAL",
+        "FCD": "POD",
+        "Genus": "Halocarpus"
+    },
+    {
+        "CODE": "HALA",
+        "FCD": "HAL",
+        "Genus": "Haloragis"
+    },
+    {
+        "CODE": "HALB",
+        "FCD": "PLG",
+        "Genus": "Halleria"
+    },
+    {
+        "CODE": "HEB",
+        "FCD": "PLG",
+        "Genus": "Hebe"
+    },
+    {
+        "CODE": "HEBA",
+        "FCD": "PLG",
+        "Genus": "Hebejeebe"
+    },
+    {
+        "CODE": "HEC",
+        "FCD": "MNT",
+        "Genus": "Hectorella"
+    },
+    {
+        "CODE": "HED",
+        "FCD": "ARL",
+        "Genus": "Hedera"
+    },
+    {
+        "CODE": "HEDA",
+        "FCD": "MON",
+        "Genus": "Hedycarya"
+    },
+    {
+        "CODE": "HEDB",
+        "FCD": "ZIN",
+        "Genus": "Hedychium"
+    },
+    {
+        "CODE": "HEDC",
+        "FCD": "FAB",
+        "Genus": "Hedysarum"
+    },
+    {
+        "CODE": "HEI",
+        "FCD": "NYC",
+        "Genus": "Heimerliodendron"
+    },
+    {
+        "CODE": "HEIA",
+        "FCD": "LYT",
+        "Genus": "Heimia"
+    },
+    {
+        "CODE": "HEL",
+        "FCD": "RAN",
+        "Genus": "Helleborus"
+    },
+    {
+        "CODE": "HELA",
+        "FCD": "AST",
+        "Genus": "Helianthus"
+    },
+    {
+        "CODE": "HELB",
+        "FCD": "AST",
+        "Genus": "Helichrysum"
+    },
+    {
+        "CODE": "HELC",
+        "FCD": "POA",
+        "Genus": "Helictotrichon"
+    },
+    {
+        "CODE": "HELD",
+        "FCD": "PLG",
+        "Genus": "Heliohebe"
+    },
+    {
+        "CODE": "HELE",
+        "FCD": "BOR",
+        "Genus": "Heliotropium"
+    },
+    {
+        "CODE": "HELF",
+        "FCD": "AST",
+        "Genus": "Helminthotheca"
+    },
+    {
+        "CODE": "HELG",
+        "FCD": "BRA",
+        "Genus": "Heliophila"
+    },
+    {
+        "CODE": "HELH",
+        "FCD": "AST",
+        "Genus": "Helenium"
+    },
+    {
+        "CODE": "HEM",
+        "FCD": "POA",
+        "Genus": "Hemarthria"
+    },
+    {
+        "CODE": "HEMA",
+        "FCD": "HEM",
+        "Genus": "Hemerocallis"
+    },
+    {
+        "CODE": "HEMB",
+        "FCD": "API",
+        "Genus": "Hemiphues"
+    },
+    {
+        "CODE": "HEMC",
+        "FCD": "CYA",
+        "Genus": "Hemitelia"
+    },
+    {
+        "CODE": "HER",
+        "FCD": "API",
+        "Genus": "Heracleum"
+    },
+    {
+        "CODE": "HERA",
+        "FCD": "CRY",
+        "Genus": "Herniaria"
+    },
+    {
+        "CODE": "HERB",
+        "FCD": "HEM",
+        "Genus": "Herpolirion"
+    },
+    {
+        "CODE": "HES",
+        "FCD": "BRA",
+        "Genus": "Hesperis"
+    },
+    {
+        "CODE": "HET",
+        "FCD": "MLS",
+        "Genus": "Heterocentron"
+    },
+    {
+        "CODE": "HEU",
+        "FCD": "SAX",
+        "Genus": "Heuchera"
+    },
+    {
+        "CODE": "HIB",
+        "FCD": "MAL",
+        "Genus": "Hibiscus"
+    },
+    {
+        "CODE": "HIBA",
+        "FCD": "DIL",
+        "Genus": "Hibbertia"
+    },
+    {
+        "CODE": "HIE",
+        "FCD": "AST",
+        "Genus": "Hieracium"
+    },
+    {
+        "CODE": "HIEA",
+        "FCD": "POA",
+        "Genus": "Hierochloe"
+    },
+    {
+        "CODE": "HIM",
+        "FCD": "POA",
+        "Genus": "Himalayacalamus"
+    },
+    {
+        "CODE": "HIR",
+        "FCD": "BRA",
+        "Genus": "Hirschfeldia"
+    },
+    {
+        "CODE": "HIS",
+        "FCD": "DEN",
+        "Genus": "Histiopteris"
+    },
+    {
+        "CODE": "HOH",
+        "FCD": "MAL",
+        "Genus": "Hoheria"
+    },
+    {
+        "CODE": "HOL",
+        "FCD": "POA",
+        "Genus": "Holcus"
+    },
+    {
+        "CODE": "HOLA",
+        "FCD": "CRY",
+        "Genus": "Holosteum"
+    },
+    {
+        "CODE": "HOM",
+        "FCD": "EUP",
+        "Genus": "Homalanthus"
+    },
+    {
+        "CODE": "HOMA",
+        "FCD": "IRI",
+        "Genus": "Homeria"
+    },
+    {
+        "CODE": "HOR",
+        "FCD": "POA",
+        "Genus": "Hordeum"
+    },
+    {
+        "CODE": "HOU",
+        "FCD": "SAU",
+        "Genus": "Houttuynia"
+    },
+    {
+        "CODE": "HOW",
+        "FCD": "ARB",
+        "Genus": "Howea"
+    },
+    {
+        "CODE": "HUM",
+        "FCD": "CAN",
+        "Genus": "Humulus"
+    },
+    {
+        "CODE": "HUP",
+        "FCD": "LYC",
+        "Genus": "Huperzia"
+    },
+    {
+        "CODE": "HUT",
+        "FCD": "BRA",
+        "Genus": "Hutchinsia"
+    },
+    {
+        "CODE": "HYA",
+        "FCD": "ASR",
+        "Genus": "Hyacinthoides"
+    },
+    {
+        "CODE": "HYAA",
+        "FCD": "ASR",
+        "Genus": "Hyacinthus"
+    },
+    {
+        "CODE": "HYB",
+        "FCD": "VIO",
+        "Genus": "Hybanthus"
+    },
+    {
+        "CODE": "HYD",
+        "FCD": "HDT",
+        "Genus": "Hydatella"
+    },
+    {
+        "CODE": "HYDA",
+        "FCD": "HYR",
+        "Genus": "Hydrangea"
+    },
+    {
+        "CODE": "HYDB",
+        "FCD": "HYD",
+        "Genus": "Hydrilla"
+    },
+    {
+        "CODE": "HYDC",
+        "FCD": "ALI",
+        "Genus": "Hydrocleys"
+    },
+    {
+        "CODE": "HYDD",
+        "FCD": "ARL",
+        "Genus": "Hydrocotyle"
+    },
+    {
+        "CODE": "HYG",
+        "FCD": "ACA",
+        "Genus": "Hygrophila"
+    },
+    {
+        "CODE": "HYM",
+        "FCD": "VIO",
+        "Genus": "Hymenanthera"
+    },
+    {
+        "CODE": "HYMA",
+        "FCD": "BRA",
+        "Genus": "Hymenolobus"
+    },
+    {
+        "CODE": "HYMB",
+        "FCD": "HYM",
+        "Genus": "Hymenophyllum"
+    },
+    {
+        "CODE": "HYMC",
+        "FCD": "ORC",
+        "Genus": "Hymenochilus"
+    },
+    {
+        "CODE": "HYMD",
+        "FCD": "PIT",
+        "Genus": "Hymenosporum"
+    },
+    {
+        "CODE": "HYO",
+        "FCD": "SOL",
+        "Genus": "Hyoscyamus"
+    },
+    {
+        "CODE": "HYP",
+        "FCD": "HPE",
+        "Genus": "Hypericum"
+    },
+    {
+        "CODE": "HYPA",
+        "FCD": "AST",
+        "Genus": "Hypochaeris"
+    },
+    {
+        "CODE": "HYPB",
+        "FCD": "AST",
+        "Genus": "Hypochoeris"
+    },
+    {
+        "CODE": "HYPC",
+        "FCD": "RST",
+        "Genus": "Hypolaena"
+    },
+    {
+        "CODE": "HYPD",
+        "FCD": "DEN",
+        "Genus": "Hypolepis"
+    },
+    {
+        "CODE": "HYPE",
+        "FCD": "HPO",
+        "Genus": "Hypoxis"
+    },
+    {
+        "CODE": "HYPF",
+        "FCD": "CAM",
+        "Genus": "Hypsela"
+    },
+    {
+        "CODE": "I.",
+        "FCD": "",
+        "Genus": "I."
+    },
+    {
+        "CODE": "IBE",
+        "FCD": "BRA",
+        "Genus": "Iberis"
+    },
+    {
+        "CODE": "ICH",
+        "FCD": "ORC",
+        "Genus": "Ichthyostomum"
+    },
+    {
+        "CODE": "IDE",
+        "FCD": "SAL",
+        "Genus": "Idesia"
+    },
+    {
+        "CODE": "ILE",
+        "FCD": "LOR",
+        "Genus": "Ileostylus"
+    },
+    {
+        "CODE": "ILEA",
+        "FCD": "AQU",
+        "Genus": "Ilex"
+    },
+    {
+        "CODE": "ILL",
+        "FCD": "CRY",
+        "Genus": "Illecebrum"
+    },
+    {
+        "CODE": "ILLA",
+        "FCD": "SCI",
+        "Genus": "Illicium"
+    },
+    {
+        "CODE": "IMP",
+        "FCD": "BAS",
+        "Genus": "Impatiens"
+    },
+    {
+        "CODE": "IMPA",
+        "FCD": "POA",
+        "Genus": "Imperata"
+    },
+    {
+        "CODE": "IND",
+        "FCD": "FAB",
+        "Genus": "Indigofera"
+    },
+    {
+        "CODE": "INU",
+        "FCD": "AST",
+        "Genus": "Inula"
+    },
+    {
+        "CODE": "IOC",
+        "FCD": "SOL",
+        "Genus": "Iochroma"
+    },
+    {
+        "CODE": "ION",
+        "FCD": "VIO",
+        "Genus": "Ionidium"
+    },
+    {
+        "CODE": "IPH",
+        "FCD": "AMR",
+        "Genus": "Ipheion"
+    },
+    {
+        "CODE": "IPHA",
+        "FCD": "COL",
+        "Genus": "Iphigenia"
+    },
+    {
+        "CODE": "IPO",
+        "FCD": "CON",
+        "Genus": "Ipomoea"
+    },
+    {
+        "CODE": "IRI",
+        "FCD": "IRI",
+        "Genus": "Iris"
+    },
+    {
+        "CODE": "ISA",
+        "FCD": "POA",
+        "Genus": "Isachne"
+    },
+    {
+        "CODE": "ISC",
+        "FCD": "BRA",
+        "Genus": "Ischnocarpus"
+    },
+    {
+        "CODE": "ISM",
+        "FCD": "AST",
+        "Genus": "Ismalia"
+    },
+    {
+        "CODE": "ISO",
+        "FCD": "ISO",
+        "Genus": "Isoetes"
+    },
+    {
+        "CODE": "ISOA",
+        "FCD": "CYP",
+        "Genus": "Isolepis"
+    },
+    {
+        "CODE": "ISOB",
+        "FCD": "CAM",
+        "Genus": "Isotoma"
+    },
+    {
+        "CODE": "ITI",
+        "FCD": "BRA",
+        "Genus": "Iti"
+    },
+    {
+        "CODE": "IVA",
+        "FCD": "AST",
+        "Genus": "Iva"
+    },
+    {
+        "CODE": "IXE",
+        "FCD": "IXE",
+        "Genus": "Ixerba"
+    },
+    {
+        "CODE": "IXI",
+        "FCD": "IRI",
+        "Genus": "Ixia"
+    },
+    {
+        "CODE": "J.",
+        "FCD": "",
+        "Genus": "J."
+    },
+    {
+        "CODE": "JAC",
+        "FCD": "BIG",
+        "Genus": "Jacaranda"
+    },
+    {
+        "CODE": "JACA",
+        "FCD": "AST",
+        "Genus": "Jacobaea"
+    },
+    {
+        "CODE": "JAS",
+        "FCD": "CAM",
+        "Genus": "Jasione"
+    },
+    {
+        "CODE": "JASA",
+        "FCD": "OLE",
+        "Genus": "Jasminum"
+    },
+    {
+        "CODE": "JOV",
+        "FCD": "CLC",
+        "Genus": "Jovellana"
+    },
+    {
+        "CODE": "JUG",
+        "FCD": "JUG",
+        "Genus": "Juglans"
+    },
+    {
+        "CODE": "JUN",
+        "FCD": "JUN",
+        "Genus": "Juncus"
+    },
+    {
+        "CODE": "JUS",
+        "FCD": "ONA",
+        "Genus": "Jussiaea"
+    },
+    {
+        "CODE": "JUSA",
+        "FCD": "ACA",
+        "Genus": "Justicia"
+    },
+    {
+        "CODE": "K.",
+        "FCD": "",
+        "Genus": "K."
+    },
+    {
+        "CODE": "KAL",
+        "FCD": "CRA",
+        "Genus": "Kalanchoe"
+    },
+    {
+        "CODE": "KEL",
+        "FCD": "THY",
+        "Genus": "Kelleria"
+    },
+    {
+        "CODE": "KEN",
+        "FCD": "FAB",
+        "Genus": "Kennedia"
+    },
+    {
+        "CODE": "KENA",
+        "FCD": "CAP",
+        "Genus": "Kentranthus"
+    },
+    {
+        "CODE": "KER",
+        "FCD": "ROS",
+        "Genus": "Kerria"
+    },
+    {
+        "CODE": "KIC",
+        "FCD": "PLG",
+        "Genus": "Kickxia"
+    },
+    {
+        "CODE": "KIR",
+        "FCD": "AST",
+        "Genus": "Kirkianella"
+    },
+    {
+        "CODE": "KIRA",
+        "FCD": "ARL",
+        "Genus": "Kirkophytum"
+    },
+    {
+        "CODE": "KLE",
+        "FCD": "AST",
+        "Genus": "Kleinia"
+    },
+    {
+        "CODE": "KNA",
+        "FCD": "CAP",
+        "Genus": "Knautia"
+    },
+    {
+        "CODE": "KNI",
+        "FCD": "PRO",
+        "Genus": "Knightia"
+    },
+    {
+        "CODE": "KNIA",
+        "FCD": "XAN",
+        "Genus": "Kniphofia"
+    },
+    {
+        "CODE": "KOC",
+        "FCD": "AMA",
+        "Genus": "Kochia"
+    },
+    {
+        "CODE": "KOE",
+        "FCD": "POA",
+        "Genus": "Koeleria"
+    },
+    {
+        "CODE": "KOH",
+        "FCD": "CRY",
+        "Genus": "Kohlrauschia"
+    },
+    {
+        "CODE": "KOL",
+        "FCD": "CAP",
+        "Genus": "Kolkwitzia"
+    },
+    {
+        "CODE": "KON",
+        "FCD": "BRA",
+        "Genus": "Koniga"
+    },
+    {
+        "CODE": "KOR",
+        "FCD": "SAN",
+        "Genus": "Korthalsella"
+    },
+    {
+        "CODE": "KUN",
+        "FCD": "MYR",
+        "Genus": "Kunzea"
+    },
+    {
+        "CODE": "KYL",
+        "FCD": "CYP",
+        "Genus": "Kyllinga"
+    },
+    {
+        "CODE": "L.",
+        "FCD": "",
+        "Genus": "L."
+    },
+    {
+        "CODE": "LAB",
+        "FCD": "FAB",
+        "Genus": "Laburnum"
+    },
+    {
+        "CODE": "LAC",
+        "FCD": "POA",
+        "Genus": "Lachnagrostis"
+    },
+    {
+        "CODE": "LACA",
+        "FCD": "AST",
+        "Genus": "Lactuca"
+    },
+    {
+        "CODE": "LACB",
+        "FCD": "ASR",
+        "Genus": "Lachenalia"
+    },
+    {
+        "CODE": "LAG",
+        "FCD": "POD",
+        "Genus": "Lagarostrobos"
+    },
+    {
+        "CODE": "LAGA",
+        "FCD": "HYD",
+        "Genus": "Lagarosiphon"
+    },
+    {
+        "CODE": "LAGB",
+        "FCD": "CUC",
+        "Genus": "Lagunaria"
+    },
+    {
+        "CODE": "LAGC",
+        "FCD": "AST",
+        "Genus": "Lagenifera"
+    },
+    {
+        "CODE": "LAGD",
+        "FCD": "AST",
+        "Genus": "Lagenophora"
+    },
+    {
+        "CODE": "LAGF",
+        "FCD": "POA",
+        "Genus": "Lagurus"
+    },
+    {
+        "CODE": "LAGG",
+        "FCD": "CUC",
+        "Genus": "Lagenaria"
+    },
+    {
+        "CODE": "LAM",
+        "FCD": "LAM",
+        "Genus": "Lamium"
+    },
+    {
+        "CODE": "LAMA",
+        "FCD": "AIZ",
+        "Genus": "Lampranthus"
+    },
+    {
+        "CODE": "LAMB",
+        "FCD": "LAM",
+        "Genus": "Lamiastrum"
+    },
+    {
+        "CODE": "LAN",
+        "FCD": "VRB",
+        "Genus": "Lantana"
+    },
+    {
+        "CODE": "LANB",
+        "FCD": "ARA",
+        "Genus": "Landoltia"
+    },
+    {
+        "CODE": "LAP",
+        "FCD": "IRI",
+        "Genus": "Lapeirousia"
+    },
+    {
+        "CODE": "LAPA",
+        "FCD": "AST",
+        "Genus": "Lapsana"
+    },
+    {
+        "CODE": "LAPB",
+        "FCD": "AST",
+        "Genus": "Laphangium"
+    },
+    {
+        "CODE": "LAR",
+        "FCD": "PIN",
+        "Genus": "Larix"
+    },
+    {
+        "CODE": "LAS",
+        "FCD": "DRY",
+        "Genus": "Lastreopsis"
+    },
+    {
+        "CODE": "LAT",
+        "FCD": "ORO",
+        "Genus": "Lathraea"
+    },
+    {
+        "CODE": "LATA",
+        "FCD": "FAB",
+        "Genus": "Lathyrus"
+    },
+    {
+        "CODE": "LAU",
+        "FCD": "ATH",
+        "Genus": "Laurelia"
+    },
+    {
+        "CODE": "LAUA",
+        "FCD": "LAU",
+        "Genus": "Laurus"
+    },
+    {
+        "CODE": "LAV",
+        "FCD": "LAM",
+        "Genus": "Lavandula"
+    },
+    {
+        "CODE": "LAVA",
+        "FCD": "MAL",
+        "Genus": "Lavatera"
+    },
+    {
+        "CODE": "LEE",
+        "FCD": "POA",
+        "Genus": "Leersia"
+    },
+    {
+        "CODE": "LEG",
+        "FCD": "CAM",
+        "Genus": "Legousia"
+    },
+    {
+        "CODE": "LEI",
+        "FCD": "RUT",
+        "Genus": "Leionema"
+    },
+    {
+        "CODE": "LEM",
+        "FCD": "ARB",
+        "Genus": "Lemna"
+    },
+    {
+        "CODE": "LEN",
+        "FCD": "FAB",
+        "Genus": "Lens"
+    },
+    {
+        "CODE": "LEO",
+        "FCD": "PLA",
+        "Genus": "Leonohebe"
+    },
+    {
+        "CODE": "LEOA",
+        "FCD": "AST",
+        "Genus": "Leontodon"
+    },
+    {
+        "CODE": "LEOB",
+        "FCD": "LAM",
+        "Genus": "Leonurus"
+    },
+    {
+        "CODE": "LEOC",
+        "FCD": "LAM",
+        "Genus": "Leonotis"
+    },
+    {
+        "CODE": "LEP",
+        "FCD": "BRA",
+        "Genus": "Lepidium"
+    },
+    {
+        "CODE": "LEPA",
+        "FCD": "CYP",
+        "Genus": "Lepidosperma"
+    },
+    {
+        "CODE": "LEPB",
+        "FCD": "POD",
+        "Genus": "Lepidothamnus"
+    },
+    {
+        "CODE": "LEPC",
+        "FCD": "POT",
+        "Genus": "Lepilaena"
+    },
+    {
+        "CODE": "LEPD",
+        "FCD": "AST",
+        "Genus": "Leptinella"
+    },
+    {
+        "CODE": "LEPE",
+        "FCD": "RST",
+        "Genus": "Leptocarpus"
+    },
+    {
+        "CODE": "LEPF",
+        "FCD": "DEN",
+        "Genus": "Leptolepia"
+    },
+    {
+        "CODE": "LEPG",
+        "FCD": "OSM",
+        "Genus": "Leptopteris"
+    },
+    {
+        "CODE": "LEPH",
+        "FCD": "MYR",
+        "Genus": "Leptospermum"
+    },
+    {
+        "CODE": "LEPI",
+        "FCD": "POA",
+        "Genus": "Lepturus"
+    },
+    {
+        "CODE": "LEPJ",
+        "FCD": "RUB",
+        "Genus": "Leptostigma"
+    },
+    {
+        "CODE": "LEPK",
+        "FCD": "ERI",
+        "Genus": "Leptecophylla"
+    },
+    {
+        "CODE": "LEPL",
+        "FCD": "POA",
+        "Genus": "Leptochloa"
+    },
+    {
+        "CODE": "LES",
+        "FCD": "FAB",
+        "Genus": "Lespedeza"
+    },
+    {
+        "CODE": "LEU",
+        "FCD": "AST",
+        "Genus": "Leucanthemum"
+    },
+    {
+        "CODE": "LEUA",
+        "FCD": "PRO",
+        "Genus": "Leucadendron"
+    },
+    {
+        "CODE": "LEUB",
+        "FCD": "AST",
+        "Genus": "Leucogenes"
+    },
+    {
+        "CODE": "LEUC",
+        "FCD": "AMR",
+        "Genus": "Leucojum"
+    },
+    {
+        "CODE": "LEUD",
+        "FCD": "ERI",
+        "Genus": "Leucopogon"
+    },
+    {
+        "CODE": "LEUE",
+        "FCD": "ERI",
+        "Genus": "Leucothoe"
+    },
+    {
+        "CODE": "LEY",
+        "FCD": "CAP",
+        "Genus": "Leycesteria"
+    },
+    {
+        "CODE": "LEYA",
+        "FCD": "POA",
+        "Genus": "Leymus"
+    },
+    {
+        "CODE": "LIA",
+        "FCD": "AST",
+        "Genus": "Liatris"
+    },
+    {
+        "CODE": "LIB",
+        "FCD": "IRI",
+        "Genus": "Libertia"
+    },
+    {
+        "CODE": "LIBA",
+        "FCD": "CUP",
+        "Genus": "Libocedrus"
+    },
+    {
+        "CODE": "LIG",
+        "FCD": "API",
+        "Genus": "Lignocarpa"
+    },
+    {
+        "CODE": "LIGA",
+        "FCD": "OLE",
+        "Genus": "Ligustrum"
+    },
+    {
+        "CODE": "LIGB",
+        "FCD": "AST",
+        "Genus": "Ligularia"
+    },
+    {
+        "CODE": "LIL",
+        "FCD": "API",
+        "Genus": "Lilaeopsis"
+    },
+    {
+        "CODE": "LILA",
+        "FCD": "LIL",
+        "Genus": "Lilium"
+    },
+    {
+        "CODE": "LIM",
+        "FCD": "LMM",
+        "Genus": "Limnanthes"
+    },
+    {
+        "CODE": "LIMA",
+        "FCD": "PLU",
+        "Genus": "Limonium"
+    },
+    {
+        "CODE": "LIMB",
+        "FCD": "SCR",
+        "Genus": "Limosella"
+    },
+    {
+        "CODE": "LIN",
+        "FCD": "PLG",
+        "Genus": "Linaria"
+    },
+    {
+        "CODE": "LINA",
+        "FCD": "DEN",
+        "Genus": "Lindsaea"
+    },
+    {
+        "CODE": "LINB",
+        "FCD": "LIN",
+        "Genus": "Linum"
+    },
+    {
+        "CODE": "LINC",
+        "FCD": "ORC",
+        "Genus": "Linguella"
+    },
+    {
+        "CODE": "LIP",
+        "FCD": "MEN",
+        "Genus": "Liparophyllum"
+    },
+    {
+        "CODE": "LIPA",
+        "FCD": "VRB",
+        "Genus": "Lippia"
+    },
+    {
+        "CODE": "LIQ",
+        "FCD": "ALT",
+        "Genus": "Liquidambar"
+    },
+    {
+        "CODE": "LIR",
+        "FCD": "MAG",
+        "Genus": "Liriodendron"
+    },
+    {
+        "CODE": "LIT",
+        "FCD": "BOR",
+        "Genus": "Lithospermum"
+    },
+    {
+        "CODE": "LITA",
+        "FCD": "LAU",
+        "Genus": "Litsea"
+    },
+    {
+        "CODE": "LITB",
+        "FCD": "SAP",
+        "Genus": "Litchi"
+    },
+    {
+        "CODE": "LIV",
+        "FCD": "ARE",
+        "Genus": "Livistona"
+    },
+    {
+        "CODE": "LOB",
+        "FCD": "CAM",
+        "Genus": "Lobelia"
+    },
+    {
+        "CODE": "LOBA",
+        "FCD": "BRA",
+        "Genus": "Lobularia"
+    },
+    {
+        "CODE": "LOG",
+        "FCD": "LOG",
+        "Genus": "Logania"
+    },
+    {
+        "CODE": "LOGA",
+        "FCD": "AST",
+        "Genus": "Logfia"
+    },
+    {
+        "CODE": "LOL",
+        "FCD": "POA",
+        "Genus": "Lolium"
+    },
+    {
+        "CODE": "LOM",
+        "FCD": "PRO",
+        "Genus": "Lomatia"
+    },
+    {
+        "CODE": "LOMA",
+        "FCD": "BLE",
+        "Genus": "Lomaria"
+    },
+    {
+        "CODE": "LOMB",
+        "FCD": "ASR",
+        "Genus": "Lomandra"
+    },
+    {
+        "CODE": "LON",
+        "FCD": "CAP",
+        "Genus": "Lonicera"
+    },
+    {
+        "CODE": "LOP",
+        "FCD": "MYR",
+        "Genus": "Lophomyrtus"
+    },
+    {
+        "CODE": "LOPA",
+        "FCD": "PLG",
+        "Genus": "Lophospermum"
+    },
+    {
+        "CODE": "LOPB",
+        "FCD": "POA",
+        "Genus": "Lophochloa"
+    },
+    {
+        "CODE": "LOPC",
+        "FCD": "NOT",
+        "Genus": "Lophozonia"
+    },
+    {
+        "CODE": "LOR",
+        "FCD": "LOR",
+        "Genus": "Loranthus"
+    },
+    {
+        "CODE": "LORA",
+        "FCD": "ESC",
+        "Genus": "Loropetalum"
+    },
+    {
+        "CODE": "LOT",
+        "FCD": "FAB",
+        "Genus": "Lotus"
+    },
+    {
+        "CODE": "LOX",
+        "FCD": "LOX",
+        "Genus": "Loxsoma"
+    },
+    {
+        "CODE": "LOXA",
+        "FCD": "PLP",
+        "Genus": "Loxogramme"
+    },
+    {
+        "CODE": "LUD",
+        "FCD": "ONA",
+        "Genus": "Ludwigia"
+    },
+    {
+        "CODE": "LUM",
+        "FCD": "MYR",
+        "Genus": "Luma"
+    },
+    {
+        "CODE": "LUN",
+        "FCD": "BRA",
+        "Genus": "Lunaria"
+    },
+    {
+        "CODE": "LUP",
+        "FCD": "FAB",
+        "Genus": "Lupinus"
+    },
+    {
+        "CODE": "LUZ",
+        "FCD": "JUN",
+        "Genus": "Luzula"
+    },
+    {
+        "CODE": "LUZA",
+        "FCD": "LUZ",
+        "Genus": "Luzuriaga"
+    },
+    {
+        "CODE": "LYC",
+        "FCD": "CRY",
+        "Genus": "Lychnis"
+    },
+    {
+        "CODE": "LYCA",
+        "FCD": "SOL",
+        "Genus": "Lycium"
+    },
+    {
+        "CODE": "LYCB",
+        "FCD": "SOL",
+        "Genus": "Lycopersicon"
+    },
+    {
+        "CODE": "LYCC",
+        "FCD": "LYC",
+        "Genus": "Lycopodium"
+    },
+    {
+        "CODE": "LYCD",
+        "FCD": "LAM",
+        "Genus": "Lycopus"
+    },
+    {
+        "CODE": "LYCE",
+        "FCD": "LYC",
+        "Genus": "Lycopodiella"
+    },
+    {
+        "CODE": "LYCF",
+        "FCD": "SOL",
+        "Genus": "Lycianthes"
+    },
+    {
+        "CODE": "LYG",
+        "FCD": "SCH",
+        "Genus": "Lygodium"
+    },
+    {
+        "CODE": "LYP",
+        "FCD": "ORC",
+        "Genus": "Lyperanthus"
+    },
+    {
+        "CODE": "LYS",
+        "FCD": "PRI",
+        "Genus": "Lysimachia"
+    },
+    {
+        "CODE": "LYT",
+        "FCD": "LYT",
+        "Genus": "Lythrum"
+    },
+    {
+        "CODE": "M.",
+        "FCD": "",
+        "Genus": "M."
+    },
+    {
+        "CODE": "MAC",
+        "FCD": "PRO",
+        "Genus": "Macadamia"
+    },
+    {
+        "CODE": "MACA",
+        "FCD": "BIG",
+        "Genus": "Macfadyena"
+    },
+    {
+        "CODE": "MACB",
+        "FCD": "CYP",
+        "Genus": "Machaerina"
+    },
+    {
+        "CODE": "MACC",
+        "FCD": "MOR",
+        "Genus": "Maclura"
+    },
+    {
+        "CODE": "MACD",
+        "FCD": "PIP",
+        "Genus": "Macropiper"
+    },
+    {
+        "CODE": "MACE",
+        "FCD": "THE",
+        "Genus": "Macrothelypteris"
+    },
+    {
+        "CODE": "MACF",
+        "FCD": "ACA",
+        "Genus": "Mackaya"
+    },
+    {
+        "CODE": "MAD",
+        "FCD": "AST",
+        "Genus": "Madia"
+    },
+    {
+        "CODE": "MAG",
+        "FCD": "MAG",
+        "Genus": "Magnolia"
+    },
+    {
+        "CODE": "MAH",
+        "FCD": "BER",
+        "Genus": "Mahonia"
+    },
+    {
+        "CODE": "MAL",
+        "FCD": "BRA",
+        "Genus": "Malcolmia"
+    },
+    {
+        "CODE": "MALA",
+        "FCD": "ROS",
+        "Genus": "Malus"
+    },
+    {
+        "CODE": "MALB",
+        "FCD": "MAL",
+        "Genus": "Malva"
+    },
+    {
+        "CODE": "MALC",
+        "FCD": "MAL",
+        "Genus": "Malvaviscus"
+    },
+    {
+        "CODE": "MALD",
+        "FCD": "MAL",
+        "Genus": "Malope"
+    },
+    {
+        "CODE": "MAN",
+        "FCD": "POD",
+        "Genus": "Manoao"
+    },
+    {
+        "CODE": "MANB",
+        "FCD": "APO",
+        "Genus": "Mandevilla"
+    },
+    {
+        "CODE": "MAR",
+        "FCD": "MAR",
+        "Genus": "Marattia"
+    },
+    {
+        "CODE": "MARA",
+        "FCD": "LAM",
+        "Genus": "Marrubium"
+    },
+    {
+        "CODE": "MARB",
+        "FCD": "MRS",
+        "Genus": "Marsilea"
+    },
+    {
+        "CODE": "MARC",
+        "FCD": "JUN",
+        "Genus": "Marsippospermum"
+    },
+    {
+        "CODE": "MARD",
+        "FCD": "MRT",
+        "Genus": "Martynia"
+    },
+    {
+        "CODE": "MARE",
+        "FCD": "CYP",
+        "Genus": "Mariscus"
+    },
+    {
+        "CODE": "MARF",
+        "FCD": "ROS",
+        "Genus": "Margyricarpus"
+    },
+    {
+        "CODE": "MAT",
+        "FCD": "AST",
+        "Genus": "Matricaria"
+    },
+    {
+        "CODE": "MATA",
+        "FCD": "BRA",
+        "Genus": "Matthiola"
+    },
+    {
+        "CODE": "MAU",
+        "FCD": "SCR",
+        "Genus": "Maurandya"
+    },
+    {
+        "CODE": "MAUB",
+        "FCD": "AST",
+        "Genus": "Mauranthemum"
+    },
+    {
+        "CODE": "MAY",
+        "FCD": "CEL",
+        "Genus": "Maytenus"
+    },
+    {
+        "CODE": "MAZ",
+        "FCD": "PHR",
+        "Genus": "Mazus"
+    },
+    {
+        "CODE": "MEC",
+        "FCD": "HYM",
+        "Genus": "Mecodium"
+    },
+    {
+        "CODE": "MECA",
+        "FCD": "PAP",
+        "Genus": "Meconopsis"
+    },
+    {
+        "CODE": "MED",
+        "FCD": "FAB",
+        "Genus": "Medicago"
+    },
+    {
+        "CODE": "MEL",
+        "FCD": "FAB",
+        "Genus": "Melandrium"
+    },
+    {
+        "CODE": "MELA",
+        "FCD": "API",
+        "Genus": "Melanoselinum"
+    },
+    {
+        "CODE": "MELB",
+        "FCD": "IRI",
+        "Genus": "Melashpaerula"
+    },
+    {
+        "CODE": "MELC",
+        "FCD": "MEL",
+        "Genus": "Melia"
+    },
+    {
+        "CODE": "MELD",
+        "FCD": "MLI",
+        "Genus": "Melianthus"
+    },
+    {
+        "CODE": "MELE",
+        "FCD": "POA",
+        "Genus": "Melica"
+    },
+    {
+        "CODE": "MELF",
+        "FCD": "RUT",
+        "Genus": "Melicope"
+    },
+    {
+        "CODE": "MELG",
+        "FCD": "VIO",
+        "Genus": "Melicytus"
+    },
+    {
+        "CODE": "MELH",
+        "FCD": "FAB",
+        "Genus": "Melilotus"
+    },
+    {
+        "CODE": "MELI",
+        "FCD": "LAM",
+        "Genus": "Melissa"
+    },
+    {
+        "CODE": "MELJ",
+        "FCD": "MYR",
+        "Genus": "Melaleuca"
+    },
+    {
+        "CODE": "MELK",
+        "FCD": "POA",
+        "Genus": "Melinis"
+    },
+    {
+        "CODE": "MEN",
+        "FCD": "LAM",
+        "Genus": "Mentha"
+    },
+    {
+        "CODE": "MENA",
+        "FCD": "MEN",
+        "Genus": "Menyanthes"
+    },
+    {
+        "CODE": "MER",
+        "FCD": "EUP",
+        "Genus": "Mercurialis"
+    },
+    {
+        "CODE": "MERA",
+        "FCD": "HYM",
+        "Genus": "Meringium"
+    },
+    {
+        "CODE": "MERB",
+        "FCD": "ARL",
+        "Genus": "Meryta"
+    },
+    {
+        "CODE": "MES",
+        "FCD": "AIZ",
+        "Genus": "Mesembryanthemum"
+    },
+    {
+        "CODE": "MET",
+        "FCD": "MYR",
+        "Genus": "Metrosideros"
+    },
+    {
+        "CODE": "MIC",
+        "FCD": "ORO",
+        "Genus": "Micrargeria"
+    },
+    {
+        "CODE": "MICA",
+        "FCD": "POA",
+        "Genus": "Microlaena"
+    },
+    {
+        "CODE": "MICB",
+        "FCD": "AST",
+        "Genus": "Microseris"
+    },
+    {
+        "CODE": "MICC",
+        "FCD": "ORC",
+        "Genus": "Microtis"
+    },
+    {
+        "CODE": "MICD",
+        "FCD": "PLP",
+        "Genus": "Microsorum"
+    },
+    {
+        "CODE": "MICE",
+        "FCD": "MAG",
+        "Genus": "Michelia"
+    },
+    {
+        "CODE": "MICF",
+        "FCD": "DEN",
+        "Genus": "Microlepia"
+    },
+    {
+        "CODE": "MID",
+        "FCD": "NAN",
+        "Genus": "Mida"
+    },
+    {
+        "CODE": "MIL",
+        "FCD": "POA",
+        "Genus": "Milium"
+    },
+    {
+        "CODE": "MIM",
+        "FCD": "PHR",
+        "Genus": "Mimulus"
+    },
+    {
+        "CODE": "MIN",
+        "FCD": "CRY",
+        "Genus": "Minuartia"
+    },
+    {
+        "CODE": "MIR",
+        "FCD": "NYC",
+        "Genus": "Mirabilis"
+    },
+    {
+        "CODE": "MIS",
+        "FCD": "POA",
+        "Genus": "Miscanthus"
+    },
+    {
+        "CODE": "MISA",
+        "FCD": "PLG",
+        "Genus": "Misopates"
+    },
+    {
+        "CODE": "MIT",
+        "FCD": "LOG",
+        "Genus": "Mitrasacme"
+    },
+    {
+        "CODE": "MOD",
+        "FCD": "MAL",
+        "Genus": "Modiola"
+    },
+    {
+        "CODE": "MOE",
+        "FCD": "CRY",
+        "Genus": "Moehringia"
+    },
+    {
+        "CODE": "MOEA",
+        "FCD": "CRY",
+        "Genus": "Moenchia"
+    },
+    {
+        "CODE": "MOL",
+        "FCD": "ORC",
+        "Genus": "Molloybas"
+    },
+    {
+        "CODE": "MOM",
+        "FCD": "CUC",
+        "Genus": "Momordica"
+    },
+    {
+        "CODE": "MON",
+        "FCD": "POA",
+        "Genus": "Monerma"
+    },
+    {
+        "CODE": "MONA",
+        "FCD": "MNT",
+        "Genus": "Montia"
+    },
+    {
+        "CODE": "MONB",
+        "FCD": "FAB",
+        "Genus": "Montigena"
+    },
+    {
+        "CODE": "MONC",
+        "FCD": "ARB",
+        "Genus": "Monstera"
+    },
+    {
+        "CODE": "MOND",
+        "FCD": "ERI",
+        "Genus": "Montitega"
+    },
+    {
+        "CODE": "MOR",
+        "FCD": "CYP",
+        "Genus": "Morelotia"
+    },
+    {
+        "CODE": "MUE",
+        "FCD": "PLO",
+        "Genus": "Muehlenbeckia"
+    },
+    {
+        "CODE": "MUEA",
+        "FCD": "LOR",
+        "Genus": "Muellerina"
+    },
+    {
+        "CODE": "MUS",
+        "FCD": "ASR",
+        "Genus": "Muscari"
+    },
+    {
+        "CODE": "MUSA",
+        "FCD": "MUS",
+        "Genus": "Musa"
+    },
+    {
+        "CODE": "MYA",
+        "FCD": "BRA",
+        "Genus": "Myagrum"
+    },
+    {
+        "CODE": "MYC",
+        "FCD": "AST",
+        "Genus": "Mycelis"
+    },
+    {
+        "CODE": "MYO",
+        "FCD": "SCR",
+        "Genus": "Myoporum"
+    },
+    {
+        "CODE": "MYOA",
+        "FCD": "BOR",
+        "Genus": "Myosotidium"
+    },
+    {
+        "CODE": "MYOB",
+        "FCD": "BOR",
+        "Genus": "Myosotis"
+    },
+    {
+        "CODE": "MYOC",
+        "FCD": "RAN",
+        "Genus": "Myosurus"
+    },
+    {
+        "CODE": "MYR",
+        "FCD": "HAL",
+        "Genus": "Myriophyllum"
+    },
+    {
+        "CODE": "MYRA",
+        "FCD": "PRI",
+        "Genus": "Myrsine"
+    },
+    {
+        "CODE": "MYRB",
+        "FCD": "MYR",
+        "Genus": "Myrtus"
+    },
+    {
+        "CODE": "MYRC",
+        "FCD": "ASR",
+        "Genus": "Myrsiphyllum"
+    },
+    {
+        "CODE": "MYRD",
+        "FCD": "TAM",
+        "Genus": "Myricaria"
+    },
+    {
+        "CODE": "MYRE",
+        "FCD": "ORC",
+        "Genus": "Myrmechila"
+    },
+    {
+        "CODE": "N.",
+        "FCD": "",
+        "Genus": "N."
+    },
+    {
+        "CODE": "NAN",
+        "FCD": "BER",
+        "Genus": "Nandina"
+    },
+    {
+        "CODE": "NAR",
+        "FCD": "AMR",
+        "Genus": "Narcissus"
+    },
+    {
+        "CODE": "NARA",
+        "FCD": "POA",
+        "Genus": "Nardus"
+    },
+    {
+        "CODE": "NAS",
+        "FCD": "POA",
+        "Genus": "Nassella"
+    },
+    {
+        "CODE": "NASA",
+        "FCD": "BRA",
+        "Genus": "Nasturtium"
+    },
+    {
+        "CODE": "NAV",
+        "FCD": "POL",
+        "Genus": "Navarretia"
+    },
+    {
+        "CODE": "NEM",
+        "FCD": "SCR",
+        "Genus": "Nemesia"
+    },
+    {
+        "CODE": "NEMA",
+        "FCD": "ORC",
+        "Genus": "Nematoceras"
+    },
+    {
+        "CODE": "NEMB",
+        "FCD": "BOR",
+        "Genus": "Nemophila"
+    },
+    {
+        "CODE": "NEO",
+        "FCD": "MYR",
+        "Genus": "Neomyrtus"
+    },
+    {
+        "CODE": "NEOA",
+        "FCD": "MNT",
+        "Genus": "Neopaxia"
+    },
+    {
+        "CODE": "NEOB",
+        "FCD": "ARL",
+        "Genus": "Neopanax"
+    },
+    {
+        "CODE": "NEP",
+        "FCD": "LAM",
+        "Genus": "Nepeta"
+    },
+    {
+        "CODE": "NEPA",
+        "FCD": "NEP",
+        "Genus": "Nephrolepis"
+    },
+    {
+        "CODE": "NEPB",
+        "FCD": "DRY",
+        "Genus": "Nephrodium"
+    },
+    {
+        "CODE": "NER",
+        "FCD": "APO",
+        "Genus": "Nerium"
+    },
+    {
+        "CODE": "NERA",
+        "FCD": "RUB",
+        "Genus": "Nertera"
+    },
+    {
+        "CODE": "NERB",
+        "FCD": "AMR",
+        "Genus": "Nerine"
+    },
+    {
+        "CODE": "NES",
+        "FCD": "BRA",
+        "Genus": "Neslia"
+    },
+    {
+        "CODE": "NESA",
+        "FCD": "OLE",
+        "Genus": "Nestegis"
+    },
+    {
+        "CODE": "NIC",
+        "FCD": "SOL",
+        "Genus": "Nicandra"
+    },
+    {
+        "CODE": "NICA",
+        "FCD": "SOL",
+        "Genus": "Nicotiana"
+    },
+    {
+        "CODE": "NIE",
+        "FCD": "SOL",
+        "Genus": "Nierembergia"
+    },
+    {
+        "CODE": "NIG",
+        "FCD": "RAN",
+        "Genus": "Nigella"
+    },
+    {
+        "CODE": "NIP",
+        "FCD": "PLP",
+        "Genus": "Niphidium"
+    },
+    {
+        "CODE": "NIT",
+        "FCD": "CHA",
+        "Genus": "Nitella"
+    },
+    {
+        "CODE": "NOL",
+        "FCD": "ASR",
+        "Genus": "Nolina"
+    },
+    {
+        "CODE": "NOT",
+        "FCD": "NOT",
+        "Genus": "Nothofagus"
+    },
+    {
+        "CODE": "NOTA",
+        "FCD": "ARL",
+        "Genus": "Nothopanax"
+    },
+    {
+        "CODE": "NOTB",
+        "FCD": "AMR",
+        "Genus": "Nothoscordum"
+    },
+    {
+        "CODE": "NOTC",
+        "FCD": "POA",
+        "Genus": "Notodanthonia"
+    },
+    {
+        "CODE": "NOTD",
+        "FCD": "FAB",
+        "Genus": "Notospartium"
+    },
+    {
+        "CODE": "NOTE",
+        "FCD": "BRA",
+        "Genus": "Notothlaspi"
+    },
+    {
+        "CODE": "NOTF",
+        "FCD": "GRA",
+        "Genus": "Notogrammitis"
+    },
+    {
+        "CODE": "NUP",
+        "FCD": "NYM",
+        "Genus": "Nuphar"
+    },
+    {
+        "CODE": "NYM",
+        "FCD": "NYM",
+        "Genus": "Nymphaea"
+    },
+    {
+        "CODE": "NYMA",
+        "FCD": "MEN",
+        "Genus": "Nymphoides"
+    },
+    {
+        "CODE": "O.",
+        "FCD": "",
+        "Genus": "O."
+    },
+    {
+        "CODE": "OCH",
+        "FCD": "OCH",
+        "Genus": "Ochna"
+    },
+    {
+        "CODE": "OCI",
+        "FCD": "LAM",
+        "Genus": "Ocimum"
+    },
+    {
+        "CODE": "ODO",
+        "FCD": "SCR",
+        "Genus": "Odonites"
+    },
+    {
+        "CODE": "OEN",
+        "FCD": "API",
+        "Genus": "Oenanthe"
+    },
+    {
+        "CODE": "OENA",
+        "FCD": "ONA",
+        "Genus": "Oenothera"
+    },
+    {
+        "CODE": "OLE",
+        "FCD": "OLE",
+        "Genus": "Olea"
+    },
+    {
+        "CODE": "OLEA",
+        "FCD": "AST",
+        "Genus": "Olearia"
+    },
+    {
+        "CODE": "OLI",
+        "FCD": "ORC",
+        "Genus": "Oligochaetochilus"
+    },
+    {
+        "CODE": "OMP",
+        "FCD": "BOR",
+        "Genus": "Omphalodes"
+    },
+    {
+        "CODE": "ONC",
+        "FCD": "SAL",
+        "Genus": "Oncoba"
+    },
+    {
+        "CODE": "ONO",
+        "FCD": "FAB",
+        "Genus": "Onobrychis"
+    },
+    {
+        "CODE": "ONOA",
+        "FCD": "FAB",
+        "Genus": "Ononis"
+    },
+    {
+        "CODE": "ONOB",
+        "FCD": "AST",
+        "Genus": "Onopordum"
+    },
+    {
+        "CODE": "ONOC",
+        "FCD": "WOO",
+        "Genus": "Onoclea"
+    },
+    {
+        "CODE": "OPH",
+        "FCD": "OPH",
+        "Genus": "Ophioglossum"
+    },
+    {
+        "CODE": "OPL",
+        "FCD": "POA",
+        "Genus": "Oplismenus"
+    },
+    {
+        "CODE": "OPU",
+        "FCD": "CAC",
+        "Genus": "Opuntia"
+    },
+    {
+        "CODE": "ORE",
+        "FCD": "CYP",
+        "Genus": "Oreobolus"
+    },
+    {
+        "CODE": "OREA",
+        "FCD": "API",
+        "Genus": "Oreomyrrhis"
+    },
+    {
+        "CODE": "OREB",
+        "FCD": "STY",
+        "Genus": "Oreostylidium"
+    },
+    {
+        "CODE": "OREC",
+        "FCD": "PHL",
+        "Genus": "Oreoporanthera"
+    },
+    {
+        "CODE": "ORI",
+        "FCD": "LAM",
+        "Genus": "Origanum"
+    },
+    {
+        "CODE": "ORL",
+        "FCD": "API",
+        "Genus": "Orlaya"
+    },
+    {
+        "CODE": "ORN",
+        "FCD": "ASR",
+        "Genus": "Ornithogalum"
+    },
+    {
+        "CODE": "ORNA",
+        "FCD": "FAB",
+        "Genus": "Ornithopus"
+    },
+    {
+        "CODE": "ORO",
+        "FCD": "ORO",
+        "Genus": "Orobanche"
+    },
+    {
+        "CODE": "ORT",
+        "FCD": "ORC",
+        "Genus": "Orthoceras"
+    },
+    {
+        "CODE": "ORY",
+        "FCD": "POA",
+        "Genus": "Oryzopsis"
+    },
+    {
+        "CODE": "OSC",
+        "FCD": "AIZ",
+        "Genus": "Oscularia"
+    },
+    {
+        "CODE": "OSM",
+        "FCD": "OSM",
+        "Genus": "Osmunda"
+    },
+    {
+        "CODE": "OSMA",
+        "FCD": "OLE",
+        "Genus": "Osmanthus"
+    },
+    {
+        "CODE": "OST",
+        "FCD": "AST",
+        "Genus": "Osteospermum"
+    },
+    {
+        "CODE": "OTH",
+        "FCD": "AST",
+        "Genus": "Othonna"
+    },
+    {
+        "CODE": "OTT",
+        "FCD": "HYD",
+        "Genus": "Ottelia"
+    },
+    {
+        "CODE": "OUR",
+        "FCD": "PLG",
+        "Genus": "Ourisia"
+    },
+    {
+        "CODE": "OXA",
+        "FCD": "OXA",
+        "Genus": "Oxalis"
+    },
+    {
+        "CODE": "OXY",
+        "FCD": "FAB",
+        "Genus": "Oxylobium"
+    },
+    {
+        "CODE": "OXYA",
+        "FCD": "APO",
+        "Genus": "Oxypetalum"
+    },
+    {
+        "CODE": "OXYB",
+        "FCD": "PLO",
+        "Genus": "Oxyria"
+    },
+    {
+        "CODE": "OXYC",
+        "FCD": "AMA",
+        "Genus": "Oxybasis"
+    },
+    {
+        "CODE": "OZO",
+        "FCD": "AST",
+        "Genus": "Ozothamnus"
+    },
+    {
+        "CODE": "P.",
+        "FCD": "",
+        "Genus": "P."
+    },
+    {
+        "CODE": "PAC",
+        "FCD": "BRA",
+        "Genus": "Pachycladon"
+    },
+    {
+        "CODE": "PACA",
+        "FCD": "AST",
+        "Genus": "Pachystegia"
+    },
+    {
+        "CODE": "PAE",
+        "FCD": "DEN",
+        "Genus": "Paesia"
+    },
+    {
+        "CODE": "PAN",
+        "FCD": "BIG",
+        "Genus": "Pandorea"
+    },
+    {
+        "CODE": "PANA",
+        "FCD": "POA",
+        "Genus": "Panicum"
+    },
+    {
+        "CODE": "PAP",
+        "FCD": "PAP",
+        "Genus": "Papaver"
+    },
+    {
+        "CODE": "PAR",
+        "FCD": "PLG",
+        "Genus": "Parahebe"
+    },
+    {
+        "CODE": "PARA",
+        "FCD": "POA",
+        "Genus": "Parapholis"
+    },
+    {
+        "CODE": "PARB",
+        "FCD": "FAB",
+        "Genus": "Paraserianthes"
+    },
+    {
+        "CODE": "PARC",
+        "FCD": "MOR",
+        "Genus": "Paratrophis"
+    },
+    {
+        "CODE": "PARD",
+        "FCD": "ORO",
+        "Genus": "Parentucellia"
+    },
+    {
+        "CODE": "PARE",
+        "FCD": "URT",
+        "Genus": "Parietaria"
+    },
+    {
+        "CODE": "PARF",
+        "FCD": "FAB",
+        "Genus": "Parochetus"
+    },
+    {
+        "CODE": "PARG",
+        "FCD": "CRY",
+        "Genus": "Paronychia"
+    },
+    {
+        "CODE": "PARH",
+        "FCD": "APO",
+        "Genus": "Parsonsia"
+    },
+    {
+        "CODE": "PARI",
+        "FCD": "VIT",
+        "Genus": "Parthenocissus"
+    },
+    {
+        "CODE": "PARJ",
+        "FCD": "VIT",
+        "Genus": "Partheocissus"
+    },
+    {
+        "CODE": "PARK",
+        "FCD": "ORC",
+        "Genus": "Paracaleana"
+    },
+    {
+        "CODE": "PAS",
+        "FCD": "POA",
+        "Genus": "Paspalum"
+    },
+    {
+        "CODE": "PASA",
+        "FCD": "PAS",
+        "Genus": "Passiflora"
+    },
+    {
+        "CODE": "PASB",
+        "FCD": "API",
+        "Genus": "Pastinaca"
+    },
+    {
+        "CODE": "PAU",
+        "FCD": "PAU",
+        "Genus": "Paulownia"
+    },
+    {
+        "CODE": "PAV",
+        "FCD": "MAL",
+        "Genus": "Pavonia"
+    },
+    {
+        "CODE": "PEL",
+        "FCD": "GER",
+        "Genus": "Pelargonium"
+    },
+    {
+        "CODE": "PELA",
+        "FCD": "ADI",
+        "Genus": "Pellaea"
+    },
+    {
+        "CODE": "PEN",
+        "FCD": "PEN",
+        "Genus": "Pennantia"
+    },
+    {
+        "CODE": "PENA",
+        "FCD": "POA",
+        "Genus": "Pennisetum"
+    },
+    {
+        "CODE": "PENB",
+        "FCD": "ERI",
+        "Genus": "Pentachondra"
+    },
+    {
+        "CODE": "PENC",
+        "FCD": "BOR",
+        "Genus": "Pentaglottis"
+    },
+    {
+        "CODE": "PEND",
+        "FCD": "POA",
+        "Genus": "Pentapogon"
+    },
+    {
+        "CODE": "PENE",
+        "FCD": "PLG",
+        "Genus": "Penstemon"
+    },
+    {
+        "CODE": "PEP",
+        "FCD": "PIP",
+        "Genus": "Peperomia"
+    },
+    {
+        "CODE": "PER",
+        "FCD": "LOR",
+        "Genus": "Peraxilla"
+    },
+    {
+        "CODE": "PERA",
+        "FCD": "AST",
+        "Genus": "Pericallis"
+    },
+    {
+        "CODE": "PERB",
+        "FCD": "ERI",
+        "Genus": "Pernettya"
+    },
+    {
+        "CODE": "PERC",
+        "FCD": "LAU",
+        "Genus": "Persea"
+    },
+    {
+        "CODE": "PERD",
+        "FCD": "PLO",
+        "Genus": "Persicaria"
+    },
+    {
+        "CODE": "PERE",
+        "FCD": "PRO",
+        "Genus": "Persoonia"
+    },
+    {
+        "CODE": "PET",
+        "FCD": "AST",
+        "Genus": "Petasites"
+    },
+    {
+        "CODE": "PETA",
+        "FCD": "POA",
+        "Genus": "Petriella"
+    },
+    {
+        "CODE": "PETB",
+        "FCD": "CRY",
+        "Genus": "Petrorhagia"
+    },
+    {
+        "CODE": "PETC",
+        "FCD": "API",
+        "Genus": "Petroselinum"
+    },
+    {
+        "CODE": "PETD",
+        "FCD": "SOL",
+        "Genus": "Petunia"
+    },
+    {
+        "CODE": "PETE",
+        "FCD": "ORC",
+        "Genus": "Petalochilus"
+    },
+    {
+        "CODE": "PHA",
+        "FCD": "HYO",
+        "Genus": "Phacelia"
+    },
+    {
+        "CODE": "PHAA",
+        "FCD": "POA",
+        "Genus": "Phalaris"
+    },
+    {
+        "CODE": "PHAB",
+        "FCD": "FAB",
+        "Genus": "Phaseolus"
+    },
+    {
+        "CODE": "PHE",
+        "FCD": "RUT",
+        "Genus": "Phebalium"
+    },
+    {
+        "CODE": "PHI",
+        "FCD": "HYR",
+        "Genus": "Philadelphus"
+    },
+    {
+        "CODE": "PHL",
+        "FCD": "POA",
+        "Genus": "Phleum"
+    },
+    {
+        "CODE": "PHLA",
+        "FCD": "LAM",
+        "Genus": "Phlomis"
+    },
+    {
+        "CODE": "PHLB",
+        "FCD": "POL",
+        "Genus": "Phlox"
+    },
+    {
+        "CODE": "PHLC",
+        "FCD": "LYC",
+        "Genus": "Phlegmariurus"
+    },
+    {
+        "CODE": "PHO",
+        "FCD": "ARE",
+        "Genus": "Phoenix"
+    },
+    {
+        "CODE": "PHOA",
+        "FCD": "POA",
+        "Genus": "Pholiurus"
+    },
+    {
+        "CODE": "PHOB",
+        "FCD": "XAN",
+        "Genus": "Phormium"
+    },
+    {
+        "CODE": "PHOC",
+        "FCD": "ROS",
+        "Genus": "Photinia"
+    },
+    {
+        "CODE": "PHR",
+        "FCD": "POA",
+        "Genus": "Phragmites"
+    },
+    {
+        "CODE": "PHRB",
+        "FCD": "LOR",
+        "Genus": "Phrygilanthus"
+    },
+    {
+        "CODE": "PHY",
+        "FCD": "SCR",
+        "Genus": "Phygelius"
+    },
+    {
+        "CODE": "PHYA",
+        "FCD": "VRB",
+        "Genus": "Phyla"
+    },
+    {
+        "CODE": "PHYB",
+        "FCD": "STY",
+        "Genus": "Phyllachne"
+    },
+    {
+        "CODE": "PHYC",
+        "FCD": "PHL",
+        "Genus": "Phyllanthus"
+    },
+    {
+        "CODE": "PHYD",
+        "FCD": "ASP",
+        "Genus": "Phyllitis"
+    },
+    {
+        "CODE": "PHYE",
+        "FCD": "PLC",
+        "Genus": "Phyllocladus"
+    },
+    {
+        "CODE": "PHYF",
+        "FCD": "LYC",
+        "Genus": "Phylloglossum"
+    },
+    {
+        "CODE": "PHYG",
+        "FCD": "POA",
+        "Genus": "Phyllostachys"
+    },
+    {
+        "CODE": "PHYH",
+        "FCD": "PLP",
+        "Genus": "Phymatosorus"
+    },
+    {
+        "CODE": "PHYI",
+        "FCD": "SOL",
+        "Genus": "Physalis"
+    },
+    {
+        "CODE": "PHYJ",
+        "FCD": "ROS",
+        "Genus": "Physocarpus"
+    },
+    {
+        "CODE": "PHYK",
+        "FCD": "PHY",
+        "Genus": "Phytolacca"
+    },
+    {
+        "CODE": "PHYL",
+        "FCD": "RHA",
+        "Genus": "Phylica"
+    },
+    {
+        "CODE": "PIC",
+        "FCD": "PIN",
+        "Genus": "Picea"
+    },
+    {
+        "CODE": "PICA",
+        "FCD": "AST",
+        "Genus": "Picris"
+    },
+    {
+        "CODE": "PIE",
+        "FCD": "ERI",
+        "Genus": "Pieris"
+    },
+    {
+        "CODE": "PIL",
+        "FCD": "MRS",
+        "Genus": "Pilularia"
+    },
+    {
+        "CODE": "PILA",
+        "FCD": "AST",
+        "Genus": "Pilosella"
+    },
+    {
+        "CODE": "PILB",
+        "FCD": "URT",
+        "Genus": "Pilea"
+    },
+    {
+        "CODE": "PIM",
+        "FCD": "THY",
+        "Genus": "Pimelea"
+    },
+    {
+        "CODE": "PIMA",
+        "FCD": "API",
+        "Genus": "Pimpinella"
+    },
+    {
+        "CODE": "PIN",
+        "FCD": "PIN",
+        "Genus": "Pinus"
+    },
+    {
+        "CODE": "PINA",
+        "FCD": "LEN",
+        "Genus": "Pinguicula"
+    },
+    {
+        "CODE": "PIP",
+        "FCD": "POA",
+        "Genus": "Piptatherum"
+    },
+    {
+        "CODE": "PIPA",
+        "FCD": "FAB",
+        "Genus": "Piptanthus"
+    },
+    {
+        "CODE": "PIPB",
+        "FCD": "PIP",
+        "Genus": "Piper"
+    },
+    {
+        "CODE": "PIPC",
+        "FCD": "POA",
+        "Genus": "Piptochaetum"
+    },
+    {
+        "CODE": "PIS",
+        "FCD": "NYC",
+        "Genus": "Pisonia"
+    },
+    {
+        "CODE": "PISA",
+        "FCD": "ARB",
+        "Genus": "Pistia"
+    },
+    {
+        "CODE": "PISB",
+        "FCD": "FAB",
+        "Genus": "Pisum"
+    },
+    {
+        "CODE": "PIT",
+        "FCD": "PIT",
+        "Genus": "Pittosporum"
+    },
+    {
+        "CODE": "PITA",
+        "FCD": "BIG",
+        "Genus": "Pithecoctenium"
+    },
+    {
+        "CODE": "PLA",
+        "FCD": "MAL",
+        "Genus": "Plagianthus"
+    },
+    {
+        "CODE": "PLAA",
+        "FCD": "SOP",
+        "Genus": "Planchonella"
+    },
+    {
+        "CODE": "PLAB",
+        "FCD": "PLG",
+        "Genus": "Plantago"
+    },
+    {
+        "CODE": "PLAC",
+        "FCD": "PLA",
+        "Genus": "Platanus"
+    },
+    {
+        "CODE": "PLAD",
+        "FCD": "PLP",
+        "Genus": "Platycerium"
+    },
+    {
+        "CODE": "PLE",
+        "FCD": "PEN",
+        "Genus": "Plectomirtha"
+    },
+    {
+        "CODE": "PLEA",
+        "FCD": "LAM",
+        "Genus": "Plectranthus"
+    },
+    {
+        "CODE": "PLEB",
+        "FCD": "POA",
+        "Genus": "Pleioblastus"
+    },
+    {
+        "CODE": "PLEC",
+        "FCD": "AST",
+        "Genus": "Pleurophyllum"
+    },
+    {
+        "CODE": "PLED",
+        "FCD": "ASP",
+        "Genus": "Pleurosorus"
+    },
+    {
+        "CODE": "PLU",
+        "FCD": "PLU",
+        "Genus": "Plumbago"
+    },
+    {
+        "CODE": "PLUA",
+        "FCD": "ORC",
+        "Genus": "Plumatichilos"
+    },
+    {
+        "CODE": "PNE",
+        "FCD": "THE",
+        "Genus": "Pneumatopteris"
+    },
+    {
+        "CODE": "POA",
+        "FCD": "POA",
+        "Genus": "Poa"
+    },
+    {
+        "CODE": "POD",
+        "FCD": "FAB",
+        "Genus": "Podalyria"
+    },
+    {
+        "CODE": "PODA",
+        "FCD": "POD",
+        "Genus": "Podocarpus"
+    },
+    {
+        "CODE": "PODB",
+        "FCD": "BIG",
+        "Genus": "Podranea"
+    },
+    {
+        "CODE": "POL",
+        "FCD": "POL",
+        "Genus": "Polemonium"
+    },
+    {
+        "CODE": "POLA",
+        "FCD": "CRY",
+        "Genus": "Polycarpon"
+    },
+    {
+        "CODE": "POLB",
+        "FCD": "PLY",
+        "Genus": "Polygala"
+    },
+    {
+        "CODE": "POLC",
+        "FCD": "ASR",
+        "Genus": "Polygonatum"
+    },
+    {
+        "CODE": "POLD",
+        "FCD": "PLO",
+        "Genus": "Polygonum"
+    },
+    {
+        "CODE": "POLE",
+        "FCD": "HYM",
+        "Genus": "Polyphlebium"
+    },
+    {
+        "CODE": "POLF",
+        "FCD": "PLP",
+        "Genus": "Polypodium"
+    },
+    {
+        "CODE": "POLG",
+        "FCD": "POA",
+        "Genus": "Polypogon"
+    },
+    {
+        "CODE": "POLH",
+        "FCD": "DRY",
+        "Genus": "Polystichum"
+    },
+    {
+        "CODE": "POM",
+        "FCD": "RHA",
+        "Genus": "Pomaderris"
+    },
+    {
+        "CODE": "POP",
+        "FCD": "SAL",
+        "Genus": "Populus"
+    },
+    {
+        "CODE": "POR",
+        "FCD": "PHL",
+        "Genus": "Poranthera"
+    },
+    {
+        "CODE": "PORB",
+        "FCD": "POR",
+        "Genus": "Portulaca"
+    },
+    {
+        "CODE": "POT",
+        "FCD": "POT",
+        "Genus": "Potamogeton"
+    },
+    {
+        "CODE": "POTA",
+        "FCD": "ROS",
+        "Genus": "Potentilla"
+    },
+    {
+        "CODE": "POTB",
+        "FCD": "ROS",
+        "Genus": "Poterium"
+    },
+    {
+        "CODE": "POU",
+        "FCD": "SOP",
+        "Genus": "Pouteria"
+    },
+    {
+        "CODE": "POUA",
+        "FCD": "URT",
+        "Genus": "Pouzolzia"
+    },
+    {
+        "CODE": "PRA",
+        "FCD": "ORC",
+        "Genus": "Prasophyllum"
+    },
+    {
+        "CODE": "PRAA",
+        "FCD": "CAM",
+        "Genus": "Pratia"
+    },
+    {
+        "CODE": "PRI",
+        "FCD": "PRI",
+        "Genus": "Primula"
+    },
+    {
+        "CODE": "PRO",
+        "FCD": "MRT",
+        "Genus": "Proboscidea"
+    },
+    {
+        "CODE": "PROA",
+        "FCD": "PRO",
+        "Genus": "Protea"
+    },
+    {
+        "CODE": "PRU",
+        "FCD": "POD",
+        "Genus": "Prumnopitys"
+    },
+    {
+        "CODE": "PRUA",
+        "FCD": "LAM",
+        "Genus": "Prunella"
+    },
+    {
+        "CODE": "PRUB",
+        "FCD": "ROS",
+        "Genus": "Prunus"
+    },
+    {
+        "CODE": "PSE",
+        "FCD": "AST",
+        "Genus": "Pseudognaphalium"
+    },
+    {
+        "CODE": "PSEA",
+        "FCD": "ARL",
+        "Genus": "Pseudopanax"
+    },
+    {
+        "CODE": "PSEB",
+        "FCD": "POA",
+        "Genus": "Pseudosasa"
+    },
+    {
+        "CODE": "PSEC",
+        "FCD": "PIN",
+        "Genus": "Pseudotsuga"
+    },
+    {
+        "CODE": "PSED",
+        "FCD": "WIN",
+        "Genus": "Pseudowintera"
+    },
+    {
+        "CODE": "PSI",
+        "FCD": "MYR",
+        "Genus": "Psidium"
+    },
+    {
+        "CODE": "PSIA",
+        "FCD": "PSI",
+        "Genus": "Psilotum"
+    },
+    {
+        "CODE": "PSO",
+        "FCD": "FAB",
+        "Genus": "Psoralea"
+    },
+    {
+        "CODE": "PSOA",
+        "FCD": "FAB",
+        "Genus": "Psophocarpus"
+    },
+    {
+        "CODE": "PSY",
+        "FCD": "RAN",
+        "Genus": "Psychrophila"
+    },
+    {
+        "CODE": "PTE",
+        "FCD": "DEN",
+        "Genus": "Pteridium"
+    },
+    {
+        "CODE": "PTEA",
+        "FCD": "PTE",
+        "Genus": "Pteris"
+    },
+    {
+        "CODE": "PTEB",
+        "FCD": "ORC",
+        "Genus": "Pterostylis"
+    },
+    {
+        "CODE": "PTEC",
+        "FCD": "JUG",
+        "Genus": "Pterocarya"
+    },
+    {
+        "CODE": "PTED",
+        "FCD": "CAP",
+        "Genus": "Pterocephalus"
+    },
+    {
+        "CODE": "PTEE",
+        "FCD": "RUT",
+        "Genus": "Ptelea"
+    },
+    {
+        "CODE": "PTI",
+        "FCD": "AST",
+        "Genus": "Ptilostemon"
+    },
+    {
+        "CODE": "PTIA",
+        "FCD": "MAR",
+        "Genus": "Ptisana"
+    },
+    {
+        "CODE": "PUC",
+        "FCD": "POA",
+        "Genus": "Puccinellia"
+    },
+    {
+        "CODE": "PUE",
+        "FCD": "FAB",
+        "Genus": "Pueraria"
+    },
+    {
+        "CODE": "PUL",
+        "FCD": "AST",
+        "Genus": "Pulicaria"
+    },
+    {
+        "CODE": "PULA",
+        "FCD": "FAB",
+        "Genus": "Pultenaea"
+    },
+    {
+        "CODE": "PUN",
+        "FCD": "LYT",
+        "Genus": "Punica"
+    },
+    {
+        "CODE": "PYC",
+        "FCD": "CYP",
+        "Genus": "Pycreus"
+    },
+    {
+        "CODE": "PYG",
+        "FCD": "PLG",
+        "Genus": "Pygmea"
+    },
+    {
+        "CODE": "PYR",
+        "FCD": "ROS",
+        "Genus": "Pyracantha"
+    },
+    {
+        "CODE": "PYRA",
+        "FCD": "POA",
+        "Genus": "Pyrrhanthera"
+    },
+    {
+        "CODE": "PYRB",
+        "FCD": "PLP",
+        "Genus": "Pyrrosia"
+    },
+    {
+        "CODE": "PYRC",
+        "FCD": "ROS",
+        "Genus": "Pyrus"
+    },
+    {
+        "CODE": "PYRD",
+        "FCD": "BIG",
+        "Genus": "Pyrostegia"
+    },
+    {
+        "CODE": "PYRE",
+        "FCD": "AST",
+        "Genus": "Pyrethrum"
+    },
+    {
+        "CODE": "Q.",
+        "FCD": "",
+        "Genus": "Q."
+    },
+    {
+        "CODE": "QUE",
+        "FCD": "FAG",
+        "Genus": "Quercus"
+    },
+    {
+        "CODE": "QUI",
+        "FCD": "ESC",
+        "Genus": "Quintinia"
+    },
+    {
+        "CODE": "QUIA",
+        "FCD": "QUJ",
+        "Genus": "Quillaja"
+    },
+    {
+        "CODE": "R.",
+        "FCD": "",
+        "Genus": "R."
+    },
+    {
+        "CODE": "RAC",
+        "FCD": "FAB",
+        "Genus": "Racosperma"
+    },
+    {
+        "CODE": "RACA",
+        "FCD": "AST",
+        "Genus": "Rachelia"
+    },
+    {
+        "CODE": "RAD",
+        "FCD": "BIG",
+        "Genus": "Radicula"
+    },
+    {
+        "CODE": "RADA",
+        "FCD": "BIG",
+        "Genus": "Radermachera"
+    },
+    {
+        "CODE": "RADB",
+        "FCD": "LIN",
+        "Genus": "Radiola"
+    },
+    {
+        "CODE": "RAN",
+        "FCD": "RAN",
+        "Genus": "Ranunculus"
+    },
+    {
+        "CODE": "RAO",
+        "FCD": "AST",
+        "Genus": "Raoulia"
+    },
+    {
+        "CODE": "RAP",
+        "FCD": "BRA",
+        "Genus": "Raphanus"
+    },
+    {
+        "CODE": "RAPA",
+        "FCD": "BRA",
+        "Genus": "Rapistrum"
+    },
+    {
+        "CODE": "RAPB",
+        "FCD": "PRI",
+        "Genus": "Rapanea"
+    },
+    {
+        "CODE": "RAU",
+        "FCD": "ARL",
+        "Genus": "Raukaua"
+    },
+    {
+        "CODE": "REI",
+        "FCD": "LIN",
+        "Genus": "Reinwardtia"
+    },
+    {
+        "CODE": "RES",
+        "FCD": "RES",
+        "Genus": "Reseda"
+    },
+    {
+        "CODE": "REY",
+        "FCD": "PLO",
+        "Genus": "Reynoutria"
+    },
+    {
+        "CODE": "RHA",
+        "FCD": "GES",
+        "Genus": "Rhabdothamnus"
+    },
+    {
+        "CODE": "RHAA",
+        "FCD": "AMA",
+        "Genus": "Rhagodia"
+    },
+    {
+        "CODE": "RHAB",
+        "FCD": "RHA",
+        "Genus": "Rhamnus"
+    },
+    {
+        "CODE": "RHAC",
+        "FCD": "ROS",
+        "Genus": "Rhaphiolepis"
+    },
+    {
+        "CODE": "RHE",
+        "FCD": "PLO",
+        "Genus": "Rheum"
+    },
+    {
+        "CODE": "RHI",
+        "FCD": "RIP",
+        "Genus": "Rhipogonum"
+    },
+    {
+        "CODE": "RHO",
+        "FCD": "ERI",
+        "Genus": "Rhododendron"
+    },
+    {
+        "CODE": "RHOA",
+        "FCD": "ARE",
+        "Genus": "Rhopalostylis"
+    },
+    {
+        "CODE": "RHU",
+        "FCD": "ANA",
+        "Genus": "Rhus"
+    },
+    {
+        "CODE": "RHY",
+        "FCD": "POA",
+        "Genus": "Rhynchelytrum"
+    },
+    {
+        "CODE": "RHYA",
+        "FCD": "CYP",
+        "Genus": "Rhynchospora"
+    },
+    {
+        "CODE": "RIB",
+        "FCD": "GRO",
+        "Genus": "Ribes"
+    },
+    {
+        "CODE": "RIC",
+        "FCD": "EUP",
+        "Genus": "Ricinus"
+    },
+    {
+        "CODE": "RICA",
+        "FCD": "RUB",
+        "Genus": "Richardia"
+    },
+    {
+        "CODE": "RIP",
+        "FCD": "RIP",
+        "Genus": "Ripogonum"
+    },
+    {
+        "CODE": "ROB",
+        "FCD": "FAB",
+        "Genus": "Robinia"
+    },
+    {
+        "CODE": "ROL",
+        "FCD": "AST",
+        "Genus": "Roldana"
+    },
+    {
+        "CODE": "ROM",
+        "FCD": "PAP",
+        "Genus": "Romneya"
+    },
+    {
+        "CODE": "ROMA",
+        "FCD": "IRI",
+        "Genus": "Romulea"
+    },
+    {
+        "CODE": "ROR",
+        "FCD": "BRA",
+        "Genus": "Rorippa"
+    },
+    {
+        "CODE": "ROS",
+        "FCD": "ROS",
+        "Genus": "Rosa"
+    },
+    {
+        "CODE": "ROSA",
+        "FCD": "JUN",
+        "Genus": "Rostkovia"
+    },
+    {
+        "CODE": "ROSB",
+        "FCD": "POA",
+        "Genus": "Rostraria"
+    },
+    {
+        "CODE": "ROSC",
+        "FCD": "LAM",
+        "Genus": "Rosmarinus"
+    },
+    {
+        "CODE": "ROT",
+        "FCD": "LYT",
+        "Genus": "Rotala"
+    },
+    {
+        "CODE": "RUB",
+        "FCD": "ROS",
+        "Genus": "Rubus"
+    },
+    {
+        "CODE": "RUD",
+        "FCD": "AST",
+        "Genus": "Rudbeckia"
+    },
+    {
+        "CODE": "RUM",
+        "FCD": "PLO",
+        "Genus": "Rumex"
+    },
+    {
+        "CODE": "RUMA",
+        "FCD": "DAV",
+        "Genus": "Rumohra"
+    },
+    {
+        "CODE": "RUP",
+        "FCD": "RUP",
+        "Genus": "Ruppia"
+    },
+    {
+        "CODE": "RUS",
+        "FCD": "AIZ",
+        "Genus": "Ruschia"
+    },
+    {
+        "CODE": "RUSA",
+        "FCD": "ASR",
+        "Genus": "Ruscus"
+    },
+    {
+        "CODE": "RYT",
+        "FCD": "POA",
+        "Genus": "Rytidosperma"
+    },
+    {
+        "CODE": "S.",
+        "FCD": "",
+        "Genus": "S."
+    },
+    {
+        "CODE": "SAC",
+        "FCD": "POA",
+        "Genus": "Sacciolepis"
+    },
+    {
+        "CODE": "SACB",
+        "FCD": "POA",
+        "Genus": "Saccharum"
+    },
+    {
+        "CODE": "SAG",
+        "FCD": "CRY",
+        "Genus": "Sagina"
+    },
+    {
+        "CODE": "SAGA",
+        "FCD": "ALI",
+        "Genus": "Sagittaria"
+    },
+    {
+        "CODE": "SAL",
+        "FCD": "SAL",
+        "Genus": "Salix"
+    },
+    {
+        "CODE": "SALA",
+        "FCD": "AMA",
+        "Genus": "Salsola"
+    },
+    {
+        "CODE": "SALB",
+        "FCD": "SOL",
+        "Genus": "Salpichroa"
+    },
+    {
+        "CODE": "SALC",
+        "FCD": "SOL",
+        "Genus": "Salpiglossis"
+    },
+    {
+        "CODE": "SALD",
+        "FCD": "LAM",
+        "Genus": "Salvia"
+    },
+    {
+        "CODE": "SALE",
+        "FCD": "SLV",
+        "Genus": "Salvinia"
+    },
+    {
+        "CODE": "SALF",
+        "FCD": "AMA",
+        "Genus": "Salicornia"
+    },
+    {
+        "CODE": "SAM",
+        "FCD": "ADO",
+        "Genus": "Sambucus"
+    },
+    {
+        "CODE": "SAMA",
+        "FCD": "PRI",
+        "Genus": "Samolus"
+    },
+    {
+        "CODE": "SAN",
+        "FCD": "ROS",
+        "Genus": "Sanguisorba"
+    },
+    {
+        "CODE": "SANA",
+        "FCD": "AST",
+        "Genus": "Santolina"
+    },
+    {
+        "CODE": "SANB",
+        "FCD": "SAN",
+        "Genus": "Santalum"
+    },
+    {
+        "CODE": "SANC",
+        "FCD": "ASP",
+        "Genus": "Sansevieria"
+    },
+    {
+        "CODE": "SAP",
+        "FCD": "CRY",
+        "Genus": "Saponaria"
+    },
+    {
+        "CODE": "SAR",
+        "FCD": "ORC",
+        "Genus": "Sarcochilus"
+    },
+    {
+        "CODE": "SARA",
+        "FCD": "AMA",
+        "Genus": "Sarcocornia"
+    },
+    {
+        "CODE": "SARB",
+        "FCD": "FAB",
+        "Genus": "Sarothamnus"
+    },
+    {
+        "CODE": "SARC",
+        "FCD": "SAR",
+        "Genus": "Sarracenia"
+    },
+    {
+        "CODE": "SAS",
+        "FCD": "POA",
+        "Genus": "Sasa"
+    },
+    {
+        "CODE": "SASA",
+        "FCD": "POA",
+        "Genus": "Sasaella"
+    },
+    {
+        "CODE": "SAT",
+        "FCD": "LAM",
+        "Genus": "Satureja"
+    },
+    {
+        "CODE": "SAU",
+        "FCD": "SAU",
+        "Genus": "Saururus"
+    },
+    {
+        "CODE": "SAX",
+        "FCD": "SAX",
+        "Genus": "Saxifraga"
+    },
+    {
+        "CODE": "SCA",
+        "FCD": "CAP",
+        "Genus": "Scabiosa"
+    },
+    {
+        "CODE": "SCAA",
+        "FCD": "GOO",
+        "Genus": "Scaevola"
+    },
+    {
+        "CODE": "SCAB",
+        "FCD": "API",
+        "Genus": "Scandia"
+    },
+    {
+        "CODE": "SCAC",
+        "FCD": "API",
+        "Genus": "Scandix"
+    },
+    {
+        "CODE": "SCH",
+        "FCD": "ARL",
+        "Genus": "Schefflera"
+    },
+    {
+        "CODE": "SCHA",
+        "FCD": "ANA",
+        "Genus": "Schinus"
+    },
+    {
+        "CODE": "SCHB",
+        "FCD": "SCH",
+        "Genus": "Schizaea"
+    },
+    {
+        "CODE": "SCHC",
+        "FCD": "API",
+        "Genus": "Schizeilema"
+    },
+    {
+        "CODE": "SCHD",
+        "FCD": "IRI",
+        "Genus": "Schizostylis"
+    },
+    {
+        "CODE": "SCHE",
+        "FCD": "CYP",
+        "Genus": "Schoenoplectus"
+    },
+    {
+        "CODE": "SCHF",
+        "FCD": "CYP",
+        "Genus": "Schoenus"
+    },
+    {
+        "CODE": "SCHG",
+        "FCD": "SOL",
+        "Genus": "Schizanthus"
+    },
+    {
+        "CODE": "SCHH",
+        "FCD": "POA",
+        "Genus": "Schedonorus"
+    },
+    {
+        "CODE": "SCHI",
+        "FCD": "POA",
+        "Genus": "Schedololium"
+    },
+    {
+        "CODE": "SCHJ",
+        "FCD": "SCI",
+        "Genus": "Schisandra"
+    },
+    {
+        "CODE": "SCI",
+        "FCD": "ASR",
+        "Genus": "Scilla"
+    },
+    {
+        "CODE": "SCIA",
+        "FCD": "CYP",
+        "Genus": "Scirpoides"
+    },
+    {
+        "CODE": "SCIB",
+        "FCD": "CYP",
+        "Genus": "Scirpus"
+    },
+    {
+        "CODE": "SCL",
+        "FCD": "CRY",
+        "Genus": "Scleranthus"
+    },
+    {
+        "CODE": "SCLA",
+        "FCD": "POA",
+        "Genus": "Scleropoa"
+    },
+    {
+        "CODE": "SCO",
+        "FCD": "FAB",
+        "Genus": "Scorpiurus"
+    },
+    {
+        "CODE": "SCR",
+        "FCD": "SCR",
+        "Genus": "Scrophularia"
+    },
+    {
+        "CODE": "SCU",
+        "FCD": "LAM",
+        "Genus": "Scutellaria"
+    },
+    {
+        "CODE": "SEB",
+        "FCD": "GEN",
+        "Genus": "Sebaea"
+    },
+    {
+        "CODE": "SEC",
+        "FCD": "POA",
+        "Genus": "Secale"
+    },
+    {
+        "CODE": "SECA",
+        "FCD": "CUC",
+        "Genus": "Sechium"
+    },
+    {
+        "CODE": "SED",
+        "FCD": "CRA",
+        "Genus": "Sedum"
+    },
+    {
+        "CODE": "SEDA",
+        "FCD": "CRA",
+        "Genus": "Sedadia "
+    },
+    {
+        "CODE": "SEL",
+        "FCD": "SEL",
+        "Genus": "Selaginella"
+    },
+    {
+        "CODE": "SELA",
+        "FCD": "HYM",
+        "Genus": "Selenodesmium"
+    },
+    {
+        "CODE": "SELB",
+        "FCD": "GOO",
+        "Genus": "Selliera"
+    },
+    {
+        "CODE": "SEM",
+        "FCD": "POA",
+        "Genus": "Semiarundinaria"
+    },
+    {
+        "CODE": "SEMA",
+        "FCD": "CRA",
+        "Genus": "Sempervivum"
+    },
+    {
+        "CODE": "SEN",
+        "FCD": "BRA",
+        "Genus": "Senebiera"
+    },
+    {
+        "CODE": "SENA",
+        "FCD": "AST",
+        "Genus": "Senecio"
+    },
+    {
+        "CODE": "SENB",
+        "FCD": "FAB",
+        "Genus": "Senna"
+    },
+    {
+        "CODE": "SENC",
+        "FCD": "AST",
+        "Genus": "Senecioides"
+    },
+    {
+        "CODE": "SEQ",
+        "FCD": "TXD",
+        "Genus": "Sequoia"
+    },
+    {
+        "CODE": "SEQA",
+        "FCD": "CUP",
+        "Genus": "Sequoiadendron"
+    },
+    {
+        "CODE": "SES",
+        "FCD": "PED",
+        "Genus": "Sesamum"
+    },
+    {
+        "CODE": "SESA",
+        "FCD": "POA",
+        "Genus": "Sesleria"
+    },
+    {
+        "CODE": "SET",
+        "FCD": "POA",
+        "Genus": "Setaria"
+    },
+    {
+        "CODE": "SHE",
+        "FCD": "RUB",
+        "Genus": "Sherardia"
+    },
+    {
+        "CODE": "SIC",
+        "FCD": "CUC",
+        "Genus": "Sicyos"
+    },
+    {
+        "CODE": "SID",
+        "FCD": "MAL",
+        "Genus": "Sida"
+    },
+    {
+        "CODE": "SIDA",
+        "FCD": "MAL",
+        "Genus": "Sidalcea"
+    },
+    {
+        "CODE": "SIE",
+        "FCD": "POA",
+        "Genus": "Sieglingia"
+    },
+    {
+        "CODE": "SIG",
+        "FCD": "AST",
+        "Genus": "Sigesbeckia"
+    },
+    {
+        "CODE": "SIL",
+        "FCD": "CRY",
+        "Genus": "Silene"
+    },
+    {
+        "CODE": "SILA",
+        "FCD": "AST",
+        "Genus": "Silybum"
+    },
+    {
+        "CODE": "SIM",
+        "FCD": "POA",
+        "Genus": "Simplicia"
+    },
+    {
+        "CODE": "SIMA",
+        "FCD": "ORC",
+        "Genus": "Simpliglottis"
+    },
+    {
+        "CODE": "SIN",
+        "FCD": "BRA",
+        "Genus": "Sinapis"
+    },
+    {
+        "CODE": "SINA",
+        "FCD": "ORC",
+        "Genus": "Singularybas"
+    },
+    {
+        "CODE": "SIS",
+        "FCD": "API",
+        "Genus": "Sison"
+    },
+    {
+        "CODE": "SISA",
+        "FCD": "BRA",
+        "Genus": "Sisymbrium"
+    },
+    {
+        "CODE": "SISB",
+        "FCD": "IRI",
+        "Genus": "Sisyrinchium"
+    },
+    {
+        "CODE": "SMI",
+        "FCD": "SMI",
+        "Genus": "Smilax"
+    },
+    {
+        "CODE": "SMY",
+        "FCD": "API",
+        "Genus": "Smyrnium"
+    },
+    {
+        "CODE": "SOL",
+        "FCD": "SOL",
+        "Genus": "Solanum"
+    },
+    {
+        "CODE": "SOLA",
+        "FCD": "URT",
+        "Genus": "Soleirolia"
+    },
+    {
+        "CODE": "SOLB",
+        "FCD": "AST",
+        "Genus": "Solenogyne"
+    },
+    {
+        "CODE": "SOLC",
+        "FCD": "CAM",
+        "Genus": "Solenopsis"
+    },
+    {
+        "CODE": "SOLD",
+        "FCD": "AST",
+        "Genus": "Solidago"
+    },
+    {
+        "CODE": "SOLE",
+        "FCD": "AST",
+        "Genus": "Soliva"
+    },
+    {
+        "CODE": "SOLF",
+        "FCD": "SOL",
+        "Genus": "Solandra"
+    },
+    {
+        "CODE": "SON",
+        "FCD": "AST",
+        "Genus": "Sonchus"
+    },
+    {
+        "CODE": "SOP",
+        "FCD": "FAB",
+        "Genus": "Sophora"
+    },
+    {
+        "CODE": "SOR",
+        "FCD": "ROS",
+        "Genus": "Sorbaria"
+    },
+    {
+        "CODE": "SORA",
+        "FCD": "ROS",
+        "Genus": "Sorbus"
+    },
+    {
+        "CODE": "SORB",
+        "FCD": "POA",
+        "Genus": "Sorghum"
+    },
+    {
+        "CODE": "SPA",
+        "FCD": "IRI",
+        "Genus": "Sparaxis"
+    },
+    {
+        "CODE": "SPAA",
+        "FCD": "TYP",
+        "Genus": "Sparganium"
+    },
+    {
+        "CODE": "SPAB",
+        "FCD": "MAL",
+        "Genus": "Sparrmannia"
+    },
+    {
+        "CODE": "SPAC",
+        "FCD": "POA",
+        "Genus": "Spartina"
+    },
+    {
+        "CODE": "SPAD",
+        "FCD": "FAB",
+        "Genus": "Spartium"
+    },
+    {
+        "CODE": "SPAE",
+        "FCD": "HYM",
+        "Genus": "Sphaeropteris"
+    },
+    {
+        "CODE": "SPE",
+        "FCD": "CRY",
+        "Genus": "Spergula"
+    },
+    {
+        "CODE": "SPEA",
+        "FCD": "CRY",
+        "Genus": "Spergularia"
+    },
+    {
+        "CODE": "SPH",
+        "FCD": "HYM",
+        "Genus": "Sphaerocionium"
+    },
+    {
+        "CODE": "SPHA",
+        "FCD": "MAL",
+        "Genus": "Sphaeralcea"
+    },
+    {
+        "CODE": "SPHB",
+        "FCD": "DEN",
+        "Genus": "Sphenomeris"
+    },
+    {
+        "CODE": "SPI",
+        "FCD": "POA",
+        "Genus": "Spinifex"
+    },
+    {
+        "CODE": "SPIA",
+        "FCD": "ROS",
+        "Genus": "Spiraea"
+    },
+    {
+        "CODE": "SPIB",
+        "FCD": "ORC",
+        "Genus": "Spiranthes"
+    },
+    {
+        "CODE": "SPIC",
+        "FCD": "ARB",
+        "Genus": "Spirodela"
+    },
+    {
+        "CODE": "SPO",
+        "FCD": "RST",
+        "Genus": "Sporadanthus"
+    },
+    {
+        "CODE": "SPOA",
+        "FCD": "POA",
+        "Genus": "Sporobolus"
+    },
+    {
+        "CODE": "SPR",
+        "FCD": "ERI",
+        "Genus": "Sprengelia"
+    },
+    {
+        "CODE": "STA",
+        "FCD": "LAM",
+        "Genus": "Stachys"
+    },
+    {
+        "CODE": "STAA",
+        "FCD": "VRB",
+        "Genus": "Stachytarpheta"
+    },
+    {
+        "CODE": "STAB",
+        "FCD": "CEL",
+        "Genus": "Stackhousia"
+    },
+    {
+        "CODE": "STAC",
+        "FCD": "POD",
+        "Genus": "Stachypitys"
+    },
+    {
+        "CODE": "STAD",
+        "FCD": "STP",
+        "Genus": "Staphylea"
+    },
+    {
+        "CODE": "STE",
+        "FCD": "CRY",
+        "Genus": "Stellaria"
+    },
+    {
+        "CODE": "STEA",
+        "FCD": "POA",
+        "Genus": "Stenostachys"
+    },
+    {
+        "CODE": "STEC",
+        "FCD": "POA",
+        "Genus": "Stenotaphrum"
+    },
+    {
+        "CODE": "STED",
+        "FCD": "ORC",
+        "Genus": "Stegostyla"
+    },
+    {
+        "CODE": "STEE",
+        "FCD": "PRO",
+        "Genus": "Stenocarpus"
+    },
+    {
+        "CODE": "STEG",
+        "FCD": "ROS",
+        "Genus": "Stephanandra"
+    },
+    {
+        "CODE": "STI",
+        "FCD": "GLE",
+        "Genus": "Sticherus"
+    },
+    {
+        "CODE": "STIA",
+        "FCD": "API",
+        "Genus": "Stilbocarpa"
+    },
+    {
+        "CODE": "STIB",
+        "FCD": "POA",
+        "Genus": "Stipa"
+    },
+    {
+        "CODE": "STR",
+        "FCD": "ROS",
+        "Genus": "Stranvaesia"
+    },
+    {
+        "CODE": "STRA",
+        "FCD": "MOR",
+        "Genus": "Streblus"
+    },
+    {
+        "CODE": "STRB",
+        "FCD": "ACA",
+        "Genus": "Strobilanthes"
+    },
+    {
+        "CODE": "STU",
+        "FCD": "AST",
+        "Genus": "Stuartina"
+    },
+    {
+        "CODE": "STUA",
+        "FCD": "POT",
+        "Genus": "Stuckenia"
+    },
+    {
+        "CODE": "STY",
+        "FCD": "ERI",
+        "Genus": "Styphelia"
+    },
+    {
+        "CODE": "SUA",
+        "FCD": "AMA",
+        "Genus": "Suaeda"
+    },
+    {
+        "CODE": "SUL",
+        "FCD": "ORC",
+        "Genus": "Sullivania"
+    },
+    {
+        "CODE": "SUT",
+        "FCD": "PRI",
+        "Genus": "Suttonia"
+    },
+    {
+        "CODE": "SWA",
+        "FCD": "FAB",
+        "Genus": "Swainsona"
+    },
+    {
+        "CODE": "SYA",
+        "FCD": "ARE",
+        "Genus": "Syagrus"
+    },
+    {
+        "CODE": "SYM",
+        "FCD": "CAP",
+        "Genus": "Symphoricarpos"
+    },
+    {
+        "CODE": "SYMA",
+        "FCD": "BOR",
+        "Genus": "Symphytum"
+    },
+    {
+        "CODE": "SYMB",
+        "FCD": "AST",
+        "Genus": "Symphyotrichum"
+    },
+    {
+        "CODE": "SYN",
+        "FCD": "MYR",
+        "Genus": "Syncarpia"
+    },
+    {
+        "CODE": "SYR",
+        "FCD": "OLE",
+        "Genus": "Syringa"
+    },
+    {
+        "CODE": "SYZ",
+        "FCD": "MYR",
+        "Genus": "Syzygium"
+    },
+    {
+        "CODE": "T.",
+        "FCD": "",
+        "Genus": "T."
+    },
+    {
+        "CODE": "TAE",
+        "FCD": "ORC",
+        "Genus": "Taeniophyllum"
+    },
+    {
+        "CODE": "TAG",
+        "FCD": "AST",
+        "Genus": "Tagetes"
+    },
+    {
+        "CODE": "TAL",
+        "FCD": "TAL",
+        "Genus": "Talinum"
+    },
+    {
+        "CODE": "TAM",
+        "FCD": "MYR",
+        "Genus": "Tamarix"
+    },
+    {
+        "CODE": "TAN",
+        "FCD": "AST",
+        "Genus": "Tanacetum"
+    },
+    {
+        "CODE": "TAR",
+        "FCD": "AST",
+        "Genus": "Taraxacum"
+    },
+    {
+        "CODE": "TAX",
+        "FCD": "TAX",
+        "Genus": "Taxus"
+    },
+    {
+        "CODE": "TAXB",
+        "FCD": "MYR",
+        "Genus": "Taxandria"
+    },
+    {
+        "CODE": "TAXA",
+        "FCD": "TAX",
+        "Genus": "Taxodium"
+    },
+    {
+        "CODE": "TEC",
+        "FCD": "BIG",
+        "Genus": "Tecoma"
+    },
+    {
+        "CODE": "TECA",
+        "FCD": "BIG",
+        "Genus": "Tecomanthe"
+    },
+    {
+        "CODE": "TECB",
+        "FCD": "BIG",
+        "Genus": "Tecomaria"
+    },
+    {
+        "CODE": "TEL",
+        "FCD": "AMA",
+        "Genus": "Telanthera"
+    },
+    {
+        "CODE": "TELA",
+        "FCD": "FAB",
+        "Genus": "Teline"
+    },
+    {
+        "CODE": "TELB",
+        "FCD": "PRO",
+        "Genus": "Telopea"
+    },
+    {
+        "CODE": "TELC",
+        "FCD": "SAX",
+        "Genus": "Tellima"
+    },
+    {
+        "CODE": "TET",
+        "FCD": "TET",
+        "Genus": "Tetrachondra"
+    },
+    {
+        "CODE": "TETA",
+        "FCD": "AIZ",
+        "Genus": "Tetragonia"
+    },
+    {
+        "CODE": "TETB",
+        "FCD": "ARL",
+        "Genus": "Tetrapanax"
+    },
+    {
+        "CODE": "TETC",
+        "FCD": "CYP",
+        "Genus": "Tetraria"
+    },
+    {
+        "CODE": "TETD",
+        "FCD": "FAB",
+        "Genus": "Tetragonolobus"
+    },
+    {
+        "CODE": "TETE",
+        "FCD": "LAM",
+        "Genus": "Tetradenia"
+    },
+    {
+        "CODE": "TETF",
+        "FCD": "PAS",
+        "Genus": "Tetrapathaea"
+    },
+    {
+        "CODE": "TEU",
+        "FCD": "LAM",
+        "Genus": "Teucridium"
+    },
+    {
+        "CODE": "TEUA",
+        "FCD": "LAM",
+        "Genus": "Teucrium"
+    },
+    {
+        "CODE": "THA",
+        "FCD": "RAN",
+        "Genus": "Thalictrum"
+    },
+    {
+        "CODE": "THE",
+        "FCD": "ORC",
+        "Genus": "Thelymitra"
+    },
+    {
+        "CODE": "THEA",
+        "FCD": "THE",
+        "Genus": "Thelypteris"
+    },
+    {
+        "CODE": "THEB",
+        "FCD": "POA",
+        "Genus": "Themeda"
+    },
+    {
+        "CODE": "THEC",
+        "FCD": "AMA",
+        "Genus": "Theleophyton"
+    },
+    {
+        "CODE": "THI",
+        "FCD": "POA",
+        "Genus": "Thinopyrum"
+    },
+    {
+        "CODE": "THIA",
+        "FCD": "BUR",
+        "Genus": "Thismia"
+    },
+    {
+        "CODE": "THL",
+        "FCD": "BRA",
+        "Genus": "Thlaspi"
+    },
+    {
+        "CODE": "THO",
+        "FCD": "POA",
+        "Genus": "Thonandia"
+    },
+    {
+        "CODE": "THR",
+        "FCD": "AST",
+        "Genus": "Thrincia"
+    },
+    {
+        "CODE": "THU",
+        "FCD": "CUP",
+        "Genus": "Thuja"
+    },
+    {
+        "CODE": "THUA",
+        "FCD": "ACA",
+        "Genus": "Thunbergia"
+    },
+    {
+        "CODE": "THY",
+        "FCD": "LAM",
+        "Genus": "Thymus"
+    },
+    {
+        "CODE": "THYA",
+        "FCD": "PHR",
+        "Genus": "Thyridia"
+    },
+    {
+        "CODE": "TIA",
+        "FCD": "SAX",
+        "Genus": "Tiarella"
+    },
+    {
+        "CODE": "TIB",
+        "FCD": "MLS",
+        "Genus": "Tibouchina"
+    },
+    {
+        "CODE": "TIE",
+        "FCD": "ARL",
+        "Genus": "Tieghemopanax"
+    },
+    {
+        "CODE": "TIL",
+        "FCD": "CRA",
+        "Genus": "Tillaea"
+    },
+    {
+        "CODE": "TIT",
+        "FCD": "AST",
+        "Genus": "Tithonia"
+    },
+    {
+        "CODE": "TME",
+        "FCD": "PSI",
+        "Genus": "Tmesipteris"
+    },
+    {
+        "CODE": "TOD",
+        "FCD": "OSM",
+        "Genus": "Todea"
+    },
+    {
+        "CODE": "TOL",
+        "FCD": "AST",
+        "Genus": "Tolpis"
+    },
+    {
+        "CODE": "TOO",
+        "FCD": "MEL",
+        "Genus": "Toona"
+    },
+    {
+        "CODE": "TOR",
+        "FCD": "API",
+        "Genus": "Torilis"
+    },
+    {
+        "CODE": "TORA",
+        "FCD": "PRO",
+        "Genus": "Toronia"
+    },
+    {
+        "CODE": "TOV",
+        "FCD": "PLO",
+        "Genus": "Tovara"
+    },
+    {
+        "CODE": "TOW",
+        "FCD": "ORC",
+        "Genus": "Townsonia"
+    },
+    {
+        "CODE": "TOX",
+        "FCD": "ANA",
+        "Genus": "Toxicodendron"
+    },
+    {
+        "CODE": "TRA",
+        "FCD": "CAM",
+        "Genus": "Trachelium"
+    },
+    {
+        "CODE": "TRAA",
+        "FCD": "ARE",
+        "Genus": "Trachycarpus"
+    },
+    {
+        "CODE": "TRAB",
+        "FCD": "COM",
+        "Genus": "Tradescantia"
+    },
+    {
+        "CODE": "TRAC",
+        "FCD": "AST",
+        "Genus": "Tragopogon"
+    },
+    {
+        "CODE": "TRAD",
+        "FCD": "AST",
+        "Genus": "Traversia"
+    },
+    {
+        "CODE": "TRAE",
+        "FCD": "BOR",
+        "Genus": "Trachystemon"
+    },
+    {
+        "CODE": "TRI",
+        "FCD": "ZYG",
+        "Genus": "Tribulus"
+    },
+    {
+        "CODE": "TRIA",
+        "FCD": "HYM",
+        "Genus": "Trichomanes"
+    },
+    {
+        "CODE": "TRIB",
+        "FCD": "FAB",
+        "Genus": "Trifolium"
+    },
+    {
+        "CODE": "TRIC",
+        "FCD": "JNG",
+        "Genus": "Triglochin"
+    },
+    {
+        "CODE": "TRID",
+        "FCD": "FAB",
+        "Genus": "Trigonella"
+    },
+    {
+        "CODE": "TRIE",
+        "FCD": "LOR",
+        "Genus": "Trilepidea"
+    },
+    {
+        "CODE": "TRIF",
+        "FCD": "POA",
+        "Genus": "Triodia"
+    },
+    {
+        "CODE": "TRIG",
+        "FCD": "AST",
+        "Genus": "Tripleurospermum"
+    },
+    {
+        "CODE": "TRIH",
+        "FCD": "POA",
+        "Genus": "Trisetum"
+    },
+    {
+        "CODE": "TRII",
+        "FCD": "POA",
+        "Genus": "Triticum"
+    },
+    {
+        "CODE": "TRIJ",
+        "FCD": "IRI",
+        "Genus": "Tritonia"
+    },
+    {
+        "CODE": "TRIK",
+        "FCD": "MYR",
+        "Genus": "Tristaniopsis"
+    },
+    {
+        "CODE": "TRIL",
+        "FCD": "HDT",
+        "Genus": "Trithuria"
+    },
+    {
+        "CODE": "TRO",
+        "FCD": "TRO",
+        "Genus": "Tropaeolum"
+    },
+    {
+        "CODE": "TSU",
+        "FCD": "PIN",
+        "Genus": "Tsuga"
+    },
+    {
+        "CODE": "TUL",
+        "FCD": "AMR",
+        "Genus": "Tulbaghia"
+    },
+    {
+        "CODE": "TUN",
+        "FCD": "CRY",
+        "Genus": "Tunica"
+    },
+    {
+        "CODE": "TUP",
+        "FCD": "LOR",
+        "Genus": "Tupeia"
+    },
+    {
+        "CODE": "TUS",
+        "FCD": "AST",
+        "Genus": "Tussilago"
+    },
+    {
+        "CODE": "TYP",
+        "FCD": "TYP",
+        "Genus": "Typha"
+    },
+    {
+        "CODE": "U.",
+        "FCD": "",
+        "Genus": "U."
+    },
+    {
+        "CODE": "UGN",
+        "FCD": "MYR",
+        "Genus": "Ugni"
+    },
+    {
+        "CODE": "ULE",
+        "FCD": "FAB",
+        "Genus": "Ulex"
+    },
+    {
+        "CODE": "ULM",
+        "FCD": "ULM",
+        "Genus": "Ulmus"
+    },
+    {
+        "CODE": "UMB",
+        "FCD": "CRA",
+        "Genus": "Umbilicus"
+    },
+    {
+        "CODE": "UNC",
+        "FCD": "CYP",
+        "Genus": "Uncinia"
+    },
+    {
+        "CODE": "URO",
+        "FCD": "POA",
+        "Genus": "Urochloa"
+    },
+    {
+        "CODE": "UROA",
+        "FCD": "AST",
+        "Genus": "Urostemon"
+    },
+    {
+        "CODE": "URS",
+        "FCD": "AST",
+        "Genus": "Ursinia"
+    },
+    {
+        "CODE": "URT",
+        "FCD": "URT",
+        "Genus": "Urtica"
+    },
+    {
+        "CODE": "UTR",
+        "FCD": "LEN",
+        "Genus": "Utricularia"
+    },
+    {
+        "CODE": "V.",
+        "FCD": "",
+        "Genus": "V."
+    },
+    {
+        "CODE": "VAC",
+        "FCD": "CRY",
+        "Genus": "Vaccaria"
+    },
+    {
+        "CODE": "VACA",
+        "FCD": "ERI",
+        "Genus": "Vaccinium"
+    },
+    {
+        "CODE": "VAL",
+        "FCD": "CAP",
+        "Genus": "Valerianella"
+    },
+    {
+        "CODE": "VALA",
+        "FCD": "HYD",
+        "Genus": "Vallisneria"
+    },
+    {
+        "CODE": "VALB",
+        "FCD": "AMR",
+        "Genus": "Vallota"
+    },
+    {
+        "CODE": "VAN",
+        "FCD": "HYM",
+        "Genus": "Vandenboschia"
+    },
+    {
+        "CODE": "VANB",
+        "FCD": "BER",
+        "Genus": "Vancouveria"
+    },
+    {
+        "CODE": "VEL",
+        "FCD": "AST",
+        "Genus": "Vellereophyton"
+    },
+    {
+        "CODE": "VER",
+        "FCD": "SCR",
+        "Genus": "Verbascum"
+    },
+    {
+        "CODE": "VERA",
+        "FCD": "VRB",
+        "Genus": "Verbena"
+    },
+    {
+        "CODE": "VERB",
+        "FCD": "AST",
+        "Genus": "Vernonia"
+    },
+    {
+        "CODE": "VERC",
+        "FCD": "PLG",
+        "Genus": "Veronica"
+    },
+    {
+        "CODE": "VERD",
+        "FCD": "EUP",
+        "Genus": "Vernicia"
+    },
+    {
+        "CODE": "VES",
+        "FCD": "SOL",
+        "Genus": "Vestia"
+    },
+    {
+        "CODE": "VIB",
+        "FCD": "ADO",
+        "Genus": "Viburnum"
+    },
+    {
+        "CODE": "VIC",
+        "FCD": "FAB",
+        "Genus": "Vicia"
+    },
+    {
+        "CODE": "VIG",
+        "FCD": "CYP",
+        "Genus": "Vignea"
+    },
+    {
+        "CODE": "VIN",
+        "FCD": "APO",
+        "Genus": "Vinca"
+    },
+    {
+        "CODE": "VINA",
+        "FCD": "CYP",
+        "Genus": "Vincentia"
+    },
+    {
+        "CODE": "VIO",
+        "FCD": "VIO",
+        "Genus": "Viola"
+    },
+    {
+        "CODE": "VIR",
+        "FCD": "FAB",
+        "Genus": "Virgilia"
+    },
+    {
+        "CODE": "VIS",
+        "FCD": "SAN",
+        "Genus": "Viscum"
+    },
+    {
+        "CODE": "VIT",
+        "FCD": "LAM",
+        "Genus": "Vitex"
+    },
+    {
+        "CODE": "VITA",
+        "FCD": "VIT",
+        "Genus": "Vitis"
+    },
+    {
+        "CODE": "VITB",
+        "FCD": "AST",
+        "Genus": "Vittadinia"
+    },
+    {
+        "CODE": "VUL",
+        "FCD": "POA",
+        "Genus": "Vulpia"
+    },
+    {
+        "CODE": "W.",
+        "FCD": "",
+        "Genus": "W."
+    },
+    {
+        "CODE": "WAC",
+        "FCD": "HAE",
+        "Genus": "Wachendorfia"
+    },
+    {
+        "CODE": "WAH",
+        "FCD": "CAM",
+        "Genus": "Wahlenbergia"
+    },
+    {
+        "CODE": "WAI",
+        "FCD": "ORC",
+        "Genus": "Waireia"
+    },
+    {
+        "CODE": "WAT",
+        "FCD": "IRI",
+        "Genus": "Watsonia"
+    },
+    {
+        "CODE": "WATA",
+        "FCD": "MYR",
+        "Genus": "Waterhousea"
+    },
+    {
+        "CODE": "WED",
+        "FCD": "AST",
+        "Genus": "Wedelia"
+    },
+    {
+        "CODE": "WEI",
+        "FCD": "CUN",
+        "Genus": "Weinmannia"
+    },
+    {
+        "CODE": "WEIA",
+        "FCD": "CAP",
+        "Genus": "Weigela"
+    },
+    {
+        "CODE": "WES",
+        "FCD": "LAM",
+        "Genus": "Westringia"
+    },
+    {
+        "CODE": "WIG",
+        "FCD": "HYO",
+        "Genus": "Wigandia"
+    },
+    {
+        "CODE": "WIL",
+        "FCD": "CON",
+        "Genus": "Wilsonia"
+    },
+    {
+        "CODE": "WIN",
+        "FCD": "ORC",
+        "Genus": "Winika"
+    },
+    {
+        "CODE": "WIS",
+        "FCD": "FAB",
+        "Genus": "Wisteria"
+    },
+    {
+        "CODE": "WOL",
+        "FCD": "ARB",
+        "Genus": "Wolffia"
+    },
+    {
+        "CODE": "X.",
+        "FCD": "",
+        "Genus": "X."
+    },
+    {
+        "CODE": "XAN",
+        "FCD": "AST",
+        "Genus": "Xanthium"
+    },
+    {
+        "CODE": "XANA",
+        "FCD": "ARB",
+        "Genus": "Xanthosoma"
+    },
+    {
+        "CODE": "XANB",
+        "FCD": "OXA",
+        "Genus": "Xanthoxalis"
+    },
+    {
+        "CODE": "XER",
+        "FCD": "XER",
+        "Genus": "Xeronema"
+    },
+    {
+        "CODE": "XIT",
+        "FCD": "ARA",
+        "Genus": "XIT"
+    },
+    {
+        "CODE": "Y.",
+        "FCD": "",
+        "Genus": "Y."
+    },
+    {
+        "CODE": "YOA",
+        "FCD": "ORC",
+        "Genus": "Yoania"
+    },
+    {
+        "CODE": "YUC",
+        "FCD": "ASR",
+        "Genus": "Yucca"
+    },
+    {
+        "CODE": "Z.",
+        "FCD": "",
+        "Genus": "Z."
+    },
+    {
+        "CODE": "ZAN",
+        "FCD": "POT",
+        "Genus": "Zannichellia"
+    },
+    {
+        "CODE": "ZANA",
+        "FCD": "ARB",
+        "Genus": "Zantedeschia"
+    },
+    {
+        "CODE": "ZANB",
+        "FCD": "RUT",
+        "Genus": "Zanthoxylum"
+    },
+    {
+        "CODE": "ZEA",
+        "FCD": "POA",
+        "Genus": "Zea"
+    },
+    {
+        "CODE": "ZEP",
+        "FCD": "AMR",
+        "Genus": "Zephyranthes"
+    },
+    {
+        "CODE": "ZIZ",
+        "FCD": "POA",
+        "Genus": "Zizania"
+    },
+    {
+        "CODE": "ZOM",
+        "FCD": "CUN",
+        "Genus": "\"Zombi\""
+    },
+    {
+        "CODE": "ZOS",
+        "FCD": "ZOS",
+        "Genus": "Zostera"
+    },
+    {
+        "CODE": "ZOT",
+        "FCD": "POA",
+        "Genus": "Zotovia"
+    },
+    {
+        "CODE": "ZOY",
+        "FCD": "POA",
+        "Genus": "Zoysia"
+    },
+    {
+        "CODE": "SCOA",
+        "FCD": "POA",
+        "Genus": "Scolochloa"
+    },
+    {
+        "CODE": "PAUA",
+        "FCD": "HPO",
+        "Genus": "Paudria"
+    },
+    {
+        "CODE": "SPID",
+        "FCD": "HPO",
+        "Genus": "Spiloxene"
+    },
+    {
+        "CODE": "STYA",
+        "FCD": "STY",
+        "Genus": "Stylidium"
+    },
+    {
+        "CODE": "FICB",
+        "FCD": "RAN",
+        "Genus": "Ficaria"
+    },
+    {
+        "CODE": "TIG",
+        "FCD": "IRI",
+        "Genus": "Tigridia"
+    },
+    {
+        "CODE": "ING",
+        "FCD": "FAB",
+        "Genus": "Inga"
+    },
+    {
+        "CODE": "SCHK",
+        "FCD": "LOG",
+        "Genus": "Schizacme"
+    },
+    {
+        "CODE": "PSEE",
+        "FCD": "ROS",
+        "Genus": "Pseudocydonia"
+    },
+    {
+        "CODE": "CHAL",
+        "FCD": "POA",
+        "Genus": "Chascolytrum "
+    },
+    {
+        "CODE": "SECB",
+        "FCD": "FAB",
+        "Genus": "Securigera"
+    },
+    {
+        "CODE": "ROTA",
+        "FCD": "LAM",
+        "Genus": "Rotheca"
+    },
+    {
+        "CODE": "CHEE",
+        "FCD": "AMA",
+        "Genus": "Chenopodiastrum"
+    },
+    {
+        "CODE": "VINB",
+        "FCD": "APO",
+        "Genus": "Vincetoxicum "
+    },
+    {
+        "CODE": "ARIE",
+        "FCD": "ARB",
+        "Genus": "Arisaema"
+    },
+    {
+        "CODE": "ASPF",
+        "FCD": "ASR",
+        "Genus": "Asphodeline"
+    },
+    {
+        "CODE": "AMPA",
+        "FCD": "POA",
+        "Genus": "Ampelodesmos "
+    },
+    {
+        "CODE": "MORA",
+        "FCD": "IRI",
+        "Genus": "Moraea"
+    },
+    {
+        "CODE": "ASPG",
+        "FCD": "ASR",
+        "Genus": "Aspidistra"
+    },
+    {
+        "CODE": "JUNA",
+        "FCD": "ARA",
+        "Genus": "Juniperus"
+    },
+    {
+        "CODE": "PARL",
+        "FCD": "IRI",
+        "Genus": "Patersonia"
+    },
+    {
+        "CODE": "DIPF",
+        "FCD": "ARB",
+        "Genus": "Dypsis"
+    },
+    {
+        "CODE": "LEUF",
+        "FCD": "BRA",
+        "Genus": "Leucaena"
+    },
+    {
+        "CODE": "COM",
+        "FCD": "COM",
+        "Genus": "Commelina"
+    },
+    {
+        "CODE": "SCOB",
+        "FCD": "AST",
+        "Genus": "Scorzoneroides"
+    },
+    {
+        "CODE": "DACD",
+        "FCD": "POA",
+        "Genus": "Dactyloctenium"
+    },
+    {
+        "CODE": "DICF",
+        "FCD": "POA",
+        "Genus": "Dichanthelium"
+    },
+    {
+        "CODE": "WAS",
+        "FCD": "PAL",
+        "Genus": "Washingtonia"
+    },
+    {
+        "CODE": "ALYA",
+        "FCD": "APO",
+        "Genus": "Alyxia"
+    },
+    {
+        "CODE": "HIP",
+        "FCD": "FAB",
+        "Genus": "Hippocrepis"
+    },
+    {
+        "CODE": "ODOA",
+        "FCD": "HYM",
+        "Genus": "Odontosoria"
+    },
+    {
+        "CODE": "STEH",
+        "FCD": "AST",
+        "Genus": "Stevia"
+    },
+    {
+        "CODE": "ECHE",
+        "FCD": "AST",
+        "Genus": "Echinacea"
+    },
+    {
+        "CODE": "EVO",
+        "FCD": "CON",
+        "Genus": "Evolvulus"
+    },
+    {
+        "CODE": "LEEA",
+        "FCD": "FAB",
+        "Genus": "Lessertia"
+    },
+    {
+        "CODE": "MACG",
+        "FCD": "PAP",
+        "Genus": "Macleaya"
+    },
+    {
+        "CODE": "BON",
+        "FCD": "PLG",
+        "Genus": "Bonnaya"
+    },
+    {
+        "CODE": "COLI",
+        "FCD": "RHA",
+        "Genus": "Colletia"
+    },
+    {
+        "CODE": "ARAE",
+        "FCD": "BRA",
+        "Genus": "Arabis"
+    },
+    {
+        "CODE": "CET",
+        "FCD": "ASP",
+        "Genus": "Ceterach"
+    },
+    {
+        "CODE": "STIC",
+        "FCD": "AST",
+        "Genus": "Stifftia"
+    },
+    {
+        "CODE": "MANC",
+        "FCD": "EUP",
+        "Genus": "Manihot"
+    },
+    {
+        "CODE": "MELL",
+        "FCD": "MYR",
+        "Genus": "Melaleuca"
+    },
+    {
+        "CODE": "MEG",
+        "FCD": "POA",
+        "Genus": "Megathyrsus"
+    },
+    {
+        "CODE": "AUSG",
+        "FCD": "BLE",
+        "Genus": "Austroblechnum"
+    },
+    {
+        "CODE": "CRAE",
+        "FCD": "BLE",
+        "Genus": "Cranfillia"
+    },
+    {
+        "CODE": "DIPG",
+        "FCD": "BLE",
+        "Genus": "Diploblechnum"
+    },
+    {
+        "CODE": "ICA",
+        "FCD": "BLE",
+        "Genus": "Icarus"
+    },
+    {
+        "CODE": "PARM",
+        "FCD": "BLE",
+        "Genus": "Parablechnum"
+    },
+    {
+        "CODE": "BES",
+        "FCD": "ASR",
+        "Genus": "Beschorneria"
+    },
+    {
+        "CODE": "HESA",
+        "FCD": "ASR",
+        "Genus": "Hesperantha"
+    },
+    {
+        "CODE": "MODA",
+        "FCD": "MAL",
+        "Genus": "Modiolastrum"
+    },
+    {
+        "CODE": "DIM",
+        "FCD": "AST",
+        "Genus": "Dimorphotheca"
+    },
+    {
+        "CODE": "LOPD",
+        "FCD": "MYR",
+        "Genus": "Lophostemon"
+    },
+    {
+        "CODE": "SCE",
+        "FCD": "OPH",
+        "Genus": "Sceptridium"
+    },
+    {
+        "CODE": "PARN",
+        "FCD": "DRY",
+        "Genus": "Parapolystichum"
+    },
+    {
+        "CODE": "COCB",
+        "FCD": "PAL",
+        "Genus": "Cocos"
+    },
+    {
+        "CODE": "WUR",
+        "FCD": "COL",
+        "Genus": "Wurmbea"
+    },
+    {
+        "CODE": "ODOB",
+        "FCD": "ACA",
+        "Genus": "Odontonema"
+    },
+    {
+        "CODE": "ANEC",
+        "FCD": "RAN",
+        "Genus": "Anemonastrum"
+    },
+    {
+        "CODE": "RUT",
+        "FCD": "RUT",
+        "Genus": "Ruta"
+    },
+    {
+        "CODE": "HIY",
+        "FCD": "DEN",
+        "Genus": "Hiya"
+    },
+    {
+        "CODE": "CAB",
+        "FCD": "CAB",
+        "Genus": "Cabomba"
+    },
+    {
+        "CODE": "AJA.",
+        "FCD": "AST",
+        "Genus": "Ajania"
+    },
+    {
+        "CODE": "LEUG",
+        "FCD": "LAM",
+        "Genus": "Leucosceptrum"
+    },
+    {
+        "CODE": "SARD",
+        "FCD": "BUX",
+        "Genus": "Sarcococca"
+    },
+    {
+        "CODE": "LIND",
+        "FCD": "CAP",
+        "Genus": "Linnaea"
+    },
+    {
+        "CODE": "AMEA",
+        "FCD": "POA",
+        "Genus": "Amelichloa"
+    },
+    {
+        "CODE": "CARO",
+        "FCD": "AIZ",
+        "Genus": "×Carpophyma"
+    },
+    {
+        "CODE": "ACOB",
+        "FCD": "ALI",
+        "Genus": "Acorus"
+    },
+    {
+        "CODE": "AFR",
+        "FCD": "POD",
+        "Genus": "Afrocarpus"
+    },
+    {
+        "CODE": "BILA",
+        "FCD": "BRO",
+        "Genus": "Billbergia"
+    },
+    {
+        "CODE": "BOC",
+        "FCD": "PAP",
+        "Genus": "Bocconia"
+    },
+    {
+        "CODE": "CHAM",
+        "FCD": "SCR",
+        "Genus": "Chaenostoma "
+    },
+    {
+        "CODE": "CHAN",
+        "FCD": "POA",
+        "Genus": "Chasmanthium"
+    },
+    {
+        "CODE": "CHOB",
+        "FCD": "RUT",
+        "Genus": "Choisya"
+    },
+    {
+        "CODE": "COLJ",
+        "FCD": "AST",
+        "Genus": "Coleostephus"
+    },
+    {
+        "CODE": "CONF",
+        "FCD": "ASR",
+        "Genus": "Convallaria"
+    },
+    {
+        "CODE": "CYMA",
+        "FCD": "POA",
+        "Genus": "Cymbopogon"
+    },
+    {
+        "CODE": "DEB",
+        "FCD": "URT",
+        "Genus": "Debregeasia"
+    },
+    {
+        "CODE": "DORC",
+        "FCD": "MAL",
+        "Genus": "Dorstenia"
+    },
+    {
+        "CODE": "EPH",
+        "FCD": "EPH",
+        "Genus": "Ephedra"
+    },
+    {
+        "CODE": "HAR",
+        "FCD": "ANA",
+        "Genus": "Harpephyllum "
+    },
+    {
+        "CODE": "MUL",
+        "FCD": "MUL",
+        "Genus": "Mollugo"
+    },
+    {
+        "CODE": "MUT",
+        "FCD": "MUT",
+        "Genus": "Muntingia"
+    },
+    {
+        "CODE": "MUN",
+        "FCD": "MUN",
+        "Genus": "Muntingia"
+    },
+    {
+        "CODE": "OLD",
+        "FCD": "RUB",
+        "Genus": "Oldenlandia"
+    },
+    {
+        "CODE": "POLI",
+        "FCD": "THC",
+        "Genus": "Polyspora"
+    },
+    {
+        "CODE": "GOR",
+        "FCD": "THC",
+        "Genus": "Gordonia"
+    },
+    {
+        "CODE": "PUY.",
+        "FCD": "BRO",
+        "Genus": "Puya"
+    },
+    {
+        "CODE": "REIA",
+        "FCD": "ASR",
+        "Genus": "Reineckea"
+    },
+    {
+        "CODE": "SCOC",
+        "FCD": "PLG",
+        "Genus": "Scoparia"
+    },
+    {
+        "CODE": "SPEB",
+        "FCD": "RUB",
+        "Genus": "Spermacoce"
+    },
+    {
+        "CODE": "TORB",
+        "FCD": "LND",
+        "Genus": "Torenia"
+    },
+    {
+        "CODE": "TRIM",
+        "FCD": "AIZ",
+        "Genus": "Trianthema"
+    },
+    {
+        "CODE": "VELA",
+        "FCD": "ASR",
+        "Genus": "Veltheimia"
+    },
+    {
+        "CODE": "XANC",
+        "FCD": "RUT",
+        "Genus": "Zanthoxylum"
+    },
+    {
+        "CODE": "ZIN",
+        "FCD": "AST",
+        "Genus": "Zinnia"
+    },
+    {
+        "CODE": "ARAF",
+        "FCD": "FAB",
+        "Genus": "Arachis"
+    },
+    {
+        "CODE": "CYCA",
+        "FCD": "API",
+        "Genus": "Cyclospermum"
+    },
+    {
+        "CODE": "PEC",
+        "FCD": "POD",
+        "Genus": "Pectinopitys"
+    },
+    {
+        "CODE": "PON",
+        "FCD": "PON",
+        "Genus": "Pontederia"
+    },
+    {
+        "CODE": "COLK",
+        "FCD": "LAM",
+        "Genus": "Coleus"
+    },
+    {
+        "CODE": "AVEA",
+        "FCD": "POA",
+        "Genus": "Avenella"
+    },
+    {
+        "CODE": "DEND",
+        "FCD": "PLP",
+        "Genus": "Dendroconche"
+    },
+    {
+        "CODE": "ZEAA",
+        "FCD": "PLP",
+        "Genus": "Zealandia"
+    },
+    {
+        "CODE": "BELA",
+        "FCD": "ORO",
+        "Genus": "Bellardia"
+    },
+    {
+        "CODE": "CLED",
+        "FCD": "AIZ",
+        "Genus": "Cleretum"
+    },
+    {
+        "CODE": "JAT",
+        "FCD": "EUP",
+        "Genus": "Jatropa"
+    },
+    {
+        "CODE": "PSEF",
+        "FCD": "FUM",
+        "Genus": "Pseudofumaria"
+    },
+    {
+        "CODE": "AUB",
+        "FCD": "BRA",
+        "Genus": "Aubrieta"
+    },
+    {
+        "CODE": "HELI",
+        "FCD": "API",
+        "Genus": "Helosciadium"
+    },
+    {
+        "CODE": "ACHC",
+        "FCD": "SOP",
+        "Genus": "Achras"
+    },
+    {
+        "CODE": "ECL",
+        "FCD": "AST",
+        "Genus": "Eclipa"
+    },
+    {
+        "CODE": "ANIB",
+        "FCD": "HAE",
+        "Genus": "Anigozanthos"
+    },
+    {
+        "CODE": "ALLC",
+        "FCD": "APO",
+        "Genus": "Allamanda"
+    },
+    {
+        "CODE": "ALOD",
+        "FCD": "XAN",
+        "Genus": "Aloiampelos"
+    },
+    {
+        "CODE": "GOOA",
+        "FCD": "GOO",
+        "Genus": "Goodenia"
+    },
+    {
+        "CODE": "STRC",
+        "FCD": "HYD",
+        "Genus": "Stratiotes"
+    },
+    {
+        "CODE": "NEW",
+        "FCD": "ORC",
+        "Genus": "Newzealochilus"
+    },
+    {
+        "CODE": "CEO",
+        "FCD": "NYC",
+        "Genus": "Ceodes"
+    },
+    {
+        "CODE": "CRIA",
+        "FCD": "AMR",
+        "Genus": "Crinum"
+    },
+    {
+        "CODE": "PENF",
+        "FCD": "AST",
+        "Genus": "Pentanema"
+    },
+    {
+        "CODE": "GLAB",
+        "FCD": "VRB",
+        "Genus": "Glandularia"
+    },
+    {
+        "CODE": "ANOA",
+        "FCD": "MAL",
+        "Genus": "Anoda"
+    },
+    {
+        "CODE": "COLM",
+        "FCD": "AST",
+        "Genus": "Coleostephus"
+    },
+    {
+        "CODE": "HAM",
+        "FCD": "HAM",
+        "Genus": "Hamamelis"
+    },
+    {
+        "CODE": "CANC",
+        "FCD": "POL",
+        "Genus": "Cantua"
+    },
+    {
+        "CODE": "NEI",
+        "FCD": "ROS",
+        "Genus": "Neillia"
+    },
+    {
+        "CODE": "ERIC",
+        "FCD": "SOL",
+        "Genus": "Eriolarynx"
+    },
+    {
+        "CODE": "HESB",
+        "FCD": "CUP",
+        "Genus": "Hesperocyparis "
+    },
+    {
+        "CODE": "RUE",
+        "FCD": "ACA",
+        "Genus": "Ruellia"
+    },
+    {
+        "CODE": "IRIA",
+        "FCD": "AMA",
+        "Genus": "Iresine"
+    },
+    {
+        "CODE": "HEP",
+        "FCD": "ARL",
+        "Genus": "Heptapleurum"
+    },
+    {
+        "CODE": "VAS",
+        "FCD": "CAR",
+        "Genus": "Vasconcellea"
+    },
+    {
+        "CODE": "ELEC",
+        "FCD": "AST",
+        "Genus": "Eleutheranthera"
+    },
+    {
+        "CODE": "PTEF",
+        "FCD": "CUN",
+        "Genus": "Pterophylla"
+    },
+    {
+        "CODE": "NET",
+        "FCD": "CYP",
+        "Genus": "Netrostylis"
+    },
+    {
+        "CODE": "PARO",
+        "FCD": "RAN",
+        "Genus": "Paraquilegia"
+    },
+    {
+        "CODE": "LUC",
+        "FCD": "RUB",
+        "Genus": "Luculia"
+    },
+    {
+        "CODE": "TROA",
+        "FCD": "SOL",
+        "Genus": "Trozelia"
+    },
+    {
+        "CODE": "ANED",
+        "FCD": "OSM",
+        "Genus": "Anemia"
+    },
+    {
+        "CODE": "PSEG",
+        "FCD": "PTE",
+        "Genus": "Pseudophegopteris"
+    },
+    {
+        "CODE": "CUR",
+        "FCD": "AST",
+        "Genus": "Curio"
+    },
+    {
+        "CODE": "BRAH",
+        "FCD": "MAL",
+        "Genus": "Brachychiton"
+    },
+    {
+        "CODE": "STEI",
+        "FCD": "MAL",
+        "Genus": "Sterculia"
+    },
+    {
+        "CODE": "CHAO",
+        "FCD": "MLS",
+        "Genus": "Chaetogastra"
+    },
+    {
+        "CODE": "DID",
+        "FCD": "MEL",
+        "Genus": "Didymocheton"
+    },
+    {
+        "CODE": "LEC",
+        "FCD": "PLP",
+        "Genus": "Lecanopteris"
+    },
+    {
+        "CODE": "MYRF",
+        "FCD": "ADI",
+        "Genus": "Myriopteris"
+    },
+    {
+        "CODE": "PAK",
+        "FCD": "THE",
+        "Genus": "Pakau"
+    },
+    {
+        "CODE": "PHLD",
+        "FCD": "PLP",
+        "Genus": "Phlebodium"
+    },
+    {
+        "CODE": "AIC",
+        "FCD": "CRA",
+        "Genus": "Aichryson"
+    },
+    {
+        "CODE": "ALTB",
+        "FCD": "MAL",
+        "Genus": "Althaea"
+    },
+    {
+        "CODE": "AMPB",
+        "FCD": "BIG",
+        "Genus": "Amphilophium"
+    },
+    {
+        "CODE": "APHB",
+        "FCD": "ACA",
+        "Genus": "Aphelandra"
+    },
+    {
+        "CODE": "ARGD",
+        "FCD": "ROS",
+        "Genus": "Argentinia"
+    },
+    {
+        "CODE": "TARA",
+        "FCD": "FAB",
+        "Genus": "Tara"
+    },
+    {
+        "CODE": "MELM",
+        "FCD": "MYR",
+        "Genus": "Melaleuca"
+    },
+    {
+        "CODE": "CHAP",
+        "FCD": "ARE",
+        "Genus": "Chamaerops"
+    },
+    {
+        "CODE": "CHRD",
+        "FCD": "AST",
+        "Genus": "Chrysocoma"
+    },
+    {
+        "CODE": "CHU",
+        "FCD": "GRM",
+        "Genus": "Chusquea"
+    },
+    {
+        "CODE": "CRAF",
+        "FCD": "AST",
+        "Genus": "Crassocephalum"
+    },
+    {
+        "CODE": "EUPD",
+        "FCD": "PHI",
+        "Genus": "Eustrephus"
+    },
+    {
+        "CODE": "GEIA",
+        "FCD": "IRI",
+        "Genus": "Geissorhiza"
+    },
+    {
+        "CODE": "HAE",
+        "FCD": "AMR",
+        "Genus": "Haemanthus"
+    },
+    {
+        "CODE": "XERA",
+        "FCD": "AST",
+        "Genus": "Xerochrysum"
+    },
+    {
+        "CODE": "MACH",
+        "FCD": "AST",
+        "Genus": "Macrolearia"
+    },
+    {
+        "CODE": "MELN",
+        "FCD": "MAL",
+        "Genus": "Melochia"
+    },
+    {
+        "CODE": "OCHA",
+        "FCD": "BRO",
+        "Genus": "Ochagavia"
+    },
+    {
+        "CODE": "MONE",
+        "FCD": "PON",
+        "Genus": "Monochoria"
+    },
+    {
+        "CODE": "SCOD",
+        "FCD": "AST",
+        "Genus": "Scorzonera"
+    },
+    {
+        "CODE": "AUR",
+        "FCD": "BRA",
+        "Genus": "Aurina"
+    },
+    {
+        "CODE": "AUSH",
+        "FCD": "LYC",
+        "Genus": "Austrolycopodium"
+    },
+    {
+        "CODE": "BROB",
+        "FCD": "LYC",
+        "Genus": "Brownseya"
+    },
+    {
+        "CODE": "DIPH",
+        "FCD": "LYC",
+        "Genus": "Diphasium"
+    },
+    {
+        "CODE": "GASB",
+        "FCD": "PTE",
+        "Genus": "Gastoniella"
+    },
+    {
+        "CODE": "GLOA",
+        "FCD": "COL",
+        "Genus": "Gloriosa "
+    },
+    {
+        "CODE": "KOEA",
+        "FCD": "PLO",
+        "Genus": "Koenigia"
+    },
+    {
+        "CODE": "LATB",
+        "FCD": "LYC",
+        "Genus": "Lateristachys"
+    },
+    {
+        "CODE": "MICG",
+        "FCD": "SCH",
+        "Genus": "Microschizaea"
+    },
+    {
+        "CODE": "MORB",
+        "FCD": "MYR",
+        "Genus": "Morella"
+    },
+    {
+        "CODE": "PAL",
+        "FCD": "LYC",
+        "Genus": "Palhinhaea"
+    },
+    {
+        "CODE": "PTEG",
+        "FCD": "MLS",
+        "Genus": "Pleroma"
+    },
+    {
+        "CODE": "LASB",
+        "FCD": "MLS",
+        "Genus": "Lasiandra"
+    },
+    {
+        "CODE": "TRAF",
+        "FCD": "LYT",
+        "Genus": "Trapa"
+    },
+    {
+        "CODE": "AGAD",
+        "FCD": "JUN",
+        "Genus": "Agathryon"
+    },
+    {
+        "CODE": "AUSI",
+        "FCD": "JUN",
+        "Genus": "Australojuncus"
+    },
+    {
+        "CODE": "JUNB",
+        "FCD": "JUN",
+        "Genus": "Juncinella"
+    },
+    {
+        "CODE": "VERE",
+        "FCD": "JUN",
+        "Genus": "Verojuncus"
+    },
+    {
+        "CODE": "PLEE",
+        "FCD": "MLS",
+        "Genus": "Pleuroma"
+    },
+    {
+        "CODE": "PSEH",
+        "FCD": "LYC",
+        "Genus": "Pseudodiphasium"
+    },
+    {
+        "CODE": "AEC",
+        "FCD": "BRO",
+        "Genus": "Aechmea"
+    },
+    {
+        "CODE": "ANDB",
+        "FCD": "MLS",
+        "Genus": "Andesanthus"
+    },
+    {
+        "CODE": "CHRE",
+        "FCD": "OLE",
+        "Genus": "Chrysojasminum"
+    },
+    {
+        "CODE": "DICG",
+        "FCD": "COM",
+        "Genus": "Dichorisandra"
+    },
+    {
+        "CODE": "DICH",
+        "FCD": "HYD",
+        "Genus": "Dichroa"
+    },
+    {
+        "CODE": "DOLB",
+        "FCD": "BIG",
+        "Genus": "Dolichandra"
+    },
+    {
+        "CODE": "ELED",
+        "FCD": "ZIN",
+        "Genus": "Elettaria"
+    },
+    {
+        "CODE": "GAUB",
+        "FCD": "MYR",
+        "Genus": "Gaudium"
+    },
+    {
+        "CODE": "HELJ",
+        "FCD": "HEL",
+        "Genus": "Heliconia"
+    },
+    {
+        "CODE": "HYL",
+        "FCD": "CRA",
+        "Genus": "Hylotelephium"
+    },
+    {
+        "CODE": "OCHB",
+        "FCD": "RHA",
+        "Genus": "Ochetophila"
+    },
+    {
+        "CODE": "PHIA",
+        "FCD": "ARB",
+        "Genus": "Philodendron"
+    },
+    {
+        "CODE": "OLO",
+        "FCD": "POA",
+        "Genus": "Oloptum"
+    },
+    {
+        "CODE": "QUEA",
+        "FCD": "BRO",
+        "Genus": "Quesnelia"
+    },
+    {
+        "CODE": "TILA",
+        "FCD": "BRO",
+        "Genus": "Tillandsia"
+    },
+    {
+        "CODE": "WAL",
+        "FCD": "BRO",
+        "Genus": "Wallisia"
+    },
+    {
+        "CODE": "TRIN",
+        "FCD": "ASR",
+        "Genus": "Triteleia"
+    },
+    {
+        "CODE": "BIA",
+        "FCD": "FAB",
+        "Genus": "Biancaea"
+    },
+    {
+        "CODE": "MITA",
+        "FCD": "GES",
+        "Genus": "Mitraria"
+    },
+    {
+        "CODE": "CALX",
+        "FCD": "MAL",
+        "Genus": "Callianthe"
+    },
+    {
+        "CODE": "ERID",
+        "FCD": "RAN",
+        "Genus": "Eriocapitella"
+    },
+    {
+        "CODE": "PSEI",
+        "FCD": "ROS",
+        "Genus": "Pseudocydonia"
+    },
+    {
+        "CODE": "DYP",
+        "FCD": "PAL",
+        "Genus": "Dypsis"
+    },
+    {
+        "CODE": "ANTA",
+        "FCD": "AST",
+        "Genus": "Anthemis"
+    },
+    {
+        "CODE": "COTC",
+        "FCD": "AST",
+        "Genus": "Cota"
+    },
+    {
+        "CODE": "PSEJ",
+        "FCD": "LYC",
+        "Genus": "Pseudolycopodium"
+    },
+    {
+        "CODE": "NOTG",
+        "FCD": "OLE",
+        "Genus": "Notelaea"
+    },
+    {
+        "CODE": "PHOD",
+        "FCD": "AST",
+        "Genus": "Phonus"
+    },
+    {
+        "CODE": "CHAQ",
+        "FCD": "ONA",
+        "Genus": "Chamerion"
+    },
+    {
+        "CODE": "ANRA",
+        "FCD": "AST",
+        "Genus": "×Anrysum"
+    },
+    {
+        "CODE": "ANTH",
+        "FCD": "AST",
+        "Genus": "×Antiothamnus"
+    },
+    {
+        "CODE": "LEUH",
+        "FCD": "AST",
+        "Genus": "×Leucoraoulia"
+    },
+    {
+        "CODE": "EUD",
+        "FCD": "CRY",
+        "Genus": "Eudianthe"
+    },
+    {
+        "CODE": "VISA",
+        "FCD": "CRY",
+        "Genus": "Viscaria"
+    }
+]
