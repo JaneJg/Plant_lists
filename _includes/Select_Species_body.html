@@ -55,14 +55,13 @@ function rowclick(event) {			/* click function for row click*/
        if (clickedRow) {
         const tdValue = clickedRow.querySelector('td:first-child').textContent.trim();       
          const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
-       	localStorage.setItem('genus', tdValue);
+       localStorage.setItem('genus', tdValue);
 	localStorage.setItem('MCodeG', tdValue2);
 	};
 
   $(document).ready(function(){
     var Genus = localStorage.getItem('genus');
     var Species_List = document.getElementById("Species_List");
-//    dummy.insertAdjacentHTML( 'afterbegin', "<tr><td>List of Species for </td><td><b>" + Genus + " & </b></td></tr>"); 
 	dummy.insertAdjacentHTML( 'afterbegin', "<p>List of Species for  "+ Genus + "</p>");
 specieslist();
    });
@@ -95,5 +94,4 @@ specieslist();
 	<TR><TD> <b>Name</b> </TD><TD display ="none"> <b>RCode</b> </TD><TD>MCODE  </TD></TR>
      </table>
 </div>    	<! div content>
-</div> 
- 
+</div>

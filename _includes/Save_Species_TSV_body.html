@@ -1,11 +1,6 @@
-
-
-
 <script>
    var item = localStorage.getItem('Code');
    var title = localStorage.getItem('Name');
-                                                              // blob bit
- 		                                                 // end blob bit
   $(document).ready(function(){
 
     $.getJSON('Data/Lists.json', function(results){ 
@@ -17,35 +12,27 @@
 
          let filterIds = new Set(records.map(item => item.AREA));
          let A_site = places.filter(item => filterIds.has(item.FELDS));
-
-         var Sites_List = document.getElementById("Sites_List");
- //         Sites_List.insertAdjacentHTML('beforbegin', "<TR><TD> <b>Name</b>" + title + "</TD></TR>");
+         var Species_List = document.getElementById("Species_List");
+ //         Species_List.insertAdjacentHTML('beforbegin', "<TR><TD> <b>Name</b>" + title + "</TD></TR>");
 
           A_site.forEach(function(ids) {
-             Sites_List.insertAdjacentHTML('beforeend', ids.NAME + "</t>" + ids.AUTHOR + "</t>" + ids.DATE + ": " + ids.UPDATES + "</t>" + ids.SOURCE + "</t>" +  ids.LATITUDE + "</t>" + ids.LONGITUDE + "\n");
+          Species_List.insertAdjacentHTML('beforeend', ids.NAME + "</t>" + ids.AUTHOR + "</t>" + ids.DATE + ": " + ids.UPDATES + "</t>" + ids.SOURCE + "</t>" +  ids.LATITUDE + "</t>" + ids.LONGITUDE + "\n");
 
            }); // end of forEach - writing of the list
 
  // ----------------------------------------------- Blob bit ----------------------------
-    let string1 = "\tList of Sites for: " + title + "\n";
-			let string3 = Sites_List.outerHTML; 
-   									// assemble final string
-    			const finalText = string1 + "\t\n" + string3;
-    									// convert to blob
-    			const data = new Blob([finalText], {type: 'text/plain'});
-     			//const data = new Blob([string3], {type: 'text/plain'});
-   									// create file link
-    			const link = document.createElement('a');
-    			link.innerHTML = 'download';
-    			link.setAttribute('download', title);
-    			link.href = window.URL.createObjectURL(data);
-     			document.body.appendChild(link);
+    	let string1 = "\tList of Sites for: " + title + "\n";
+	let string3 = Species_List.outerHTML; 
+ 	const finalText = string1 + "\t\n" + string3;			// assemble final string
+	const data = new Blob([finalText], {type: 'text/plain'}); 	// convert to blob
+//const data = new Blob([string3], {type: 'text/plain'});
+								
+	const link = document.createElement('a'); // create file link
+	link.innerHTML = 'download';
+	link.setAttribute('download', title);
+ 	link.href = window.URL.createObjectURL(data);
+ 	document.body.appendChild(link);
     }) 								// end of data call
-     }) 								// end of data call 1
- }) 									// end of $(document).ready() function
-
+   }) 								// end of data call 1
+ }) 								// end of $(document).ready() function
 </script>
-<!Show document>
-
-    <Table id="Sites_List">
-    </Table>

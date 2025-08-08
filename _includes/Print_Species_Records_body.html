@@ -1,6 +1,5 @@
 <script>
-
-    var item = localStorage.getItem('Code');
+   var item = localStorage.getItem('Code');
    var title = localStorage.getItem('Name');
 
    $(document).ready(function(){
@@ -10,30 +9,20 @@
        return obj.CODE === item;
          }); // end filter
 
-          $.getJSON('Data/Masterls.json', function(places){
+     $.getJSON('Data/Masterls.json', function(places){
+       let filterIds = new Set(records.map(item => item.AREA));
+       let A_site = places.filter(item => filterIds.has(item.FELDS));
+       var Species_List = document.getElementById("Species_List");
 
-         let filterIds = new Set(records.map(item => item.AREA));
-         let A_site = places.filter(item => filterIds.has(item.FELDS));
+	Species_List.insertAdjacentHTML('beforebegin', "<h2>Sites for:  " + title + "</h2>");
 
-         var Sites_List = document.getElementById("Sites_List");
+        Species_List.insertAdjacentHTML('beforeend', "<TR><TD  WIDTH=40%> <b>Name</b> </TD><TD WIDTH=20%> <b>Author</b> </TD><TD WIDTH=15%> <b>Date</b> </TD><TD WIDTH=15%> <b>Source</b> </TD><TD WIDTH=8%> <b>Latitude</b> </TD><TD WIDTH=7%> <b>Longitude</b></TD></TR>");
+	Species_List.insertAdjacentHTML('beforeend', '<tr><td colspan="6">' + '<hr style="height:2px;width:100%; color:gray;background-color:gray">' + '</td></tr>');
 
-          A_site.forEach(function(ids) {
-             Sites_List.insertAdjacentHTML('beforeend', "<tr><td>" + ids.NAME + "</td><td>" + ids.AUTHOR + "</td><td>" + ids.DATE + ": " + ids.UPDATES + "</td><td>" + ids.SOURCE + "</td><td>" +  ids.LATITUDE + "</td><td>" + ids.LONGITUDE + "\n");
- 
-
-	  }); 								// end of forEach DATA retrieved
+       A_site.forEach(function(ids) {
+      Species_List.insertAdjacentHTML('beforeend', "<tr><td>" + ids.NAME + "</td><td>" + ids.AUTHOR + "</td><td>" + ids.DATE + ": " + ids.UPDATES + "</td><td>" + ids.SOURCE + "</td><td>" +  ids.LATITUDE + "</td><td>" + ids.LONGITUDE + "</td></tr>");
+ 	  }); 								// end of forEach DATA retrieved
      }) 								// end of data call
      }) 								// end of data call 1
  }) 									// end of $(document).ready() function
-
 </script>
-
-<!Show document>
-
-
-    <Table id="Sites_List">
-<TR><TD  WIDTH=30%> <b>Name</b> </TD><TD WIDTH=10%> <b>Author</b> </TD><TD WIDTH=10%> <b>Date</b> </TD><TD WIDTH=30%> <b>Source</b> </TD><TD WIDTH=10%> <b>Latitude</b> </TD><TD WIDTH=10%> <b>Longitude</b></TD></TR>
-    </Table>
-
-
-
