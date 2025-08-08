@@ -1,11 +1,8 @@
 <script>
-
 var item = localStorage.getItem('Item');
 var title = localStorage.getItem('Title');
 var Header = localStorage.getItem('headr');
 $(document).ready(function(){
-dummy1.insertAdjacentHTML( 'beforeend',"\t<h2>List of Species for <b>" + title + "</h2>");
-dummy.insertAdjacentHTML( 'beforeend', Header);
 let species;
 $.getJSON('Data/Lists.json', function(results){
   records = results.filter(function(obj) {
@@ -16,10 +13,14 @@ $.getJSON('Data/Names.json', function(names){
 
    let filterIds = new Set(records.map(item => item.CODE));
    species = names.filter(item => filterIds.has(item.CODE));
+	dummy.insertAdjacentHTML( 'beforebegin',"<h2>List of Species for <b>" + title + "</h2>");
+	dummy.insertAdjacentHTML( 'beforeend', Header);
+	dummy.insertAdjacentHTML('beforeend', '<tr><td colspan="5">' + '<hr style="height:2px;width:100%; color:gray;background-color:gray">' + '</td></tr>');
 
-    var Species_List = document.getElementById("Species_List");
+   var Species_List = document.getElementById("Species_List");
+   Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD width = 2%><b>Adv</b></TD><TD width = 47%><b>Name</b></TD><TD><b>Common name</b></TD><TD></TD></TR>");
+// ---------------------------------------------  data cycle -------------------------------------
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Trees shrubs and climbers</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
-
  var filtered_species = species.filter(item => item.REDUCED == 'R');
      filtered_species.forEach(function(ids) {
 
@@ -44,7 +45,6 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>"
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Rushes, Sedges & Grasses</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
-
  var filtered_species = species.filter(item => item.REDUCED == 'T');
      filtered_species.forEach(function(ids) {
 
@@ -54,18 +54,5 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>"
     }) // end of second Ajax call
   }) // end of which?? Ajax call
  }) // end of $(document).ready() function
-
 </script>
-
-<Table id="dummy">
-<div id="dummy1"><div>
-<tr VALIGN="TOP"><TD WIDTH=40%></TD><TD WIDTH=30%></TD><TD WIDTH=40%></TD><TD WIDTH=40%></TD></tr>
-</Table>
-
- <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-    <Table id="Species_List">
-<tr VALIGN="TOP"><TD WIDTH=2%></TD><TD WIDTH=60%></TD><TD WIDTH=35%></TD><TD WIDTH= 3%></TD></tr>
-<TR><TD> Adv  </TD><TD> <b>Name</b> </TD><TD> <b>Common_NAME</b> </TD></TR>
-
-
 
