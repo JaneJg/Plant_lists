@@ -23,12 +23,17 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
 
   	google.maps.event.addListener(markers, 'click', function(){
 	markers.info.open (cenmap, markers); 
- 	    AId = ids.FELDS;
-	    title = ids.NAME;
- 	    info = "<TR><td><b>Author:</b> " + ids.AUTHOR + "</td><td><b>Date(s):</b> " + ids.DATE + "; " + ids.UPDATES +  "</td><td><b>Source:</b> " + ids.SOURCE + "</td></tr>"; 
-            localStorage.setItem('Title', title);
-            localStorage.setItem('Item', AId);
-            localStorage.setItem('headr', info);
+
+  	    infoH = "<TR><td width = 2%></td><td width = 48%><b>Author(s):</b> " + ids.AUTHOR + 
+	"</td><td width 20%><b>Date(s):</b></td ><td>" + ids.DATE + "; " + ids.UPDATES + 
+	"</td><td width = 30%><b>Source:</b> " + ids.SOURCE + "</td></tr>"; 
+	    let AId = ids.FELDS;
+	    let title = ids.NAME;
+	    let header_t =  "Author: \t" + ids.AUTHOR + "\tDate(s): " + ids.DATE + "\tSource: " + ids.SOURCE + "\n";
+            sessionStorage.setItem('Title', title);
+            sessionStorage.setItem('Item', AId);
+            sessionStorage.setItem('headr', infoH);
+            sessionStorage.setItem('Header_t', header_t);
 
         }); 
      }); 
@@ -49,3 +54,6 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgymAaPbWYJw6fBj2LVBR8zK1CZo2X12I&loading=async&callback=initMap"
     defer>
 </script>
+
+</body>
+</html>
