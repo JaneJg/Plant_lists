@@ -12,11 +12,11 @@
 
          let filterIds = new Set(records.map(item => item.AREA));
          let A_site = places.filter(item => filterIds.has(item.FELDS));
-         var Species_List = document.getElementById("Species_List");
- //         Species_List.insertAdjacentHTML('beforbegin', "<TR><TD> <b>Name</b>" + title + "</TD></TR>");
 
+         var Species_List = document.getElementById("Species_List");
+   Species_List.insertAdjacentHTML('beforeend', "NAME" + "</t>AUTHOR" + "</t>DATE(S)" + "</t>SOURCE" + "</t>LATITUDE" + "</t>LONGITUDE" + "\n");
           A_site.forEach(function(ids) {
-          Species_List.insertAdjacentHTML('beforeend', ids.NAME + "</t>" + ids.AUTHOR + "</t>" + ids.DATE + ": " + ids.UPDATES + "</t>" + ids.SOURCE + "</t>" +  ids.LATITUDE + "</t>" + ids.LONGITUDE + "\n");
+          Species_List.insertAdjacentHTML('beforeend', ids.NAME + "\t" + ids.AUTHOR + "\t" + ids.DATE + ": " + ids.UPDATES + "\t" + ids.SOURCE + "\t" +  ids.LATITUDE + "\t" + ids.LONGITUDE + "\n");
 
            }); // end of forEach - writing of the list
 
