@@ -1,5 +1,15 @@
-
+ <div>
+	<p id="sname" text-align: center;><b>Species distribution for:  </p>
+ </div>
 <div id="map_canvas"></div>
+<script>
+$(document).ready(function(){
+
+var title = localStorage.getItem('Name');
+document.getElementById("sname")
+sname.insertAdjacentHTML( 'beforeend',"<b><big>" + title + "</big></b>")
+});
+</script>
 
 <script>
   var info;
