@@ -21,7 +21,7 @@
          $.getJSON('Data/Names.json', function(names){
 
          let filterIds = new Set(records.map(item => item.CODE));
-         let species = names.filter(item => filterIds.has(item.CODE));
+         let species = names.filter(item => filterIds.has(item.RCODE));
 
           var Species_List = document.getElementById("Species_List");
             Species_List.insertAdjacentHTML('beforeend',"Adv" + "\tNAME" + "\tNOTES" + "\tC_NAME" + "\tFAMILY" + "\tPHYS" + "\tREDUCED" + "\n"); // headings

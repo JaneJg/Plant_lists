@@ -12,7 +12,7 @@ $.getJSON('Data/Lists.json', function(results){
 $.getJSON('Data/Names.json', function(names){
 
    let filterIds = new Set(records.map(item => item.CODE));
-   species = names.filter(item => filterIds.has(item.CODE));
+   species = names.filter(item => filterIds.has(item.RCODE));
 
     var Species_List = document.getElementById("Species_List");
 	dummy.insertAdjacentHTML( 'beforebegin',"<h2>List of Species for <b>" + title + "</h2>");
