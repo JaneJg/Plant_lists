@@ -21,7 +21,7 @@ function specieslist(){
 
   var code = localStorage.getItem('MCodeG');
 
-$.getJSON('Data/Full_Names.json', function(names){
+$.getJSON('Data/Names.json', function(names){
   species = names.filter(function(obj) {
   return obj.MCODEG === code;
   }); // end filter
