@@ -2,23 +2,30 @@
 <div id="idInfo">
 
 <script>
-    var info;
+  var info;
   var AId;
   var title;
-
-			
-  function initMap() {
+  let map;
+  let marker;
+ 		
+  async function initMap() {
   const Nelson = {lat: -41.307570, lng: 173.232948};				
   const Rotorua = {lat: -38.074216, lng: 176.268309};
   var clicked = false;
+      const { Map } = await google.maps.importLibrary("maps");
+      const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+      const { InfoWindow } = await google.maps.importLibrary("infoWindow");
 
   var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 9, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
 // --------------------------------- map intiated ---------------------------------------------
 
+
     $.getJSON('Data/Masterls.json', function(results){
 
         results.forEach(function(ids) {
-var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
+var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a>" + "</p>";  	
+
+var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
  		markers.info = new google.maps.InfoWindow({content: infoContent});
 
   	google.maps.event.addListener(markers, 'click', function(){
@@ -30,10 +37,10 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
 	    let AId = ids.FELDS;
 	    let title = ids.NAME;
 	    let header_t =  "Author: \t" + ids.AUTHOR + "\tDate(s): " + ids.DATE + "\tSource: " + ids.SOURCE + "\n";
-            localStorage.setItem('Title', title);
-            localStorage.setItem('Item', AId);
-            localStorage.setItem('headr', infoH);
-            localStorage.setItem('Header_t', header_t);
+            sessionStorage.setItem('Title', title);
+            sessionStorage.setItem('Item', AId);
+            sessionStorage.setItem('headr', infoH);
+            sessionStorage.setItem('Header_t', header_t);
 
         }); 
      }); 
@@ -50,10 +57,3 @@ var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + i
   }   		
 </script>
 
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB74MJr6lHLWRco8mcZMkG5Cz1uiMXWNRA&loading=async&callback=initMap"
-    defer>
-</script>
-
-</body>
-</html>
