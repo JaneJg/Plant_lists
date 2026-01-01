@@ -18,7 +18,7 @@
        return obj.AREA === item;
          }); // end filter
 
-         $.getJSON('Data/Names.json', function(names){
+         $.getJSON('Data/Full_Names.json', function(names){
 
          let filterIds = new Set(records.map(item => item.CODE));
          let species = names.filter(item => filterIds.has(item.RCODE));
