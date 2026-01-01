@@ -14,7 +14,6 @@
   var clicked = false;
       const { Map } = await google.maps.importLibrary("maps");
       const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-      const { InfoWindow } = await google.maps.importLibrary("infoWindow");
 
   var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 9, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
 // --------------------------------- map intiated ---------------------------------------------
