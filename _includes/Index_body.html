@@ -36,10 +36,10 @@ var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATIT
 	    let AId = ids.FELDS;
 	    let title = ids.NAME;
 	    let header_t =  "Author: \t" + ids.AUTHOR + "\tDate(s): " + ids.DATE + "\tSource: " + ids.SOURCE + "\n";
-            sessionStorage.setItem('Title', title);
-            sessionStorage.setItem('Item', AId);
-            sessionStorage.setItem('headr', infoH);
-            sessionStorage.setItem('Header_t', header_t);
+            localStorage.setItem('Title', title);
+            localStorage.setItem('Item', AId);
+            localStorage.setItem('headr', infoH);
+            localStorage.setItem('Header_t', header_t);
 
         }); 
      }); 
