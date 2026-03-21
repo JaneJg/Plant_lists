@@ -1,3 +1,91 @@
+
+<! 		==========================  HTML ====================================  >
+ <div class="navbar">
+  <a href="index.html">Home</a>
+
+<div class="dropdown">
+  <button class="dropbtn">Save options</button>
+  <div class="dropdown-content">
+    <a target="_blank" href="Print_Species_Records.html">Save to PDF</a>
+    <a target="_blank" href="Save_Species_TSV.html">Save to TSV</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Map Species</button>
+  <div class="dropdown-content">
+    <a target="_blank" href="Select_Species.html">First select a species</a>
+
+  </div>
+</div>
+
+</div>
+<!-- Menu End -->  
+
+<!				----------- Genus bit  --------------------------- >
+
+<div>
+<p style = "text-align:center;"> Species Selection</p>
+</div>
+
+<div> 							 		<! to merge blocks!>
+  <div class = "sidebar">					<! Sidebar - Genera!>
+   <p>click on a genus</p>
+  <!-- Search Input -->
+  <input type="text" id="searchBar" onkeyup="searchTable()" placeholder="Search Genera..">
+
+
+    <Table id="Genus_List">
+<colgroup>
+    <col> 
+    <col style="visibility: collapse;"> 
+  </colgroup>
+	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=30%></TD</tr>
+     </table>
+  </div>	
+
+<! 			--------------------  Species bit   --------------------------->
+
+<div id="dummy" class="content" style="background-color:beige"> 	<! main content - names !>
+
+ <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <Table id="Species_List">
+<colgroup>
+    <col> 
+    <col style="visibility: collapse;"> 
+    <col style="visibility: collapse;"> 
+  </colgroup>
+	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=15%></TD><TD WIDTH= 15%></TD></tr>
+	<TR><TD> <b>Name</b> </TD><TD display ="none"> <b>RCode</b> </TD><TD>MCODE  </TD></TR>
+     </table>
+</div>    	
+</div> <! div content>
+
+<! -------------------------------------------------- SCRIPTS --------------------------- !>
+
+<script>
+function searchTable() {
+  let input = document.getElementById("searchBar");
+  let filter = input.value.toLowerCase(); // Progressive searching (lowercase)
+  let table = document.getElementById("Genus_List");
+  let tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows (skipping header)
+  for (let i = 1; i < tr.length; i++) {
+    let td = tr[i].getElementsByTagName("td")[0];		// first colum
+    if (td) {
+      let txtValue = td.textContent || td.innerText;
+      // IndexOf 0 ensures it matches from the start (left)
+      if (txtValue.toLowerCase().indexOf(filter) === 0) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<!-----------------------------------------------------Genus bit --------------------------!>
 <script>
 var MCODEG = localStorage.getItem('MCodeG');
 
@@ -9,46 +97,15 @@ $.getJSON('Data/Genus.json', function(genera){
 
      genera.forEach(function(ids) {
 	Genus_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.Genus + "</i></TD><TD>" +  ids.CODE + "</TD></TR>");
-      Genus_List.addEventListener('click', rowclick);
+      Genus_List.addEventListener('click', Genusclick);
       }); // end of forEach
     }) // end of  Ajax call
 
  }) // end of $(document).ready() function
 </script>
 
-<script>		
-function specieslist(){
-
-  var code = localStorage.getItem('MCodeG');
-
-$.getJSON('Data/Names.json', function(names){
-  species = names.filter(function(obj) {
-  return obj.MCODEG === code;
-  }); // end filter
-    var Species_List = document.getElementById("Species_List");
-
-     species.forEach(function(ids) {
-      Species_List.addEventListener('click', function(event2) {
-        const clickedRow = event2.target.closest('tr');		
-        if (clickedRow) {
-         const tdValue1 = clickedRow.querySelector('td:first-child').textContent.trim();       
-         const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
-	localStorage.setItem('Name', tdValue1);
-       	localStorage.setItem('Code', tdValue2);
-window.open("Mapping_Species.html", "_blank");
-		}
-	});
-
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.NAME + "</i></TD><TD>" +  ids.RCODE + "</i></TD><TD>" + ids.MCODEG + "</TD></TR>");
-
-      }); // end of forEach
-    }) // end of  Ajax call
-}; // end function species list
-
-</script>
-
 <script>
-function rowclick(event) {			/* click function for row click*/
+function Genusclick(event) {			/* click function for row click*/
 
  const clickedRow = event.target.closest('tr');		
  event.stopPropagation();
@@ -68,39 +125,38 @@ specieslist();
 };				/* end click function*/
 </script>
 
-<! 		==========================  HTML ====================================================  >
-<!				----------- Genus bit  --------------------------- >
+<!----------------------------------------- SPECIES BIT ----------------------!>
+<script>		
+function specieslist(){
 
-<div>
-<p style = "text-align:center;"> Species Selection</p>
-</div>
+  var code = localStorage.getItem('MCodeG');
 
-<div> 							 <! to mereg blocks>
-  <div class = "sidebar">					<! Sidebar - Genera>
-   <p>click on a genus</p>
+$.getJSON('Data/Names.json', function(names){
+  species = names.filter(function(obj) {
+  return obj.MCODEG === code;
+  }); // end filter
+    var Species_List = document.getElementById("Species_List");
 
-    <Table id="Genus_List">
-<colgroup>
-    <col> 
-    <col style="visibility: collapse;"> 
-  </colgroup>
-	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=30%></TD</tr>
-     </table>
-  </div>	
+     species.forEach(function(ids) {
+      Species_List.addEventListener('click', Speciesclick);
 
-<! 			--------------------  Species bit   --------------------------->
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.NAME + "</i></TD><TD>" +  ids.RCODE + "</i></TD><TD>" + ids.MCODEG + "</TD></TR>");
 
-<div id="dummy" class="content" style="background-color:beige"> 	<! maim content - names>
+      }); // end of forEach
+    }) // end of  Ajax call
+}; // end function species list
 
- <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-    <Table id="Species_List">
-<colgroup>
-    <col> 
-    <col style="visibility: collapse;"> 
-    <col style="visibility: collapse;"> 
-  </colgroup>
-	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=15%></TD><TD WIDTH= 15%></TD></tr>
-	<TR><TD> <b>Name</b> </TD><TD display ="none"> <b>RCode</b> </TD><TD>MCODE  </TD></TR>
-     </table>
-</div>    	<! div content>
-</div>
+</script>
+
+<script>
+ function Speciesclick(event2) {
+        const clickedRow = event2.target.closest('tr');		
+        if (clickedRow) {
+         const tdValue1 = clickedRow.querySelector('td:first-child').textContent.trim();       
+         const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
+	localStorage.setItem('Name', tdValue1);
+       	localStorage.setItem('Code', tdValue2);
+window.open("Mapping_Species.html", "_blank");
+		}
+	}
+</script>
