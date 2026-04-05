@@ -21,7 +21,7 @@ $.getJSON('Data/Full_Names.json', function(names){
    Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD width = 2%><b>Adv</b></TD><TD width = 47%><b>Name</b></TD><TD><b>Common name</b></TD><TD></TD></TR>");
 // ---------------------------------------------  data cycle -------------------------------------
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Trees shrubs and climbers</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
- var filtered_species = species.filter(item => item.REDUCED == 'R');
+ var filtered_species = species.filter(item => item.Reduced == 'R');
      filtered_species.forEach(function(ids) {
 
 Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + " " +  ids.Notes + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
@@ -29,7 +29,7 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>"
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Ferns and allied plants </H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.REDUCED == 'Q');
+ var filtered_species = species.filter(item => item.Reduced == 'Q');
      filtered_species.forEach(function(ids) {
 
 Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + " " +  ids.Notes + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
@@ -37,7 +37,7 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>"
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Herbs</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.REDUCED == 'S');
+ var filtered_species = species.filter(item => item.Reduced == 'S');
      filtered_species.forEach(function(ids) {
 
 Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + " " +  ids.Notes + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
@@ -45,7 +45,7 @@ Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>"
 
 Species_List.insertAdjacentHTML( 'beforeend',"<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>Rushes, Sedges & Grasses</H4>  </TD><TD>  </TD></TR><tr></TR><tr></TR>");
 
- var filtered_species = species.filter(item => item.REDUCED == 'T');
+ var filtered_species = species.filter(item => item.Reduced == 'T');
      filtered_species.forEach(function(ids) {
 
 Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD>" + ids.E + "</TD><TD><i>" + ids.Name + " " +  ids.Notes + "</i></TD><TD>" + ids.C_NAME + "</TD></TR>");
