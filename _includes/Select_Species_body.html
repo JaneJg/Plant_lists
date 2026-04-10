@@ -1,25 +1,5 @@
 
 <! 		==========================  HTML ====================================  >
- <div class="navbar">
-  <a href="index.html">Home</a>
-
-<div class="dropdown">
-  <button class="dropbtn">Save options</button>
-  <div class="dropdown-content">
-    <a target="_blank" href="Print_Species_Records.html">Save to PDF</a>
-    <a target="_blank" href="Save_Species_TSV.html">Save to TSV</a>
-  </div>
-</div>
-
-<div class="dropdown">
-  <button class="dropbtn">Map Species</button>
-  <div class="dropdown-content">
-    <a target="_blank" href="Select_Species.html">First select a species</a>
-
-  </div>
-</div>
-
-</div>
 <!-- Menu End -->  
 
 <!				----------- Genus bit  --------------------------- >
@@ -54,9 +34,9 @@
     <col> 
     <col style="visibility: collapse;"> 
     <col style="visibility: collapse;"> 
+    <col style="visibility: collapse;"> 
   </colgroup>
 	<tr VALIGN="TOP"><TD WIDTH=70%></TD><TD WIDTH=15%></TD><TD WIDTH= 15%></TD></tr>
-	<TR><TD> <b>Name</b> </TD><TD display ="none"> <b>RCode</b> </TD><TD>MCODE  </TD></TR>
      </table>
 </div>    	
 </div> <! div content>
@@ -134,29 +114,49 @@ function specieslist(){
 $.getJSON('Data/Names.json', function(names){
   species = names.filter(function(obj) {
   return obj.MCODEG === code;
-  }); // end filter
+  }); 								// end filter
+
     var Species_List = document.getElementById("Species_List");
 
      species.forEach(function(ids) {
       Species_List.addEventListener('click', Speciesclick);
 
-Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.NAME + "</i></TD><TD>" +  ids.RCODE + "</i></TD><TD>" + ids.MCODEG + "</TD></TR>");
+Species_List.insertAdjacentHTML( 'beforeend',"<TR><TD><i>" + ids.NAME + "</i></TD><TD>" +  ids.RCODE + "</TD><TD>" + ids.MCODEG + "</TD><TD>" +  ids.ED + "</TD></TR>");
 
-      }); // end of forEach
-    }) // end of  Ajax call
-}; // end function species list
+      });							 // end of forEach
 
-</script>
-
-<script>
  function Speciesclick(event2) {
+  	let AName = "";
+	let Name2 = "";
         const clickedRow = event2.target.closest('tr');		
         if (clickedRow) {
-         const tdValue1 = clickedRow.querySelector('td:first-child').textContent.trim();       
-         const tdValue2 = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
-	localStorage.setItem('Name', tdValue1);
-       	localStorage.setItem('Code', tdValue2);
-window.open("Mapping_Species.html", "_blank");
-		}
-	}
+         let Name  = clickedRow.querySelector('td:first-child').textContent.trim();       
+         const RCode = clickedRow.querySelector('td:nth-child(2)').textContent.trim();       
+         let ED    = clickedRow.querySelector('td:nth-child(4)').textContent.trim();    
+	
+	AName = Name;
+	Name = "<b><big>  " + Name  + " </big></b>";						// Correct name OK
+	if(ED=='p') {									// get the corect name by filter
+//		-----------------------------new bit ---------------------------------------------------------------
+
+ $(document).ready(function () {
+    $.getJSON("Data/Full_Names.json")
+        .done(function (data) {
+            const row = data.find(item => item && item.CODE === RCode);
+                Name2 = row.Name;
+  	   Name =  "<b><big>" + Name2 + "</b></big>   Alternate name <b><i>"  + AName + "</i></b>  selected";
+	localStorage.setItem('Name', Name);
+      })				// end done
+});							//document ready
+// 			-------------------------------------------------------------
+	   Name =  "<b><big>" + Name2 + "</b></big>   Alternate name <b><i>"  + AName + "</i></b>  selected";
+	}								// end if ED
+	localStorage.setItem('Name', Name);
+       	localStorage.setItem('Code', RCode);
+ 	window.open("Mapping_Species.html", "_blank");
+   }					// end clicked row
+	}				// end click event
+												// version 10 then 8.1 derived from 3.62
+   }) 					// end of  Ajax call
+}; 					// end function species list
 </script>
