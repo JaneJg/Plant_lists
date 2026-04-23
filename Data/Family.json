@@ -1,0 +1,1557 @@
+[
+    {
+        "ClasS": "D",
+        "FCD": "ACA",
+        "Family": "Acanthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ACE",
+        "Family": "Aceraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ACT",
+        "Family": "Actinidiaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "ADI",
+        "Family": "Adiantaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ADO",
+        "Family": "Adoxaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "AGA",
+        "Family": "Agavaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AIZ",
+        "Family": "Aizoaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ALI",
+        "Family": "Alismataceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ALL",
+        "Family": "Alliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ALS",
+        "Family": "Alseuosmiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ALM",
+        "Family": "Alstroemeriaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ALT",
+        "Family": "Altingiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AMA",
+        "Family": "Amaranthaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "AMR",
+        "Family": "Amaryllidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ANA",
+        "Family": "Anacardiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ANN",
+        "Family": "Annonaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ANT",
+        "Family": "Anthericaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "APH",
+        "Family": "Aphanopetalaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "API",
+        "Family": "Apiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "APO",
+        "Family": "Apocynaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "APG",
+        "Family": "Aponogetonaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AQU",
+        "Family": "Aquifoliaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ARB",
+        "Family": "Araceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ARL",
+        "Family": "Araliaceae"
+    },
+    {
+        "ClasS": "C",
+        "FCD": "ARA",
+        "Family": "Araucariaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ARE",
+        "Family": "Arecaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ARG",
+        "Family": "Argophyllaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ASC",
+        "Family": "Asclepiadaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ASR",
+        "Family": "Asparagaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ASO",
+        "Family": "Asphodelaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "ASP",
+        "Family": "Aspleniaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ASH",
+        "Family": "Aspodelaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ASL",
+        "Family": "Asteliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AST",
+        "Family": "Asteraceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ATH",
+        "Family": "Atherospermatacea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AUC",
+        "Family": "Aucubaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "AVI",
+        "Family": "Avicenniaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "AZO",
+        "Family": "Azollaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BAL",
+        "Family": "Balanophoraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BAS",
+        "Family": "Balsaminaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BSL",
+        "Family": "Basellaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BEG",
+        "Family": "Begoniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BER",
+        "Family": "Berberidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BRD",
+        "Family": "Berberidopsisidac"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BET",
+        "Family": "Betulaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BIG",
+        "Family": "Bignoniaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "BLE",
+        "Family": "Blechnaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BOR",
+        "Family": "Boraginaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BRA",
+        "Family": "Brassicaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BRE",
+        "Family": "Brexiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "BRO",
+        "Family": "Bromelliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BUD",
+        "Family": "Buddlejaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BUR",
+        "Family": "Burmanniaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "BUT",
+        "Family": "Butomaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "BUX",
+        "Family": "Buxaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAC",
+        "Family": "Cactaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CLC",
+        "Family": "Calceolariaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAL",
+        "Family": "Callitrichaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CLY",
+        "Family": "Calycanthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAY",
+        "Family": "Calyceraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAM",
+        "Family": "Campanulaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAN",
+        "Family": "Cannabaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "CNN",
+        "Family": "Cannaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CPP",
+        "Family": "Capparaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAP",
+        "Family": "Caprifoliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAR",
+        "Family": "Caricaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CRP",
+        "Family": "Carpodetaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CRY",
+        "Family": "Caryophyllaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAS",
+        "Family": "Casuarinaceae"
+    },
+    {
+        "ClasS": "",
+        "FCD": "CAU",
+        "Family": "Caulacanthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CEL",
+        "Family": "Celastraceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "CEN",
+        "Family": "Centrolepidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CER",
+        "Family": "Ceratophyllaceae"
+    },
+    {
+        "ClasS": "A",
+        "FCD": "CHA",
+        "Family": "Characeae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CHE",
+        "Family": "Chenopodiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CHL",
+        "Family": "Chloranthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CIR",
+        "Family": "Ciriaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CIS",
+        "Family": "Cistaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CLE",
+        "Family": "Clethraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CLU",
+        "Family": "Clusiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "COB",
+        "Family": "Cobaeaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "COL",
+        "Family": "Colchicaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "COM",
+        "Family": "Commelinaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "COV",
+        "Family": "Convallariaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CON",
+        "Family": "Convolvulaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "COR",
+        "Family": "Coriariaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CRL",
+        "Family": "Corlyacea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CRN",
+        "Family": "Cornaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CCP",
+        "Family": "Corynocarpaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CRA",
+        "Family": "Crassulaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CUC",
+        "Family": "Cucurbitaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CUN",
+        "Family": "Cunoniaceae"
+    },
+    {
+        "ClasS": "P",
+        "FCD": "CUP",
+        "Family": "Cupressaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "CYA",
+        "Family": "Cyatheaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "CYP",
+        "Family": "Cyperaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "DAV",
+        "Family": "Davalliaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "DEN",
+        "Family": "Dennstaedtiaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "DIC",
+        "Family": "Dicksoniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "DIL",
+        "Family": "Dilleniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "DIO",
+        "Family": "Dioscoreaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "DIP",
+        "Family": "Dipsacaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "DRO",
+        "Family": "Droseraceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "DRY",
+        "Family": "Dryopteridaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "EBA",
+        "Family": "Ebenaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ELG",
+        "Family": "Elaeagnaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ELA",
+        "Family": "Elaeocarpaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ELT",
+        "Family": "Elatinaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "EPA",
+        "Family": "Epacridaceae"
+    },
+    {
+        "ClasS": "L",
+        "FCD": "EQU",
+        "Family": "Equisetaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ERI",
+        "Family": "Ericaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ESC",
+        "Family": "Escalloniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "EUP",
+        "Family": "Euphorbiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "FAB",
+        "Family": "Fabaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "FAG",
+        "Family": "Fagaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "FLA",
+        "Family": "Flacourtiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "FUM",
+        "Family": "Fumariaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GAR",
+        "Family": "Garryaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GNI",
+        "Family": "Geniostomaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GEN",
+        "Family": "Gentianaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GER",
+        "Family": "Geraniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GES",
+        "Family": "Gesneriaceae"
+    },
+    {
+        "ClasS": "G",
+        "FCD": "GIN",
+        "Family": "Ginkgoaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "GLE",
+        "Family": "Gleicheniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GOO",
+        "Family": "Goodeniaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "GRM",
+        "Family": "Graminiaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "GRA",
+        "Family": "Grammitidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GRI",
+        "Family": "Griseliniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GRO",
+        "Family": "Grossulariaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "GUN",
+        "Family": "Gunneraceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HAE",
+        "Family": "Haemodoraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HAL",
+        "Family": "Haloragaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HAM",
+        "Family": "Hamamelidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HEC",
+        "Family": "Hectorellaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HEM",
+        "Family": "Hemerocallidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HIP",
+        "Family": "Hippocastanaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HYA",
+        "Family": "Hyacinthaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HDT",
+        "Family": "Hydatellaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HYR",
+        "Family": "Hydrangeaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HYD",
+        "Family": "Hydrocharitaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HYO",
+        "Family": "Hydrophyllaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "HYM",
+        "Family": "Hymenophyllaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HPE",
+        "Family": "Hypericaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "HPT",
+        "Family": "Hyperticaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HPO",
+        "Family": "Hypoxidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ICA",
+        "Family": "Icacinaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "IRI",
+        "Family": "Iridaceae"
+    },
+    {
+        "ClasS": "L",
+        "FCD": "ISO",
+        "Family": "Isoetaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "IXE",
+        "Family": "Ixerbaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "JUG",
+        "Family": "Juglandaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "JUN",
+        "Family": "Juncaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "JNG",
+        "Family": "Juncaginaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LAM",
+        "Family": "Lamiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LAR",
+        "Family": "Lardizabalaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LAU",
+        "Family": "Lauraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LAX",
+        "Family": "Laxmanniaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "LEM",
+        "Family": "Lemnaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LEN",
+        "Family": "Lentibulariaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "LIL",
+        "Family": "Liliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LMM",
+        "Family": "Limnanthaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "LIM",
+        "Family": "Limnocharitaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LIN",
+        "Family": "Linaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LIP",
+        "Family": "Liparophylaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LOB",
+        "Family": "Lobeliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LOG",
+        "Family": "Loganiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LOR",
+        "Family": "Loranthaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "LOX",
+        "Family": "Loxsomataceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "LUZ",
+        "Family": "Luzuriagaceae"
+    },
+    {
+        "ClasS": "L",
+        "FCD": "LYC",
+        "Family": "Lycopodiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LYT",
+        "Family": "Lythraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MAG",
+        "Family": "Magnoliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MAL",
+        "Family": "Malvaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "MAR",
+        "Family": "Marattiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MRR",
+        "Family": "Marryenaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "MRS",
+        "Family": "Marsileaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MRT",
+        "Family": "Martyniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MLS",
+        "Family": "Melastomataceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MEL",
+        "Family": "Meliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MLI",
+        "Family": "Melianthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MEN",
+        "Family": "Menyanthaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MIM",
+        "Family": "Mimosaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MON",
+        "Family": "Monimiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MOR",
+        "Family": "Moraceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "MUS",
+        "Family": "Musaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MYO",
+        "Family": "Myoporaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MYS",
+        "Family": "Myrsinaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MYR",
+        "Family": "Myrtaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "NOT",
+        "Family": "Nothofagaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "NYC",
+        "Family": "Nyctaginaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "NYM",
+        "Family": "Nymphaeaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "OCH",
+        "Family": "Ochnaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "OLE",
+        "Family": "Oleaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "OLR",
+        "Family": "Oleandraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ONA",
+        "Family": "Onagraceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "OPH",
+        "Family": "Ophioglossaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ORC",
+        "Family": "Orchidaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ORO",
+        "Family": "Orobanchaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "OSM",
+        "Family": "Osmundaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "OXA",
+        "Family": "Oxalidaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "PAL",
+        "Family": "Palmaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "PAN",
+        "Family": "Pandanaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PAP",
+        "Family": "Papaveraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PAS",
+        "Family": "Passifloraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PAU",
+        "Family": "Paulowniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PED",
+        "Family": "Pedaliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PEN",
+        "Family": "Pennantiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PHD",
+        "Family": "Philadelphaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PHI",
+        "Family": "Philesiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "PHO",
+        "Family": "Phormiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PHR",
+        "Family": "Phrymaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PHL",
+        "Family": "Phyllanthaceae"
+    },
+    {
+        "ClasS": "G",
+        "FCD": "PLC",
+        "Family": "Phyllocladaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PHY",
+        "Family": "Phytolaccaceae"
+    },
+    {
+        "ClasS": "C",
+        "FCD": "PIN",
+        "Family": "Pinaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PIP",
+        "Family": "Piperaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PIT",
+        "Family": "Pittosporaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PLG",
+        "Family": "Plantaginaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PLA",
+        "Family": "Platanaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PLU",
+        "Family": "Plumbaginaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "POA",
+        "Family": "Poaceae"
+    },
+    {
+        "ClasS": "C",
+        "FCD": "POD",
+        "Family": "Podocarpaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "POL",
+        "Family": "Polemoniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PLY",
+        "Family": "Polygalaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PLO",
+        "Family": "Polygonaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "PLP",
+        "Family": "Polypodiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "PON",
+        "Family": "Pontederiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "POR",
+        "Family": "Portulacaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "POT",
+        "Family": "Potamogetonaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "POU",
+        "Family": "Pouteriaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PRI",
+        "Family": "Primulaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PRO",
+        "Family": "Proteaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "PSI",
+        "Family": "Psilotaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "PTE",
+        "Family": "Pteridaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "PUT",
+        "Family": "Putranjavaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "QUJ",
+        "Family": "Quillajaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "QUI",
+        "Family": "Quintiniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RAN",
+        "Family": "Ranunculaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RES",
+        "Family": "Resedaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "RST",
+        "Family": "Restionaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RHA",
+        "Family": "Rhamnaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RIB",
+        "Family": "Ribiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "RIP",
+        "Family": "Ripogonaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ROS",
+        "Family": "Rosaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ROU",
+        "Family": "Rousseaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RUB",
+        "Family": "Rubiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "RUP",
+        "Family": "Ruppiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "RUS",
+        "Family": "Ruscaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "RUT",
+        "Family": "Rutaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAL",
+        "Family": "Salicaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "SLV",
+        "Family": "Salviniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAN",
+        "Family": "Santalaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAP",
+        "Family": "Sapindaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SOP",
+        "Family": "Sapotaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAR",
+        "Family": "Sarraceniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAU",
+        "Family": "Saururacea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SAX",
+        "Family": "Saxifragaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SCI",
+        "Family": "Schisandraceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "SCH",
+        "Family": "Schizaeaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SCR",
+        "Family": "Scrophulariaceae"
+    },
+    {
+        "ClasS": "L",
+        "FCD": "SEL",
+        "Family": "Selaginellaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SIM",
+        "Family": "Simaroubaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "SMI",
+        "Family": "Smilacaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "SOL",
+        "Family": "Solanaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "SPA",
+        "Family": "Sparganiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "STA",
+        "Family": "Stackhousiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "STP",
+        "Family": "Staphyleaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "STE",
+        "Family": "Sterculiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "STI",
+        "Family": "Stilbaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "STY",
+        "Family": "Stylidiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "TAM",
+        "Family": "Tamaricaceae"
+    },
+    {
+        "ClasS": "C",
+        "FCD": "TAX",
+        "Family": "Taxaceae"
+    },
+    {
+        "ClasS": "C",
+        "FCD": "TXD",
+        "Family": "Taxodiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "TET",
+        "Family": "Tetrachondraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "THC",
+        "Family": "Theaceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "THE",
+        "Family": "Thelypteridaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "THO",
+        "Family": "Theophrastaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "THI",
+        "Family": "Thismiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "THY",
+        "Family": "Thymelaeaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "TIL",
+        "Family": "Tiliaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "TRO",
+        "Family": "Tropaeolaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "TYP",
+        "Family": "Typhaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ULM",
+        "Family": "Ulmaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "URT",
+        "Family": "Urticaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VAL",
+        "Family": "Valerianaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VRB",
+        "Family": "Verbenaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VER",
+        "Family": "Vernoniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VIO",
+        "Family": "Violaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VIS",
+        "Family": "Viscaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "VIT",
+        "Family": "Vitaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "WIN",
+        "Family": "Winteraceae"
+    },
+    {
+        "ClasS": "F",
+        "FCD": "WOO",
+        "Family": "Woodsiaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "XAN",
+        "Family": "Xanthorrhoeaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "XER",
+        "Family": "Xeronemataceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ZAN",
+        "Family": "Zannichelliaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ZIN",
+        "Family": "Zingiberaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "ZOS",
+        "Family": "Zosteraceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "ZYG",
+        "Family": "Zygophyllaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LEC",
+        "Family": "Lecythidaceaea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "NAN",
+        "Family": "Nanodeaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MNT",
+        "Family": "Montiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "TAL",
+        "Family": "Talinaceaea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "FRA",
+        "Family": "Francoaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "CAB",
+        "Family": "Cabombaceae"
+    },
+    {
+        "ClasS": "G",
+        "FCD": "EPH",
+        "Family": "Ephedracea"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MUL",
+        "Family": "Molluginaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MUN",
+        "Family": "Muntingiaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "LND",
+        "Family": "Linderniaceae"
+    },
+    {
+        "ClasS": "D",
+        "FCD": "MLS",
+        "Family": "Melatstomaceae"
+    },
+    {
+        "ClasS": "M",
+        "FCD": "HEL",
+        "Family": "Heliconiaceae"
+    },
+    {
+        "ClasS": null,
+        "FCD": "ARI",
+        "Family": "Aristolochiaceae"
+    },
+    {
+        "ClasS": null,
+        "FCD": "NEP",
+        "Family": "Nephrolepidaceae"
+    },
+    {
+        "ClasS": null,
+        "FCD": "TEC",
+        "Family": "Tectariaceae"
+    }
+]
