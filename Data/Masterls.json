@@ -21580,6 +21580,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "ME Young",
+        "DATE": "25-10-1987",
+        "FELDS": "C254",
+        "LATITUDE": -36.464852,
+        "LONGITUDE": 174.430391,
+        "NAME": "Hoopers Bush Glorit",
+        "SOURCE": "Auck Bot Soc J 80:114",
+        "UPDATES": "17.4.99, 12.4.25"
+    },
+    {
         "AUTHOR": "BD Rance",
         "DATE": "03-10-2003",
         "FELDS": "948B",
@@ -26408,6 +26418,26 @@
         "NAME": "Kawautahi SR",
         "SOURCE": "Taumarnui SR report BSRR 15",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "P Champion",
+        "DATE": "15-04-2026",
+        "FELDS": "C252",
+        "LATITUDE": -39.361456,
+        "LONGITUDE": 176.363053,
+        "NAME": "Kaweka Lake, eastern - Rotoroa",
+        "SOURCE": "DOC Rotorua",
+        "UPDATES": null
+    },
+    {
+        "AUTHOR": "P Champion",
+        "DATE": "14-04-2026",
+        "FELDS": "C253",
+        "LATITUDE": -39.361309,
+        "LONGITUDE": 176.363197,
+        "NAME": "Kaweka Lake, western - Rototuna ",
+        "SOURCE": "DOC Rotorua",
+        "UPDATES": null
     },
     {
         "AUTHOR": "AP Druce; M Thorsen",
@@ -35200,6 +35230,16 @@
         "UPDATES": null
     },
     {
+        "AUTHOR": "SM Beadel, P Cashmore  & RBS",
+        "DATE": "02-11-2024",
+        "FELDS": "C258",
+        "LATITUDE": -37.862976,
+        "LONGITUDE": 177.663361,
+        "NAME": "Mangaroa Stream, lower Motu River",
+        "SOURCE": "Rot Bot Soc News 85: 27",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "Wellington Bot Soc",
         "DATE": "13-04-1998",
         "FELDS": "MGHO",
@@ -35948,6 +35988,16 @@
         "NAME": "Maraemanuka Str Atiamuri ED 50",
         "SOURCE": "DOC Rotorua",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "SM Beadel",
+        "DATE": "03-11-2024",
+        "FELDS": "C257",
+        "LATITUDE": -37.878119,
+        "LONGITUDE": 177.566639,
+        "NAME": "Maraenui Beach (Western)",
+        "SOURCE": "Rot Bot Soc News 85: 36",
+        "UPDATES": null
     },
     {
         "AUTHOR": "G Jane & G Donaghy",
@@ -56960,6 +57010,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "RE Beaver",
+        "DATE": "15-02-1975",
+        "FELDS": "C256",
+        "LATITUDE": -37.164933,
+        "LONGITUDE": 175.315664,
+        "NAME": "Pukorokoro Shorebird Centre shores 1975",
+        "SOURCE": "Auck Bot Soc J 80:91",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "JW Sawyer",
         "DATE": "01-01-2000",
         "FELDS": "PUKU",
@@ -66350,6 +66410,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "Cathy Jones & Nelson Bot Soc",
+        "DATE": "15-02-2026",
+        "FELDS": "C251",
+        "LATITUDE": -41.034164,
+        "LONGITUDE": 172.863718,
+        "NAME": "Takaka Hill Walkway",
+        "SOURCE": null,
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "AP Druce",
         "DATE": "12-01-1975",
         "FELDS": "TRTC",
@@ -74818,6 +74888,16 @@
         "NAME": "Wahieroa Dunes & kanuka - Thornton",
         "SOURCE": "",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "Auckland Bot Soc",
+        "DATE": "26-01-2025",
+        "FELDS": "C255",
+        "LATITUDE": -35.021831,
+        "LONGITUDE": 173.71899,
+        "NAME": "Waiakau Stream - Dukes Nose track",
+        "SOURCE": "Auck Bot Soc J 80:104",
+        "UPDATES": null
     },
     {
         "AUTHOR": "RB Allen",
