@@ -1,7 +1,7 @@
  <div>
 	<p id="sname" text-align: center;><b>Species distribution for:  </p>
  </div>
-<div id="map"></div>
+<div id="map_canvas"></div>
 <script>
 $(document).ready(function(){
 
@@ -18,7 +18,7 @@ sname.insertAdjacentHTML( 'beforeend',"<b><big>" + title + "</big></b>")
   const Nelson = {lat: -41.307570, lng: 173.232948};				
   var clicked = false;
 
-  var cenmap = new google.maps.Map(document.getElementById("map"), {zoom: 6, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
+  var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 6, center: Nelson, mapTypeId: 'terrain', streetViewControl: false});
 // --------------------------------- map intiated ---------------------------------------------
 
  item = localStorage.getItem('Code');
