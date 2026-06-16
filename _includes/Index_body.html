@@ -96,6 +96,11 @@ if (selectedMarkers.length === 0) {
 }
 contentString += '</table>';
 
+infoWindow.setContent(contentString);     
+infoWindow.open(map);
+     clickPoints = [];									        // Reset points for the next draw)
+    }				// end click points if
+
 window.storeValue = function storeValue(felds, name) {								
             localStorage.setItem('Title',name);
             localStorage.setItem('Item', felds);
@@ -104,11 +109,7 @@ window.storeValue = function storeValue(felds, name) {
  window.open('Output_Lists.html ', '_blank');
 }
 
- infoWindow.setContent(contentString);     
-infoWindow.open(map);
-     clickPoints = [];									        // Reset points for the next draw)
-    }				// end click points if
-
+ 
 
   });				// end map listener
       // Add event listener to the dropdown menu
