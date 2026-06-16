@@ -1,58 +1,125 @@
 <div id="map_canvas"></div>
 <div id="idInfo">
-
 <script>
-  var info;
-  var AId;
-  var title;
-  let map;
-  let marker;
- 		
-  async function initMap() {
-  const Nelson = {lat: -41.307570, lng: 173.232948};				
-  const Rotorua = {lat: -38.074216, lng: 176.268309};
-  var clicked = false;
-      const { Map } = await google.maps.importLibrary("maps");
-      const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+let map;
+let markers = [];
+let infoWindow;
+let clickPoints = [], rectangle;
 
-  var cenmap = new google.maps.Map(document.getElementById("map_canvas"), {zoom: 9, center: Rotorua, mapTypeId: 'terrain', streetViewControl: false});
-// --------------------------------- map intiated ---------------------------------------------
+function initMap() {
+    // Rotorua centre
+    const rotorua = { lat: -38.1368, lng: 176.2497 };
 
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: rotorua,
+        zoom: 10
+    });
+    infoWindow = new google.maps.InfoWindow();
 
-    $.getJSON('Data/Masterls.json', function(results){
+    // Load JSON marker data
+    $.getJSON("data/Masterls.json")
+      .done(function(data) {
+  		markers = data; 
+      if (!Array.isArray(data)) {
+             console.error("Masterls.json must be an array of objects.");
+             return;
+         }
 
-        results.forEach(function(ids) {
-var infoContent = "<p><b>Name:</b> " + ids.NAME + "<br>" + "<b>Author:</b> " + ids.AUTHOR + "<br><b>Date(s):</b> " + ids.DATE + "<br><b>Source:</b> " + ids.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + ids.FELDS + "</small></p>";  	
-
-var markers = new google.maps.Marker({position: new google.maps.LatLng(ids.LATITUDE, ids.LONGITUDE), map: cenmap, title: ids.NAME});
- 		markers.info = new google.maps.InfoWindow({content: infoContent});
-
-  	google.maps.event.addListener(markers, 'click', function(){
-	markers.info.open (cenmap, markers); 
-
-  	    infoH = "<TR><td width = 2%></td><td width = 48%><b>Author(s):</b> " + ids.AUTHOR + 
-	"</td><td width 20%><b>Date(s):</b></td ><td>" + ids.DATE + "; " + ids.UPDATES + 
-	"</td><td width = 30%><b>Source:</b> " + ids.SOURCE + "</td></tr>"; 
-	    let AId = ids.FELDS;
-	    let title = ids.NAME;
-	    let header_t =  "Author: \t" + ids.AUTHOR + "\tDate(s): " + ids.DATE + "\tSource: " + ids.SOURCE + "\n";
-            localStorage.setItem('Title', title);
-            localStorage.setItem('Item', AId);
+         data.forEach(item => {
+              const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: map_canvas, title: item.NAME});
+             // Info window on click
+             marker.addListener("click", () => {
+      const html = "<p><b>Name:</b> " + item.NAME + "<br>" + "<b>Author:</b> " + item.AUTHOR + "<br><b>Date(s):</b> " + item.DATE + "<br><b>Source:</b> " + item.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + item.FELDS + "</small></p>";  	
+                 infoWindow.setContent(html);
+                 infoWindow.open(map, marker);
+ 	const infoH = "<TR><td width = 2%></td><td width = 48%><b>Author(s):</b> " + item.AUTHOR + 
+	"</td><td width 20%><b>Date(s):</b></td ><td>" + item.DATE + "; " + item.UPDATES + 
+	"</td><td width = 30%><b>Source:</b> " + item.SOURCE + "</td></tr>"; 
+//	    let header_t =  "Author: \t" + item.AUTHOR + "\tDate(s): " + item.DATE + "\tSource: " + item.SOURCE + "\n";
+            localStorage.setItem('Title', item.NAME);
+            localStorage.setItem('Item', item.FELDS);
             localStorage.setItem('headr', infoH);
-            localStorage.setItem('Header_t', header_t);
+//            localStorage.setItem('Header_t', header_t);
 
-        }); 
-     }); 
-   });	
+             });
+         });
+      })
+      .fail(function(err){
+         console.error("Failed to load Masterls.json", err);
+      });
 
+//	================ data loaded============
+
+  map.addListener('click', (e) => {  					// Click to define  rectangle and store  the two points
+    if (clickPoints.length < 2) {						 // 1. Only allow up to 2 points for the rectangle
+         clickPoints.push(e.latLng);
+    }
+
+    if (clickPoints.length === 1) {
+          infoWindow.setContent("<strong>First point set. Click second point to complete selection<strong>");
+      infoWindow.setPosition(e.latLng); 									// Fixed: Set the position to the clicked point
+          infoWindow.open(map, map);
+    }
+    if (clickPoints.length === 2) {
+ if (rectangle) {rectangle.setMap(null)};
+  
+  const bounds = new google.maps.LatLngBounds();  // Use LatLngBounds to automatically handle world-wrapping math safely
+  bounds.extend(clickPoints[0]);
+  bounds.extend(clickPoints[1]);
+
+  rectangle = new google.maps.Rectangle({
+    bounds: bounds,
+    strokeColor: "#FF0000",
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: "#FF0000",
+    fillOpacity: 0.15,
+    map: map
+  });
+  if (clickPoints.length < 2) return;
+
+ // ------------------------Find markers inside bounds ----------------------
+   const selectedMarkers = markers.filter(marker => {           		
+                const mLatLng = new google.maps.LatLng(marker.LATITUDE, marker.LONGITUDE);
+               return bounds.contains(mLatLng); 
+ });
+//  ----------------------------------- end filter  build HTML  in contentString  ------------------------------------------
+let contentString = '<table><tr><th>Select a list</th></tr>';
+
+if (selectedMarkers.length === 0) {
+  contentString += '<p>No markers found in this area.</p>';
+} else {
+  selectedMarkers.forEach(item => {					
+    contentString += `<tr><td style="padding-right: 8px;"><input type="checkbox" onclick="storeValue('${item.FELDS}', '${item.NAME}')">
+</td><td>${item.NAME} </td></tr> `;
+  });
+}
+contentString += '</table>';
+
+window.storeValue = function storeValue(felds, name) {								
+            localStorage.setItem('Title',name);
+            localStorage.setItem('Item', felds);
+ //           localStorage.setItem('headr', infoH);
+
+ window.open('Output_Lists.html ', '_blank');
+}
+
+ infoWindow.setContent(contentString);     
+infoWindow.open(map);
+     clickPoints = [];									        // Reset points for the next draw)
+    }				// end click points if
+
+
+  });				// end map listener
       // Add event listener to the dropdown menu
       const dropdown = document.getElementById("locationDropdown");
       dropdown.addEventListener("change", function () {
         const [lat, lng] = this.value.split(",").map(Number);
         const newCenter = { lat, lng};
-        cenmap.setCenter(newCenter);
+        map.setCenter(newCenter);
       });
 
-  }   		
+
+}					//end initate map function
 </script>
 
