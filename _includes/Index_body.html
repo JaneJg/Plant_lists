@@ -56,12 +56,12 @@ function initMap() {
     }
 
     if (clickPoints.length === 1) {
-          infoWindow.setContent("<strong>First point set. Click second point to complete selection<strong>");
+  if (rectangle) {rectangle.setMap(null)};
+         infoWindow.setContent("<strong>First point set. Click second point to complete selection<strong>");
       infoWindow.setPosition(e.latLng); 									// Fixed: Set the position to the clicked point
           infoWindow.open(map, map);
     }
     if (clickPoints.length === 2) {
- if (rectangle) {rectangle.setMap(null)};
   
   const bounds = new google.maps.LatLngBounds();  // Use LatLngBounds to automatically handle world-wrapping math safely
   bounds.extend(clickPoints[0]);
