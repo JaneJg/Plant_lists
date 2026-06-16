@@ -17,7 +17,7 @@ function initMap() {
     infoWindow = new google.maps.InfoWindow();
 
     // Load JSON marker data
-    $.getJSON("data/Masterls.json")
+    $.getJSON("Data/Masterls.json")
       .done(function(data) {
   		markers = data; 
       if (!Array.isArray(data)) {
