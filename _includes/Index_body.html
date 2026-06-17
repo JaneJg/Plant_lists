@@ -1,4 +1,4 @@
-<div id="map_canvas"></div>
+<div id="map"></div>
 <div id="idInfo">
 <script>
 let map;
@@ -10,7 +10,7 @@ function initMap() {
     // Rotorua centre
     const rotorua = { lat: -38.1368, lng: 176.2497 };
 
-    map = new google.maps.Map(document.getElementById("map_canvas"), {
+    map = new google.maps.Map(document.getElementById("map"), {
         center: rotorua,
         zoom: 10
     });
@@ -26,7 +26,7 @@ function initMap() {
          }
 
          data.forEach(item => {
-              const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: map_canvas, title: item.NAME});
+              const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: map, title: item.NAME});
              // Info window on click
              marker.addListener("click", () => {
       const html = "<p><b>Name:</b> " + item.NAME + "<br>" + "<b>Author:</b> " + item.AUTHOR + "<br><b>Date(s):</b> " + item.DATE + "<br><b>Source:</b> " + item.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + item.FELDS + "</small></p>";  	
