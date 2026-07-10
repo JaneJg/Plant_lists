@@ -29,7 +29,7 @@ function initMap() {
               const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: map, title: item.NAME});
              // Info window on click
              marker.addListener("click", () => {
-      const html = "<p><b>Name:</b> " + item.NAME + "<br>" + "<b>Author:</b> " + item.AUTHOR + "<br><b>Date(s):</b> " + item.DATE + "<br><b>Source:</b> " + item.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + item.FELDS + "</small></p>";  	
+      const html = "<p><b>Name:</b> " + item.NAME + "<br>" + "<b>Author:</b> " + item.AUTHOR + "<br><b>Date(s):</b> " + item.DATE + ", " + item.UPDATES + "<br><b>Source:</b> " + item.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + item.FELDS + "</small></p>";  	
                  infoWindow.setContent(html);
                  infoWindow.open(map, marker);
  	const infoH = "<TR><td width = 2%></td><td width = 48%><b>Author(s):</b> " + item.AUTHOR + 
