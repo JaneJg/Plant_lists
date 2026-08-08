@@ -1674,6 +1674,15 @@
         "RCODE": "ACIKMX"
     },
     {
+        "CODE": "ACILAP",
+        "DR": "N",
+        "E": null,
+        "ED": "#",
+        "MCODEG": "ACIC",
+        "NAME": "Aciphylla latipinna ",
+        "RCODE": "ACILOM"
+    },
+    {
         "CODE": "ACILAT",
         "DR": "N",
         "E": "",
@@ -1704,10 +1713,10 @@
         "CODE": "ACILOM",
         "DR": "N",
         "E": "",
-        "ED": "#",
+        "ED": "p",
         "MCODEG": "ACIC",
         "NAME": "Aciphylla \"Lomond\"",
-        "RCODE": "ACILOM"
+        "RCODE": "ACILAP"
     },
     {
         "CODE": "ACILYA",
@@ -15552,6 +15561,15 @@
         "RCODE": "CARPAN"
     },
     {
+        "CODE": "CARPAP",
+        "DR": "C",
+        "E": "*",
+        "ED": "o",
+        "MCODEG": "CARE",
+        "NAME": "Carica papaya ",
+        "RCODE": "CARPAP"
+    },
+    {
         "CODE": "CARPAR",
         "DR": "J",
         "E": "",
@@ -19743,7 +19761,7 @@
         "ED": "#",
         "MCODEG": "CHED",
         "NAME": "Chenopodium trigonon ssp. trigonum",
-        "RCODE": "CHETRG"
+        "RCODE": "EINTRG"
     },
     {
         "CODE": "CHETRI",
@@ -39481,6 +39499,15 @@
         "MCODEG": "FIC",
         "NAME": "Ficus carica",
         "RCODE": "FICCAR"
+    },
+    {
+        "CODE": "FICELA",
+        "DR": "C",
+        "E": "*",
+        "ED": "C",
+        "MCODEG": "FIC",
+        "NAME": "Ficus elastica ",
+        "RCODE": "FICELA"
     },
     {
         "CODE": "FICFIC",
@@ -65784,7 +65811,7 @@
         "CODE": "NOTNEO",
         "DR": "C",
         "E": "",
-        "ED": "p",
+        "ED": "#",
         "MCODEG": "NOTG",
         "NAME": "Notelaea neolanceolata ",
         "RCODE": "NESLAN"
@@ -88066,7 +88093,7 @@
     },
     {
         "CODE": "SHACLR",
-        "DR": null,
+        "DR": "C",
         "E": null,
         "ED": "#",
         "MCODEG": "SHA",
@@ -98899,6 +98926,15 @@
         "MCODEG": "YUC",
         "NAME": "Yucca brevifolia ",
         "RCODE": "YUCBRE"
+    },
+    {
+        "CODE": "YUCELE",
+        "DR": "C",
+        "E": "*",
+        "ED": "p",
+        "MCODEG": "YUC",
+        "NAME": "Yucca elephantipes ",
+        "RCODE": "YUCGIG"
     },
     {
         "CODE": "YUCGIG",
