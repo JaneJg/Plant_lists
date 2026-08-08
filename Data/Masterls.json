@@ -15130,6 +15130,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "MB & DS, PW, K Jones;Waik BS",
+        "DATE": "01-01-1985",
+        "FELDS": "C265",
+        "LATITUDE": -37.957064,
+        "LONGITUDE": 175.142839,
+        "NAME": "Firth Reserve - Forest & Bird",
+        "SOURCE": "Forest & Bird",
+        "UPDATES": "2001; 2026, 17.7.26"
+    },
+    {
         "AUTHOR": "G Jane & G Donaghy ",
         "DATE": "30-12-2022",
         "FELDS": "C87",
@@ -16230,12 +16240,22 @@
         "UPDATES": "10.8.13;7.9.13"
     },
     {
+        "AUTHOR": "K Jones, P Cashmore & RBS",
+        "DATE": "07-05-2013",
+        "FELDS": "C264",
+        "LATITUDE": -38.031444,
+        "LONGITUDE": 176.04441,
+        "NAME": "Galaxy Rd north - Galaxy SR & Mamaku CA  ",
+        "SOURCE": "RBS",
+        "UPDATES": "15.2.26"
+    },
+    {
         "AUTHOR": "K Jones",
         "DATE": "01-04-2013",
         "FELDS": "I681",
         "LATITUDE": -38.032714,
         "LONGITUDE": 176.058047,
-        "NAME": "Galaxy Rd North Block (East of Glaxy Rd)",
+        "NAME": "Galaxy Rd north Block (East of Galaxy Rd)",
         "SOURCE": "DOC Rotorua",
         "UPDATES": ""
     },
@@ -16245,7 +16265,7 @@
         "FELDS": "I685",
         "LATITUDE": -38.026402,
         "LONGITUDE": 176.066201,
-        "NAME": "Galaxy Rd north, Capella Rd rocky open area",
+        "NAME": "Galaxy Rd north, Capella block rocky open area",
         "SOURCE": "",
         "UPDATES": ""
     },
@@ -16275,7 +16295,7 @@
         "FELDS": "I683",
         "LATITUDE": -38.03523,
         "LONGITUDE": 176.06005,
-        "NAME": "Galaxy Rd nth Capella block grassy open areas",
+        "NAME": "Galaxy Rd north. Capella block grassy open areas",
         "SOURCE": "DOC Rotorua",
         "UPDATES": ""
     },
@@ -20450,6 +20470,16 @@
         "UPDATES": "2.3.97"
     },
     {
+        "AUTHOR": "M North",
+        "DATE": "10-03-2010",
+        "FELDS": "C266",
+        "LATITUDE": -41.253147,
+        "LONGITUDE": 173.071955,
+        "NAME": "Higgs Reserve",
+        "SOURCE": "TDC",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "JC Horne & BJ Mitcalfe P Enright et al",
         "DATE": "25-03-2000",
         "FELDS": "HIGH",
@@ -21918,6 +21948,16 @@
         "NAME": "Hough saddle to Mt Patriarc (John Reid tops)excl calc areas",
         "SOURCE": "APD 225",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "N Mason; Wak BS",
+        "DATE": "01-01-1975",
+        "FELDS": "C262",
+        "LATITUDE": -37.840935,
+        "LONGITUDE": 175.544538,
+        "NAME": "Houghton",
+        "SOURCE": "",
+        "UPDATES": "22.11.20"
     },
     {
         "AUTHOR": "G Jane & G Donaghy & Rotorua Bot Soc",
@@ -24730,14 +24770,14 @@
         "UPDATES": ""
     },
     {
-        "AUTHOR": "G Jane",
+        "AUTHOR": "G Jane,G Jane & G Donaghy",
         "DATE": "13-05-2008",
         "FELDS": "KITK",
         "LATITUDE": -37.810054,
         "LONGITUDE": 174.866821,
         "NAME": "Kaitoke WW, Raglan",
         "SOURCE": "",
-        "UPDATES": ""
+        "UPDATES": "8.1.26"
     },
     {
         "AUTHOR": "Anon",
@@ -25133,7 +25173,7 @@
         "AUTHOR": "G Jane,  G Donaghy",
         "DATE": null,
         "FELDS": "C138",
-        "LATITUDE": 41.298345,
+        "LATITUDE": -41.298345,
         "LONGITUDE": 173.285101,
         "NAME": "Kanuka Track from Brook - to saddle",
         "SOURCE": null,
@@ -27210,16 +27250,6 @@
         "UPDATES": ""
     },
     {
-        "AUTHOR": "BD Rance",
-        "DATE": "31-12-1992",
-        "FELDS": "B301",
-        "LATITUDE": -76.191894,
-        "LONGITUDE": 160.99061,
-        "NAME": "Kingdon property",
-        "SOURCE": "",
-        "UPDATES": ""
-    },
-    {
         "AUTHOR": "T Silbery & A Rebergen",
         "DATE": "11-07-1999",
         "FELDS": "KIN2",
@@ -27640,6 +27670,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "SM Beadel",
+        "DATE": "09-04-2026",
+        "FELDS": "C259",
+        "LATITUDE": -37.947532,
+        "LONGITUDE": 177.010323,
+        "NAME": "Kohi Point weed survey - additions",
+        "SOURCE": "",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "SN Beadel & WB Shaw; G Jane",
         "DATE": "28-07-2001",
         "FELDS": "KOHI",
@@ -27647,7 +27687,7 @@
         "LONGITUDE": 177.016484,
         "NAME": "Kohi Pt WW Ohope",
         "SOURCE": "Rot Bot Soc News",
-        "UPDATES": "1988;11.1.03; 2006"
+        "UPDATES": "1988;11.1.03; 2006;4.26"
     },
     {
         "AUTHOR": "AJ Townsend",
@@ -38127,7 +38167,7 @@
         "LONGITUDE": 175.563488,
         "NAME": "Maungatautari - Rimu & Rata Tracks",
         "SOURCE": "",
-        "UPDATES": ""
+        "UPDATES": "17.5.26"
     },
     {
         "AUTHOR": "G Jane & G Donaghy",
@@ -40373,7 +40413,7 @@
         "AUTHOR": "JEE Hobs, T Emmit, et al",
         "DATE": "31-01-2021",
         "FELDS": "C56",
-        "LATITUDE": 38.729702,
+        "LATITUDE": -38.729702,
         "LONGITUDE": 174.611646,
         "NAME": "Mohakatino river mouth wetland and forest",
         "SOURCE": "Waik BS newsl 48:37",
@@ -46867,6 +46907,16 @@
         "LONGITUDE": 169.133687,
         "NAME": "Niagara Falls Res",
         "SOURCE": null,
+        "UPDATES": null
+    },
+    {
+        "AUTHOR": "K Jones",
+        "DATE": "16-08-2025",
+        "FELDS": "C260",
+        "LATITUDE": -37.665468,
+        "LONGITUDE": 175.007553,
+        "NAME": "Nichols QE II",
+        "SOURCE": "Waik Bot Soc News",
         "UPDATES": null
     },
     {
@@ -53410,6 +53460,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "R Fairley",
+        "DATE": "30-05-2026",
+        "FELDS": "C263",
+        "LATITUDE": -38.083684,
+        "LONGITUDE": 176.042458,
+        "NAME": "Patetere SR",
+        "SOURCE": null,
+        "UPDATES": "1.6.26"
+    },
+    {
         "AUTHOR": "JF Hobbs",
         "DATE": "01-05-2014",
         "FELDS": "I544",
@@ -53522,7 +53582,7 @@
     {
         "AUTHOR": "G Jane & G Donaghy",
         "DATE": "11-12-2012",
-        "FELDS": "I47",
+        "FELDS": "et",
         "LATITUDE": -40.886096,
         "LONGITUDE": 172.81192,
         "NAME": "Paynes Ford track",
@@ -69613,7 +69673,7 @@
         "AUTHOR": "Cant Bot Soc",
         "DATE": "10-04-2014",
         "FELDS": "C32",
-        "LATITUDE": 43.630425,
+        "LATITUDE": -43.630425,
         "LONGITUDE": 171.828757,
         "NAME": "Te Pirita terraces",
         "SOURCE": "iNaturalist",
@@ -73023,8 +73083,8 @@
         "AUTHOR": "G Jane & G Donaghy",
         "DATE": "16-04-2006",
         "FELDS": "TUMA",
-        "LATITUDE": -39.140397,
-        "LONGITUDE": 176.811997,
+        "LATITUDE": -39.109354,
+        "LONGITUDE": 176.813388,
         "NAME": "Tumanako Track - Boundary Stream",
         "SOURCE": "",
         "UPDATES": ""
@@ -76015,7 +76075,7 @@
         "FELDS": "C227",
         "LATITUDE": -36.904907,
         "LONGITUDE": 174.641154,
-        "NAME": "Waikemute Cemetery SW gumlsnds",
+        "NAME": "Waikemute Cemetery SW gumlands",
         "SOURCE": "Auck Bot Soc J 80:15",
         "UPDATES": null
     },
@@ -77820,6 +77880,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "K Jones",
+        "DATE": null,
+        "FELDS": "C261",
+        "LATITUDE": -35.023587,
+        "LONGITUDE": 173.719948,
+        "NAME": "Wairakau Str to Dukes Nose",
+        "SOURCE": "Auck Bot Soc J 80:104",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "G Jane",
         "DATE": "02-07-2016",
         "FELDS": "I640",
@@ -77853,8 +77923,8 @@
         "AUTHOR": "A Rebergen A Perfect & SM Beadel",
         "DATE": "01-01-1951",
         "FELDS": "WRPD",
-        "LATITUDE": -41.032098,
-        "LONGITUDE": 175.533291,
+        "LATITUDE": -41.034333,
+        "LONGITUDE": 175.533613,
         "NAME": "Wairarapa Plains ED",
         "SOURCE": "PCN885,887",
         "UPDATES": "various to 1997"
@@ -78705,7 +78775,7 @@
         "FELDS": "I975",
         "LATITUDE": -37.6566487833271,
         "LONGITUDE": 175.65588460201053,
-        "NAME": "Waitoa remnant- Haughton ",
+        "NAME": "Waitoa remnant- Haughton  Pararau Pa",
         "SOURCE": null,
         "UPDATES": null
     },
