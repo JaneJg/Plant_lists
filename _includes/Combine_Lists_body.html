@@ -1,0 +1,221 @@
+
+<H3><b>Combined lists for:</b></H3>
+<div id = 'titles'></div>
+
+<table id="combinedTable" border="0"></table>
+
+<script>
+
+//------------------------------------------------------------------
+const storedData = JSON.parse(localStorage.getItem('headr'));
+        let rowsHtml = storedData.join('');        // removes the commas
+let speciesList = {};
+
+const categories = [
+  { key: 'A', title: 'Conifers' },
+  { key: 'C', title: 'Trees and shrubs' },
+  { key: 'E', title: 'Woody Climbers' },
+  { key: 'F', title: 'Lycopods and horsetails' },
+  { key: 'G', title: 'Ferns' },
+  { key: 'H', title: 'Orchids' },
+  { key: 'I', title: 'Grasses' },
+  { key:'J', title: 'Sedges' },
+  { key: 'K', title: 'Rushes and allied plants' },
+  { key: 'M', title: 'Daisy-like herbs' },
+  { key: 'N', title: 'Herbs other than Daisies'}
+];
+
+const Sys_cat = [
+  { key: 'F', title: 'Lycopods and horsetails' },
+  { key: 'G', title: 'Ferns' },
+  { key: 'A', title: 'Conifers' },
+  { key: 'C', title: 'Trees and shrubs' },
+  { key: 'E', title: 'Woody Climbers' },
+  { key: 'M', title: 'Daisy-like herbs' },
+  { key: 'N', title: 'Herbs other than Daisies'},
+  { key:'J', title: 'Sedges' },
+  { key: 'K', title: 'Rushes and allied plants' },
+  { key: 'I', title: 'Grasses' },
+  { key: 'H', title: 'Orchids' },
+];
+
+
+let frontbit = '<table>';
+frontbit += '<tr><td width = 3%></td><td width = 25%></td><td width = 25%><b>Author(s)</b></td><td width = 22%><b>Date(s)</b></td><td width = 25%><b>Source</b></td></tr>';
+
+frontbit += rowsHtml;
+//		 insert line
+frontbit += '<tr><td></td><td colspan="3">' + '<hr style="height:2px;width:100%; color:gray;background-color:gray">' + '</td></tr>';
+
+ frontbit += '</table>';
+ document.getElementById('titles').innerHTML = frontbit;
+//---------------------------------------------------------------
+       const FELDS = localStorage.getItem('item');
+              const Areas = FELDS.split(",")
+                        .map(a => a.trim())
+                        .filter(a => a.length > 0);
+const selectedAreas = Areas.slice(0, 5); 
+//-----------------------------------------------------------
+async function processSpecies() {
+        const response = await fetch('data/Lists.json');
+        const data = await response.json();
+    const CombinedLists = {};
+    for (const item of data) {
+      const area = item.AREA
+      const code = item.CODE
+        if (!selectedAreas.includes(area)) continue;
+        if (!CombinedLists[code]) {
+         CombinedLists[code] = { CODE: code };				
+        }
+            CombinedLists[code][area] = 'o'; 									
+	}
+//--------------------------------------- names bit -------------------------
+       const responseN = await fetch('data/Full_Names.json');
+        const namesData = await responseN.json();
+											
+    namesData.forEach(row => {
+        if (row && typeof row.RCODE === "string" && CombinedLists[row.RCODE]) {
+          
+            CombinedLists[row.RCODE] = {
+                ...CombinedLists[row.RCODE],
+                Name: row.Name || "",
+                E: row.E || "",
+                Notes: row.Notes || "",
+		Family: row.Family || "",
+		Common_N: row.C_NAME ||"",
+		Sys: row.SYS || "",
+                Phys: row.Phys || "",   
+      };
+        };
+ });
+    //  ------------------------------------------- sort array  to output array -------------
+    speciesList = Object.values(CombinedLists).sort((a, b) => {
+        const nameA = a.Name || "";
+        const nameB = b.Name || "";
+        return nameA.localeCompare(nameB);
+    });
+
+    // -------------------------------------- first ---------- output table ----------
+html = '<tr><td  width = 2%>Adv</td><td width = 30%><b>Species</b></td><td><b>Common Name</b></td></tr>';
+categories.forEach(categories => {
+    const filtered_species = speciesList.filter(item => item.Phys === categories.key);
+
+html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
+    filtered_species.forEach(row=> {
+       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Common_N}</td></tr>`;
+           });
+      }); 
+    document.getElementById('combinedTable').innerHTML = html;
+}
+processSpecies();	
+// 			-----------------------------  print function ------------------
+
+function printSelection(choice) {
+    if (choice === 'Stru') {						// Structural
+
+html = '<tr><td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr>';
+categories.forEach(categories => {
+    const filtered_species = speciesList.filter(item => item.Phys === categories.key);
+
+html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
+    filtered_species.forEach(row=> {
+       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+           });
+      }); 
+    document.getElementById('combinedTable').innerHTML = html;
+
+    } else if (choice === 'Sys') {			        //Systematic
+html = '<tr><td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr>';
+Sys_cat.forEach(Sys_cat => {
+    const filtered_species = speciesList.filter(item => item.Phys === Sys_cat.key);
+
+html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;
+    filtered_species.forEach(row=> {
+       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+           });
+      }); 
+    document.getElementById('combinedTable').innerHTML = html;
+
+
+    } else if (choice === 'Alpha') {				// alphabetic
+html = '<tr><td width= 2%>Adv</td><td width = 40%><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr><tr><td></td></tr>';
+ 	 speciesList.forEach(row => {
+       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+           });
+    document.getElementById('combinedTable').innerHTML = html;
+
+    } else if (choice === 'Stru_Ls') {			        // Structural with lists
+let html = `<tr>`;
+const cols =  selectedAreas.length+1;
+  selectedAreas.forEach(area => html += `<td><b><small>${area}</small></b></td>`);
+
+  html += `<td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr>`;
+categories.forEach(category => {
+   html +=`<tr><td colspan = ${cols}></td><td> <H4>${category.title} </H4>  </TD><TD>  </TD></TR>`;  
+    const filtered_species = speciesList.filter(item => item.Phys === category.key);
+filtered_species.forEach(row => {												
+     html += '<tr>';
+           selectedAreas.forEach(area => {
+                html += `<td>${row[area] || ''}</td>`;
+                }); 
+       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+          });   
+       });   
+	
+    document.getElementById('combinedTable').innerHTML = html;
+
+    } else if (choice === 'Sys_Ls') {			// Systematic with lists
+let html = `<tr>`;
+const cols =  selectedAreas.length+1;
+  selectedAreas.forEach(area => html += `<td><b><small>${area}</small></b></td>`);
+
+  html += `<td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td><td><b>Family</b></td></tr>`;
+Sys_cat.forEach(Sys_cat => {
+   html +=`<tr><td colspan = ${cols}></td><td> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;  
+    const filtered_species = speciesList.filter(item => item.Phys === Sys_cat.key);
+filtered_species.forEach(row => {												
+     html += '<tr>';
+           selectedAreas.forEach(area => {
+                html += `<td>${row[area] || ''}</td>`;
+                }); 
+       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td><td>${row.Family}</td></tr>`;
+          });   
+       });   
+
+    document.getElementById('combinedTable').innerHTML = html;
+
+   } else if (choice === 'Alpha_Ls') {				// Alphabetic with lists
+let html = `<tr>`;
+  selectedAreas.forEach(area => html += `<td><b><small>${area}</small></b></td>`);		
+ html += `<td></td>Adv<td><B>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr><tr><td></td></tr>`;
+
+
+speciesList.forEach(row => {
+     html += '<tr>';
+           selectedAreas.forEach(area => {
+                html += `<td>${row[area] || ''}</td>`;
+                });
+       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+           });
+
+    document.getElementById('combinedTable').innerHTML = html;
+
+
+    } else if (choice === 'TSV') {
+      let html = "<tr>";								// full monty
+  selectedAreas.forEach(area => html += `<th>${area}</th>`);		
+  html += "<th>Species</th></tr>";
+
+speciesList.forEach(row => {
+     html += '<tr>';
+           selectedAreas.forEach(area => {
+                html += `<td><small>${row[area] || ''}<small></td>`;
+                });
+       html += `<td>${row.CODE}</td><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td>`;
+      html += `<td>${row.Common_N}</td><td>${row.Family}</td></tr>`;
+           });
+    document.getElementById('combinedTable').innerHTML = html;
+
+    }
+}
+</script>
