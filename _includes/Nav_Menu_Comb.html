@@ -1,0 +1,33 @@
+ <div class="navbar">
+  <a href="index.html">Home</a>
+
+<div class="dropdown">
+  <button class="dropbtn">Save options</button>
+  <div class="dropdown-content">
+    <a target="_blank" href="Print_Species_Records.html">Save to PDF</a>
+    <a target="_blank" href="Save_Species_TSV.html">Save to TSV</a>
+  </div>
+</div>
+<div class="dropdown">
+ <select id="Print-Selector" onchange = "printSelection(this.value)" >
+  <option value="Stru">basic</option>
+   <option value="Stru">Structural</option>
+    <option value="Sys">Systematic</option>
+    <option value="Alpha">Alphabetic</option>
+     <option value="Stru_Ls">Structural with lists</option>
+    <option value="Sys_Ls">Systematic with lists</option>
+    <option value="Alpha_Ls">Alphabetic with lists</option>
+     <option value="TSV">Save to TSV</option>
+  </select>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Map Species</button>
+  <div class="dropdown-content">
+    <a target="_blank" href="Select_Species.html">First select a species</a>
+
+  </div>
+</div>
+
+</div>
+<!-- Menu End --> 
