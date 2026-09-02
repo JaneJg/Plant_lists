@@ -54,10 +54,10 @@ frontbit += '<tr><td></td><td colspan="3">' + '<hr style="height:2px;width:100%;
               const Areas = FELDS.split(",")
                         .map(a => a.trim())
                         .filter(a => a.length > 0);
-const selectedAreas = Areas.slice(0, 5); 
+const selectedAreas = Areas.slice(0, 7); 
 //-----------------------------------------------------------
 async function processSpecies() {
-        const response = await fetch('data/Lists.json');
+        const response = await fetch('Data/Lists.json');
         const data = await response.json();
     const CombinedLists = {};
     for (const item of data) {
@@ -70,7 +70,7 @@ async function processSpecies() {
             CombinedLists[code][area] = 'o'; 									
 	}
 //--------------------------------------- names bit -------------------------
-       const responseN = await fetch('data/Full_Names.json');
+       const responseN = await fetch('Data/Full_Names.json');
         const namesData = await responseN.json();
 											
     namesData.forEach(row => {
@@ -78,13 +78,14 @@ async function processSpecies() {
           
             CombinedLists[row.RCODE] = {
                 ...CombinedLists[row.RCODE],
-                Name: row.Name || "",
-                E: row.E || "",
-                Notes: row.Notes || "",
-		Family: row.Family || "",
-		Common_N: row.C_NAME ||"",
-		Sys: row.SYS || "",
-                Phys: row.Phys || "",   
+                Name: row.Name || " ",
+                E: row.E || " ",
+                Notes: row.Notes || " ",
+		Family: row.Family || " ",
+		Common_N: row.C_NAME ||" ",
+		Sys: row.SYS || " ",
+                Phys: row.Phys || " ", 
+		RCODE: row.RCODE || " ",
       };
         };
  });
@@ -102,7 +103,7 @@ categories.forEach(categories => {
 
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
-       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Common_N}</td></tr>`;
+       html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Common_N}</td></tr>`;
            });
       }); 
     document.getElementById('combinedTable').innerHTML = html;
@@ -119,7 +120,7 @@ categories.forEach(categories => {
 
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
-       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+       html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
       }); 
     document.getElementById('combinedTable').innerHTML = html;
@@ -131,7 +132,7 @@ Sys_cat.forEach(Sys_cat => {
 
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
-       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+       html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
       }); 
     document.getElementById('combinedTable').innerHTML = html;
@@ -140,7 +141,7 @@ html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${Sys_cat.title} </H4>  </TD><
     } else if (choice === 'Alpha') {				// alphabetic
 html = '<tr><td width= 2%>Adv</td><td width = 40%><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr><tr><td></td></tr>';
  	 speciesList.forEach(row => {
-       html += `<tr><td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+       html += `<tr><td>${row.E}</td><td><i>${row.Name}<i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
     document.getElementById('combinedTable').innerHTML = html;
 
@@ -158,7 +159,7 @@ filtered_species.forEach(row => {
            selectedAreas.forEach(area => {
                 html += `<td>${row[area] || ''}</td>`;
                 }); 
-       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+       html += `<td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
           });   
        });   
 	
@@ -178,7 +179,7 @@ filtered_species.forEach(row => {
            selectedAreas.forEach(area => {
                 html += `<td>${row[area] || ''}</td>`;
                 }); 
-       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td><td>${row.Family}</td></tr>`;
+       html += `<td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td><td>${row.Family}</td></tr>`;
           });   
        });   
 
@@ -195,9 +196,8 @@ speciesList.forEach(row => {
            selectedAreas.forEach(area => {
                 html += `<td>${row[area] || ''}</td>`;
                 });
-       html += `<td>${row.E}</td><td>${row.Name}</td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
+       html += `<td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
-
     document.getElementById('combinedTable').innerHTML = html;
 
 
