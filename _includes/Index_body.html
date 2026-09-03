@@ -16,15 +16,11 @@ function initMap() {
     });
     infoWindow = new google.maps.InfoWindow();
 
-    // Load JSON marker data
-    $.getJSON("Data/Masterls.json")
-      .done(function(data) {
-  		markers = data; 
-      if (!Array.isArray(data)) {
-             console.error("Masterls.json must be an array of objects.");
-             return;
-         }
+// --------------------------------- map intiated ---------------------------------------------
 
+    $.getJSON("Data/Masterls.json", function(data) {
+  		markers = data; 
+ 
          data.forEach(item => {
               const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: myMap, title: item.NAME});
              // Info window on click
