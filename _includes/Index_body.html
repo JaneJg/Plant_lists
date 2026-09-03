@@ -10,7 +10,7 @@ function initMap() {
     // Rotorua centre
     const rotorua = { lat: -38.1368, lng: 176.2497 };
 
-    map = new google.maps.Map(document.getElementById("map_canvas"), {
+    myMap = new google.maps.Map(document.getElementById("map_canvas"), {
         center: rotorua,
         zoom: 10
     });
@@ -26,12 +26,12 @@ function initMap() {
          }
 
          data.forEach(item => {
-              const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: map, title: item.NAME});
+              const marker = new google.maps.Marker({position: new google.maps.LatLng(parseFloat(item.LATITUDE), 	parseFloat(item.LONGITUDE)), map: myMap, title: item.NAME});
              // Info window on click
              marker.addListener("click", () => {
       const html = "<p><b>Name:</b> " + item.NAME + "<br>" + "<b>Author:</b> " + item.AUTHOR + "<br><b>Date(s):</b> " + item.DATE + ", " + item.UPDATES + "<br><b>Source:</b> " + item.SOURCE + "<br><a href='Output_Lists.html' target = '_blank'>" + " <b> Print the list</b></a><br><small>" + item.FELDS + "</small></p>";  	
                  infoWindow.setContent(html);
-                 infoWindow.open(map, marker);
+                 infoWindow.open(myMap, marker);
  	const infoH = "<TR><td width = 2%></td><td width = 48%><b>Author(s):</b> " + item.AUTHOR + 
 	"</td><td width 20%><b>Date(s):</b></td ><td>" + item.DATE + "; " + item.UPDATES + 
 	"</td><td width = 30%><b>Source:</b> " + item.SOURCE + "</td></tr>"; 
@@ -50,7 +50,7 @@ function initMap() {
 
 //	================ data loaded============
 
-  map.addListener('click', (e) => {  					// Click to define  rectangle and store  the two points
+  myMap.addListener('click', (e) => {  					// Click to define  rectangle and store  the two points
     if (clickPoints.length < 2) {						 // 1. Only allow up to 2 points for the rectangle
          clickPoints.push(e.latLng);
     }
@@ -59,7 +59,7 @@ function initMap() {
   if (rectangle) {rectangle.setMap(null)};
          infoWindow.setContent("<strong>First point set. Click second point to complete selection<strong>");
       infoWindow.setPosition(e.latLng); 									// Fixed: Set the position to the clicked point
-          infoWindow.open(map, map);
+          infoWindow.open(map, myMap);
     }
     if (clickPoints.length === 2) {
   
@@ -74,7 +74,7 @@ function initMap() {
     strokeWeight: 2,
     fillColor: "#FF0000",
     fillOpacity: 0.15,
-    map: map
+    map: myMap
   });
   if (clickPoints.length < 2) return;
 
@@ -97,7 +97,7 @@ if (selectedMarkers.length === 0) {
 contentString += '</table>';
 
 infoWindow.setContent(contentString);     
-infoWindow.open(map);
+infoWindow.open(myMap);
      clickPoints = [];									        // Reset points for the next draw)
     }				// end click points if
 
@@ -117,7 +117,7 @@ window.storeValue = function storeValue(felds, name) {
       dropdown.addEventListener("change", function () {
         const [lat, lng] = this.value.split(",").map(Number);
         const newCenter = { lat, lng};
-        map.setCenter(newCenter);
+        myMap.setCenter(newCenter);
       });
 
 
