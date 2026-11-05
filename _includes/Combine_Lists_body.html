@@ -103,8 +103,10 @@ categories.forEach(categories => {
 
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
+ if (filtered_species.length > 0) {
        html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Common_N}</td></tr>`;
            });
+	};
       }); 
     document.getElementById('combinedTable').innerHTML = html;
 }
@@ -118,10 +120,12 @@ html = '<tr><td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate nam
 categories.forEach(categories => {
     const filtered_species = speciesList.filter(item => item.Phys === categories.key);
 
+ if (filtered_species.length > 0) {
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${categories.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
        html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
+	};
       }); 
     document.getElementById('combinedTable').innerHTML = html;
 
@@ -130,10 +134,12 @@ html = '<tr><td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate nam
 Sys_cat.forEach(Sys_cat => {
     const filtered_species = speciesList.filter(item => item.Phys === Sys_cat.key);
 
+ if (filtered_species.length > 0) {
 html +=`<tr><TD> </TD></TR><TR><TD> </TD><TD> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;
     filtered_species.forEach(row=> {
        html += `<tr><td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
            });
+	};
       }); 
     document.getElementById('combinedTable').innerHTML = html;
 
@@ -152,8 +158,10 @@ const cols =  selectedAreas.length+1;
 
   html += `<td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr>`;
 categories.forEach(category => {
-   html +=`<tr><td colspan = ${cols}></td><td> <H4>${category.title} </H4>  </TD><TD>  </TD></TR>`;  
     const filtered_species = speciesList.filter(item => item.Phys === category.key);
+ if (filtered_species.length > 0) {
+   html +=`<tr><td colspan = ${cols}></td><td> <H4>${category.title} </H4>  </TD><TD>  </TD></TR>`;  
+
 filtered_species.forEach(row => {												
      html += '<tr>';
            selectedAreas.forEach(area => {
@@ -161,6 +169,7 @@ filtered_species.forEach(row => {
                 }); 
        html += `<td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td></tr>`;
           });   
+	};
        });   
 	
     document.getElementById('combinedTable').innerHTML = html;
@@ -172,8 +181,10 @@ const cols =  selectedAreas.length+1;
 
   html += `<td>Adv</td><td><b>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td><td><b>Family</b></td></tr>`;
 Sys_cat.forEach(Sys_cat => {
-   html +=`<tr><td colspan = ${cols}></td><td> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;  
     const filtered_species = speciesList.filter(item => item.Phys === Sys_cat.key);
+ if (filtered_species.length > 0) {
+   html +=`<tr><td colspan = ${cols}></td><td> <H4>${Sys_cat.title} </H4>  </TD><TD>  </TD></TR>`;  
+
 filtered_species.forEach(row => {												
      html += '<tr>';
            selectedAreas.forEach(area => {
@@ -181,6 +192,7 @@ filtered_species.forEach(row => {
                 }); 
        html += `<td>${row.E}</td><td><i>${row.Name}</i></td><td>${row.Notes}</td><td>${row.Common_N}</td><td>${row.Family}</td></tr>`;
           });   
+	};
        });   
 
     document.getElementById('combinedTable').innerHTML = html;
@@ -189,7 +201,6 @@ filtered_species.forEach(row => {
 let html = `<tr>`;
   selectedAreas.forEach(area => html += `<td><b><small>${area}</small></b></td>`);		
  html += `<td></td>Adv<td><B>Species</b></td><td><b>Taxon Notes, alternate name etc.</b></td><td><b>Common Name</b></td></tr><tr><td></td></tr>`;
-
 
 speciesList.forEach(row => {
      html += '<tr>';
