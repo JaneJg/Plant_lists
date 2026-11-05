@@ -6577,7 +6577,7 @@
         "LONGITUDE": 173.289864,
         "NAME": "Brook Sanctuary",
         "SOURCE": "",
-        "UPDATES": ""
+        "UPDATES": "19.4.26"
     },
     {
         "AUTHOR": "EK Cameron",
@@ -15130,7 +15130,7 @@
         "UPDATES": ""
     },
     {
-        "AUTHOR": "MB & DS, PW, K Jones;Waik BS",
+        "AUTHOR": "M Beellinghan & D Slavin; P White; K Jones;Waik BS",
         "DATE": "01-01-1985",
         "FELDS": "C265",
         "LATITUDE": -37.957064,
@@ -15308,6 +15308,16 @@
         "NAME": "Flagstaff Hill Dunedin 2002",
         "SOURCE": "",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "25-08-2026",
+        "FELDS": "C269",
+        "LATITUDE": -35.257171,
+        "LONGITUDE": 174.116913,
+        "NAME": "Flagstaff Hill Track",
+        "SOURCE": null,
+        "UPDATES": null
     },
     {
         "AUTHOR": "RB Allen",
@@ -18398,6 +18408,16 @@
         "NAME": "Gulliver R to Esperance R de Lambert Falls track",
         "SOURCE": "DOC Invercargill",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "27-08-2026",
+        "FELDS": "C274",
+        "LATITUDE": -34.966379,
+        "LONGITUDE": 173.380271,
+        "NAME": "Gum Holes track",
+        "SOURCE": null,
+        "UPDATES": null
     },
     {
         "AUTHOR": "G Jane & G Donaghy",
@@ -23830,6 +23850,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "synthetic",
+        "DATE": "18-08-2026",
+        "FELDS": "C267",
+        "LATITUDE": -35.805323,
+        "LONGITUDE": 173.646717,
+        "NAME": "Kai-iwi Lakes - Taharoa Domain",
+        "SOURCE": "TDC",
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "Wellington Bot Soc",
         "DATE": "07-02-2008",
         "FELDS": "KARR",
@@ -27660,6 +27690,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "26-08-2026",
+        "FELDS": "C273",
+        "LATITUDE": -34.984823,
+        "LONGITUDE": 173.521514,
+        "NAME": "Kohekohe Pt Track Rangikapiti Pa",
+        "SOURCE": null,
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "G Jane",
         "DATE": "20-01-2015",
         "FELDS": "I403",
@@ -30718,6 +30758,16 @@
         "NAME": "Lake Waiau swamp (WL Management area)",
         "SOURCE": "DOC Wanganui",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "23-08-2026",
+        "FELDS": "C268",
+        "LATITUDE": -35.798174,
+        "LONGITUDE": 173.629915,
+        "NAME": "Lake Waikare - Kai Iwi Lakes Res",
+        "SOURCE": "",
+        "UPDATES": null
     },
     {
         "AUTHOR": "CC Ogle",
@@ -36800,6 +36850,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "SM Beadel; RBS",
+        "DATE": "01-07-2022",
+        "FELDS": "C275",
+        "LATITUDE": -38.177379,
+        "LONGITUDE": 176.73589,
+        "NAME": "Matai Rd Rotoiti Forest",
+        "SOURCE": "BOP Regional Council",
+        "UPDATES": "6.9.26"
+    },
+    {
         "AUTHOR": "CC Ogle",
         "DATE": "22-07-2004",
         "FELDS": "MTKH",
@@ -39668,6 +39728,16 @@
         "NAME": "Military Track, northern end - Waiohau CA",
         "SOURCE": "",
         "UPDATES": ""
+    },
+    {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "26-08-2026",
+        "FELDS": "C272",
+        "LATITUDE": -34.986194,
+        "LONGITUDE": 173.524915,
+        "NAME": "Mill Bay Walk Mangonui",
+        "SOURCE": null,
+        "UPDATES": null
     },
     {
         "AUTHOR": "B Spring-Rice",
@@ -50250,6 +50320,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "25-08-2026",
+        "FELDS": "C270",
+        "LATITUDE": -35.319462,
+        "LONGITUDE": 174.072539,
+        "NAME": "Opua Kauri Walk",
+        "SOURCE": null,
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "G Jane",
         "DATE": "29-06-1997",
         "FELDS": "OPUW",
@@ -52280,6 +52360,16 @@
         "UPDATES": ""
     },
     {
+        "AUTHOR": "G Jane & G Donaghy",
+        "DATE": "26-08-2026",
+        "FELDS": "C271",
+        "LATITUDE": -35.220308,
+        "LONGITUDE": 173.963946,
+        "NAME": "Pah Rd Walk Kerikeri",
+        "SOURCE": null,
+        "UPDATES": null
+    },
+    {
         "AUTHOR": "BD Rance",
         "DATE": "17-12-1997",
         "FELDS": "352B",
@@ -53582,7 +53672,7 @@
     {
         "AUTHOR": "G Jane & G Donaghy",
         "DATE": "11-12-2012",
-        "FELDS": "et",
+        "FELDS": "I47",
         "LATITUDE": -40.886096,
         "LONGITUDE": 172.81192,
         "NAME": "Paynes Ford track",
@@ -76897,7 +76987,7 @@
         "LONGITUDE": 173.438993,
         "NAME": "Waio-te-marama Walk Opononi",
         "SOURCE": "",
-        "UPDATES": "27.7.18"
+        "UPDATES": "27.7.18,24.8.26"
     },
     {
         "AUTHOR": "M Thorsen",
